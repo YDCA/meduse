@@ -1,0 +1,29 @@
+.personal_information {
+    border: 1px solid #f0f0f0;
+    padding: 0 20px;
+}
+.personal_information div.checker span {
+    position: relative;
+    top: -7px;
+}
+.personal_information .radio-inline, 
+.personal_information .checkbox-inline{
+	padding-left: 0;
+}
+.personal_information div.selector span {
+    display: none;
+}
+.personal_information div.selector select {
+    border: 0 none;
+	min-width: 130px;
+}
+.personal_information .selector {
+    border: 1px solid #f0f0f0;
+    padding: 0 5px;
+}
+.personal_information .page-subheading {
+    border-bottom: 1px solid #f0f0f0;
+    margin: 0 -20px;
+    padding: 10px;
+    text-align: center;
+}

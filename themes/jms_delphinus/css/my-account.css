@@ -1,0 +1,27 @@
+#my-account .myaccount_lnk_list li {
+  float: left;
+  font-size: 1em;
+  line-height: 36px;
+  width: 50%;
+}
+#my-account .myaccount_lnk_list li a {
+	border: 1px solid #f0f0f0;
+    display: block;
+    font-weight: 400;
+    margin: 10px;
+    min-width: 250px;
+    padding: 10px;
+    text-transform: capitalize;
+	color: #666;
+}
+#my-account .myaccount_lnk_list li:hover a{
+	color: #000;
+}
+#my-account .myaccount_lnk_list .fa {
+  font-size: 1.92em;
+  left: 0;
+  margin-right: 7px;
+  position: relative;
+  top: 0;
+}
+/*# sourceMappingURL=my-account.css.map */

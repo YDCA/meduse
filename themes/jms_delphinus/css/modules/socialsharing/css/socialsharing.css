@@ -1,0 +1,25 @@
+.socialsharing_product.no-print {
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.social-sharing {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #e3e3e3;
+    border-radius: 0;
+    color: #999;
+    float: left;
+    font-family: "karla",sans-serif;
+    font-weight: 700;
+    height: 48px;
+    letter-spacing: 0.2em;
+    line-height: 46px;
+    margin: 0 15px;
+    padding: 0 40px;
+    text-transform: uppercase;
+}
+.social-sharing:first-child {
+    margin-left: 0;
+}
+.social-sharing:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,215 @@
+/**
+ * @package Jms Drop Megamenu
+ * @version 1.0
+ * @Copyright (C) 2009 - 2013 Joommasters.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @Website: http://www.joommasters.com
+**/
+#jms-megamenu-container {
+	border-radius: 0;
+    margin-bottom: 0;
+    min-height: auto;
+	line-height: 15px;
+}
+.jms-megamenu img {
+	max-width:100%;
+}
+.jms-megamenu .nav > li {    
+    display: inline-block;
+    float: inherit;
+    margin: 0px 25px;
+    padding: 0;    
+    vertical-align: top;
+}
+
+.jms-megamenu .nav > li > a  {
+	color: #999999;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.075em;
+    line-height: 15px;
+    padding: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+.jms-megamenu .nav > li:hover > a, 
+.jms-megamenu .nav > li.open > a {
+    color: #000;
+}
+.jms-megamenu .nav > li > a > .caret {
+	display:none;
+}
+.jms-megamenu .nav  a, 
+.jms-megamenu .nav  a:hover, 
+.jms-megamenu .nav  a:focus {
+	background-color:transparent;
+}
+.jms-megamenu .nav a:hover,
+.jms-megamenu .nav  a:focus {
+    color: #000;
+}
+.jms-megamenu .dropdown-menu {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    margin-top: 0;
+    min-width: 210px;
+    opacity: 0;
+    padding: 44px 0 0;
+    transition:all 200ms;
+    visibility: hidden;
+    z-index: 2001;
+}
+.jms-megamenu .dropdown-menu .mega-dropdown-inner {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
+}
+.jms-megamenu .dropdown-menu .mega-dropdown-inner .row {
+    margin: 0;
+}
+.open > .dropdown-menu {
+	opacity:1;
+	visibility:visible;
+}
+
+.jms-megamenu .dropdown-menu.fullwidth {
+	width:100%;
+}
+.jms-megamenu .row+ .row {    
+    padding-top: 10px;
+}
+.jms-megamenu .row .mega-inner {    
+    border-radius: 0;
+	
+}
+.jms-megamenu .mega-col-nav.col-sm-4, 
+.jms-megamenu .mega-col-nav.col-sm-3 {
+    border-right: 1px solid #f6f6f6;
+    padding: 0;
+}
+.jms-megamenu .mega-col-nav.col-sm-12{
+	padding: 0;
+}
+.jms-megamenu .mega-col-nav.col-sm-4:last-child,
+.jms-megamenu .mega-col-nav.col-sm-3:last-child {
+    border-right: 0 none;
+}
+.jms-megamenu .jms-megamenu .dropdown-menu .mega-dropdown-inner .row {
+    margin: 0;
+}
+.jms-megamenu .nav a {
+    color: #999;
+    font-family: "Montserrat",sans-serif;
+}
+.jms-megamenu .mega-nav, .jms-megamenu  .dropdown-menu .mega-nav {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+	min-height:20px;
+}
+.jms-megamenu .mega-nav li {
+    border-bottom: 1px solid #f6f6f6;
+    list-style: outside none none;
+    margin-left: 0;
+    padding: 25px;
+}
+.jms-megamenu .mega-nav li.group {
+    padding-top: 48px;
+}
+.jms-megamenu .mega-nav li:last-child {
+	margin-bottom:0px;
+}
+.jms-megamenu .mega-nav > div, .jms-megamenu .dropdown-menu .mega-nav > li {
+    list-style: outside none none;
+    margin-left: 0;
+}
+.jms-megamenu .image-menu .mega-nav, .jms-megamenu .image-menu .mega-nav li {
+    border-bottom: 0 none;
+    padding: 0;
+}
+.jms-megamenu .image-menu .mega-nav li p {
+    margin-bottom: 0;
+}
+.jms-megamenu .image-menu .mega-nav li p img {
+    max-width: 100%;
+    width: 100%;
+}
+.jms-megamenu  .caret {
+	margin-left:5px;
+}
+.jms-megamenu .mega-nav li.selected > a{
+	color:#333;
+}
+.jms-megamenu .mega-nav li.selected,
+.mega-dropdown-menu.selected,
+.mega-col-nav.selected > .mega-inner {
+	border:1px solid #07b!important;
+}	
+.jms-megamenu .mega-nav li.group > a {	
+	color: #000;
+    font-size: 16px;
+    text-transform: capitalize;
+}	
+.jms-megamenu .nav [class^="icon-"], 
+.jms-megamenu  .nav [class*=" icon-"], 
+.jms-megamenu  .nav .fa {
+    margin-right: 5px;
+}
+.mega-nav > .mega > .dropdown-menu  {
+	top:0px;
+	left:100%;
+	margin:0px;	
+}
+.jms-megamenu .dropdown-menu .dropdown-menu {
+	margin-left:0px;
+}
+.mega-nav > .mega {
+	position:relative;
+}
+.jms-megamenu .menu-align-justify > .dropdown-menu {
+    left: 0;
+    margin-left: 0;
+    top: auto;
+}
+.jms-megamenu .menu-align-left > .dropdown-menu {
+    left: 0;
+}
+.jms-megamenu .menu-align-right > .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+.jms-megamenu .menu-align-center > .dropdown-menu {
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+.jms-megamenu .mega-nav > .mega.menu-align-left > .dropdown-menu {
+  left: 100%;
+}
+.jms-megamenu .mega-nav > .mega.menu-align-right > .dropdown-menu {
+  left: auto;
+  right: 100%;
+}
+.jms-megamenu .menu-align-justify {
+  position: static;
+}
+.jms-megamenu .menu-align-justify > .dropdown-menu {
+  left: 0;
+  margin-left: 0;
+  top: auto;
+}
+@media (max-width: 991px) {
+	#jms-megamenu-container {
+		display:none;
+	}			
+}
+@media (min-width: 992px) {
+	.responsive #off-canvas-menu {
+		display:none;
+	}
+}

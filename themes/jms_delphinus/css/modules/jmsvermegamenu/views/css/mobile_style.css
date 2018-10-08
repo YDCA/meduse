@@ -1,0 +1,75 @@
+.menu-mobile-vermegamenu {
+    background: #fff;
+    position: relative;
+}
+.menu-mobile-vermegamenu > #mobile-vermegamenu {
+    background: #fff none repeat scroll 0 0;
+    position: absolute;
+    width: 100% !important;
+	display: none;
+    z-index: 2001;
+}
+.menu-mobile-vermegamenu .title {
+    border-bottom: 1px solid #f6f6f6;
+    color: #000;
+    display: inline-block;
+    font-family: "Roboto Slab",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+#mobile-vermegamenu .nav > li {
+	float:left;
+	width:100%;
+	border-bottom:1px dotted #f6f6f6;
+}
+#mobile-vermegamenu li.open > a, 
+#mobile-vermegamenu li:hover > a, 
+#mobile-vermegamenu li > a:focus {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #000;
+}
+#mobile-vermegamenu .jms-vermegamenu {
+	box-shadow: none;
+	text-align: left;
+}
+#mobile-vermegamenu .open > .dropdown-menu {
+	position:static;
+	box-shadow:none;
+	border:0px;
+	width:100%;
+}
+#mobile-vermegamenu .dropdown-menu >  li > a {
+	line-height:35px;
+	padding:3px 30px;
+}
+#mobile-vermegamenu li a {
+    border-radius: 0;
+    color: #999;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.075em;
+	font-weight: 700;
+    text-transform: uppercase;
+}
+#mobile-vermegamenu #jms-megamenu > li > a {
+	text-transform:uppercase;	
+}
+
+#mobile-vermegamenu img{
+	max-width:100%;
+	margin-bottom:10px;
+}
+#mobile-vermegamenu li > a em {
+	float:right;
+	font-size:15px;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	margin-top:5px;
+	text-align:center;
+}

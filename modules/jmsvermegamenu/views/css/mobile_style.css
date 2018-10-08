@@ -1,0 +1,42 @@
+#mobile-vermegamenu .nav > li {
+	float:left;
+	width:100%;
+	border-bottom:1px dotted #e0e0e0;
+}
+#mobile-vermegamenu .jms-vermegamenu {
+	box-shadow: none;
+	text-align: left;
+}
+#mobile-vermegamenu .open > .dropdown-menu {
+	position:static;
+	box-shadow:none;
+	border:0px;
+	width:100%;
+}
+#mobile-vermegamenu .dropdown-menu >  li > a {
+	line-height:35px;
+	padding:3px 30px;
+}
+#mobile-vermegamenu li a {
+    display: block;
+    font-weight: 400;
+	text-transform:uppercase;
+	border-radius:0px;
+}
+#mobile-vermegamenu #jms-megamenu > li > a {
+	text-transform:uppercase;	
+}
+
+#mobile-vermegamenu img{
+	max-width:100%;
+	margin-bottom:10px;
+}
+#mobile-vermegamenu li > a em {
+	float:right;
+	font-size:15px;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	margin-top:5px;
+	text-align:center;
+}

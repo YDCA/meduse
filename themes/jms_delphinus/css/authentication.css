@@ -1,0 +1,91 @@
+/**********************************************************
+				Authentication Styles
+**********************************************************/
+#account-creation_form .id_state,
+#account-creation_form .dni,
+#account-creation_form .postcode {
+display: none; }
+
+#create-account_form,
+#login_form {
+	min-height: 297px; 
+	border: 1px solid #f6f6f6;
+}
+#create-account_form p {
+	margin-bottom: 0px; 
+}
+#create-account_form .form-group {
+	margin: 0 0 20px 0; 
+}
+#login_form {
+	min-height: 297px; 
+}
+#login_form .form-group {
+	margin-bottom: 16px;
+}
+#login_form .form-group.lost_password {
+	margin: 14px 0 15px 0; 
+}
+#login_form .form-group.lost_password a {
+	color: #999;
+    font-size: 0.86em;
+    text-decoration: underline;
+}
+#login_form .form-group.lost_password a:hover {
+	text-decoration: none; 
+}
+#login_form .form-control, 
+#create-account_form .form-control {
+	background: #f6f6f6 none repeat scroll 0 0;
+    border-color: #f0f0f0;
+    height: 39px;
+    width: 100%;
+}
+#create-account_form .page-subheading,
+#login_form .page-subheading {
+    border-bottom: 1px solid #f6f6f6;
+    padding: 10px 0;
+    text-align: center;
+}
+.form_content {
+    padding: 15px 20px;
+}
+.account_creation {
+    border: 1px solid #f0f0f0;
+    padding: 0 20px;
+}
+.account_creation .page-subheading {
+    border-bottom: 1px solid #f0f0f0;
+    margin: 0 -20px 20px;
+    padding: 8px 0;
+    text-align: center;
+}
+.radio-inline, .checkbox-inline {
+    cursor: default;
+    padding-left: 0;
+}
+#uniform-newsletter > span, 
+#uniform-optin > span {
+    top: -7px;
+}
+.submit{
+	margin-top: 70px;
+}
+div.selector span{
+	display: none;
+}
+.col-xs-4 div.selector select {
+    border: 0 none;
+    padding: 0 20px;
+    width: calc(100% + 20px);
+	width: -moz-calc(100% + 20px);
+	width: -webkit-calc(100% + 20px);
+	width: -o-calc(100% + 20px);
+}
+.form-group .selector {
+    border: 1px solid #f0f0f0;
+    position: relative;
+	width: 100% !important;
+    z-index: 2;
+}
+/*# sourceMappingURL=authentication.css.map */

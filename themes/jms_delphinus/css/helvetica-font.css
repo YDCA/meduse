@@ -1,0 +1,28 @@
+/* Webfont: Helvetica Neue Light */@font-face {
+    font-family: 'HelveticaNeueLight';
+    local('HelveticaNeueLight'), src: url('fonts/HelveticaNeueLight.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Helvetica Neue Normal */@font-face {
+    font-family: 'HelveticaNeueNormal';
+    src: url('fonts/HelveticaNeue.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Helvetica Neue Bold */@font-face {
+    font-family: 'HelveticaNeueBold';
+    local('HelveticaNeueBold'), src: url('fonts/HelveticaNeueBold.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/* Webfont: Helvetica Neue Black */@font-face {
+    font-family: 'HelveticaNeueLBlack';
+    local('HelveticaNeueLBlack'), src: url('fonts/HelveticaNeueLBlack.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

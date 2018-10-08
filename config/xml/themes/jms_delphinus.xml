@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright PrestaShop -->
+<theme version="2.1" name="jms_delphinus" directory="jms_delphinus"><author name="Joommasters" email="support@joommasters.com" url="http://www.joommasters.com"/>
+<theme_key>a843a619e8b8416dcb892e6e9e1d56d7</theme_key>
+<descriptions>
+<description iso="en">Creative Multi-Purpose Prestashop Theme</description>
+<description iso="fr"/>
+<description iso="it"/>
+<description iso="es"/>
+<description iso="de"/>
+</descriptions>
+<variations>
+<variation name="jms_delphinus" directory="jms_delphinus" responsive="1" default_left_column="1" default_right_column="0" product_per_page="12" from="1.6.0.5" to="1.6.1.9"/>
+</variations>
+<docs>
+<doc name="documentation" path="doc/"/>
+</docs>
+<metas>
+<meta meta_page="pagenotfound" left="0" right="0"/>
+<meta meta_page="best-sales" left="1" right="0"/>
+<meta meta_page="contact" left="1" right="0"/>
+<meta meta_page="index" left="1" right="0"/>
+<meta meta_page="manufacturer" left="1" right="0"/>
+<meta meta_page="new-products" left="1" right="0"/>
+<meta meta_page="password" left="0" right="0"/>
+<meta meta_page="prices-drop" left="1" right="0"/>
+<meta meta_page="sitemap" left="0" right="0"/>
+<meta meta_page="supplier" left="0" right="0"/>
+<meta meta_page="address" left="0" right="0"/>
+<meta meta_page="addresses" left="0" right="0"/>
+<meta meta_page="authentication" left="0" right="0"/>
+<meta meta_page="cart" left="0" right="0"/>
+<meta meta_page="discount" left="0" right="0"/>
+<meta meta_page="history" left="0" right="0"/>
+<meta meta_page="identity" left="0" right="0"/>
+<meta meta_page="my-account" left="0" right="0"/>
+<meta meta_page="order-follow" left="0" right="0"/>
+<meta meta_page="order-slip" left="0" right="0"/>
+<meta meta_page="order" left="0" right="0"/>
+<meta meta_page="search" left="1" right="0"/>
+<meta meta_page="stores" left="0" right="0"/>
+<meta meta_page="order-opc" left="0" right="0"/>
+<meta meta_page="guest-tracking" left="0" right="0"/>
+<meta meta_page="order-confirmation" left="0" right="0"/>
+<meta meta_page="product" left="0" right="0"/>
+<meta meta_page="category" left="1" right="0"/>
+<meta meta_page="cms" left="0" right="0"/>
+<meta meta_page="module-cheque-payment" left="0" right="0"/>
+<meta meta_page="module-cheque-validation" left="0" right="0"/>
+<meta meta_page="module-bankwire-validation" left="0" right="0"/>
+<meta meta_page="module-bankwire-payment" left="0" right="0"/>
+<meta meta_page="products-comparison" left="0" right="0"/>
+<meta meta_page="module-jmsblog-category" left="1" right="0"/>
+<meta meta_page="module-jmsblog-post" left="1" right="0"/>
+<meta meta_page="module-jmsblog-tag" left="1" right="0"/>
+<meta meta_page="module-jmsblog-archive" left="1" right="0"/>
+<meta meta_page="module-jmsblog-categories" left="1" right="0"/>
+</metas>
+<modules>
+<module action="install" name="jmsmegamenu"/>
+<module action="install" name="jmsajaxsearch"/>
+<module action="install" name="jmsslider"/>
+<module action="install" name="jmsblog"/>
+<module action="install" name="jmsblogwidget"/>
+<module action="install" name="jmsbrands"/>
+<module action="install" name="jmsvermegamenu"/>
+<module action="install" name="jmstestimonials"/>
+<module action="install" name="hotdeals"/>
+<module action="install" name="jmspagebuilder"/>
+<module action="enable" name="socialsharing"/>
+<module action="disable" name="blockbanner"/>
+<module action="disable" name="blockbestsellers"/>
+<module action="enable" name="blockcart"/>
+<module action="disable" name="blocksocial"/>
+<module action="enable" name="blockcategories"/>
+<module action="enable" name="blockcurrencies"/>
+<module action="disable" name="blockfacebook"/>
+<module action="enable" name="blocklanguages"/>
+<module action="enable" name="blocklayered"/>
+<module action="disable" name="blockcms"/>
+<module action="disable" name="blockcmsinfo"/>
+<module action="disable" name="blockcontact"/>
+<module action="enable" name="blockcontactinfos"/>
+<module action="disable" name="blockmanufacturer"/>
+<module action="disable" name="blockmyaccount"/>
+<module action="disable" name="blockmyaccountfooter"/>
+<module action="disable" name="blocknewproducts"/>
+<module action="enable" name="blocknewsletter"/>
+<module action="enable" name="blockpaymentlogo"/>
+<module action="disable" name="blocksearch"/>
+<module action="disable" name="blockspecials"/>
+<module action="disable" name="blockstore"/>
+<module action="disable" name="blocksupplier"/>
+<module action="enable" name="blocktags"/>
+<module action="disable" name="blocktopmenu"/>
+<module action="enable" name="blockuserinfo"/>
+<module action="disable" name="blockviewed"/>
+<module action="enable" name="dashactivity"/>
+<module action="enable" name="dashtrends"/>
+<module action="enable" name="dashgoals"/>
+<module action="enable" name="dashproducts"/>
+<module action="disable" name="homeslider"/>
+<module action="disable" name="homefeatured"/>
+<module action="enable" name="productpaymentlogos"/>
+<module action="enable" name="statsdata"/>
+<module action="disable" name="themeconfigurator"/>
+<module action="enable" name="sendtoafriend"/>
+<module action="enable" name="blockwishlist"/>
+<module action="enable" name="productcomments"/>
+<module action="enable" name="productscategory"/>
+<module action="disable" name="autoupgrade"/>
+<module action="disable" name="blockadvertising"/>
+<module action="disable" name="blockcustomerprivacy"/>
+<module action="disable" name="blocklink"/>
+<module action="disable" name="blockpermanentlinks"/>
+<module action="disable" name="blockrss"/>
+<module action="disable" name="blocksharefb"/>
+<module action="disable" name="carriercompare"/>
+<module action="disable" name="crossselling"/>
+<module action="disable" name="dateofdelivery"/>
+<module action="disable" name="editorial"/>
+<module action="disable" name="favoriteproducts"/>
+<module action="disable" name="feeder"/>
+<module action="disable" name="followup"/>
+<module action="disable" name="ganalytics"/>
+<module action="disable" name="gsitemap"/>
+<module action="disable" name="loyalty"/>
+<module action="disable" name="mailalerts"/>
+<module action="disable" name="newsletter"/>
+<module action="disable" name="onboarding"/>
+<module action="disable" name="producttooltip"/>
+<module action="disable" name="pscleaner"/>
+<module action="disable" name="referralprogram"/>
+<module action="disable" name="trackingfront"/>
+<module action="disable" name="vatnumber"/>
+<module action="disable" name="watermark"/>
+<module action="disable" name="ganalytics"/>
+<module action="disable" name="gapi"/>
+<hooks>
+<hook module="jmspagebuilder" hook="displayHome" position="1"/>
+<hook module="jmspagebuilder" hook="Header" position="22"/>
+<hook module="jmspagebuilder" hook="displayTop" position="1"/>
+<hook module="jmspagebuilder" hook="displayFooter" position="1"/>
+<hook module="jmspagebuilder" hook="displayBackOfficeHeader" position="4"/>
+<hook module="jmsmegamenu" hook="Header" position="24"/>
+<hook module="jmsmegamenu" hook="displayTopColumn" position="1"/>
+<hook module="jmsmegamenu" hook="topcolumn" position="1"/>
+<hook module="jmsajaxsearch" hook="Header" position="25"/>
+<hook module="jmsslider" hook="Header" position="26"/>
+<hook module="jmsslider" hook="actionShopDataDuplication" position="4"/>
+<hook module="jmsblog" hook="moduleRoutes" position="1"/>
+<hook module="jmsblogwidget" hook="displayLeftColumn" position="3" exceptions="module-jmspagebuilder-AdminJmspagebuilderMedia,module-blockwishlist-view,getfile,parentorder,search,module-jmsblog-AdminJmsblogComment,cart,orderconfirmation,module-jmsvermegamenu-AdminJmsvermegamenuManager,history,pdfinvoice,statistics,module-jmsblog-AdminJmsblogPost,module-blocknewsletter-verification,changecurrency,orderfollow,module-gamification-AdminGamificationController,address,index,pdforderslip,supplier,module-jmsmegamenu-AdminJmsmegamenuManager,module-cheque-validation,compare,orderreturn,module-themeconfigurator-AdminThemeConfiguratorController,attachment,myaccount,module-jmspagebuilder-AdminJmspagebuilderHomepages,module-blockwishlist-mywishlist,discount,pagenotfound,product,module-jmsblog-AdminJmsblogCategories,module-bankwire-validation,bestsales,order,module-jmspagebuilder-AdminJmspagebuilderSetting,guesttracking,password,sitemap,module-jmsblog-AdminJmsblogDashboard,module-hotdeals-allpr"/>
+<hook module="jmsblogwidget" hook="Header" position="28"/>
+<hook module="jmsbrands" hook="Header" position="29"/>
+<hook module="jmsbrands" hook="actionShopDataDuplication" position="5"/>
+<hook module="jmsvermegamenu" hook="Header" position="30"/>
+<hook module="jmsvermegamenu" hook="topcolumn" position="2"/>
+<hook module="jmstestimonials" hook="Header" position="31"/>
+<hook module="hotdeals" hook="Header" position="32"/>
+<hook module="hotdeals" hook="actionShopDataDuplication" position="6"/>
+<hook module="socialsharing" hook="Header" position="1"/>
+<hook module="socialsharing" hook="displayRightColumnProduct" position="1"/>
+<hook module="socialsharing" hook="actionObjectProductUpdateAfter" position="1"/>
+<hook module="socialsharing" hook="actionObjectProductDeleteAfter" position="1"/>
+<hook module="socialsharing" hook="displayCompareExtraInformation" position="1"/>
+<hook module="blockcart" hook="Header" position="4"/>
+<hook module="blockcart" hook="actionCartListOverride" position="1"/>
+<hook module="blocksocial" hook="Header" position="5"/>
+<hook module="blockcategories" hook="displayLeftColumn" position="1" exceptions="module-jmsblog-category,module-jmsblog-tag,module-blockwishlist-view,module-jmsblog-categories,module-jmsblog-post,module-blockwishlist-mywishlist,module-jmsblog-archive"/>
+<hook module="blockcategories" hook="Header" position="6"/>
+<hook module="blockcategories" hook="actionCategoryAdd" position="1"/>
+<hook module="blockcategories" hook="actionCategoryUpdate" position="1"/>
+<hook module="blockcategories" hook="actionCategoryDelete" position="1"/>
+<hook module="blockcategories" hook="displayBackOfficeCategory" position="1"/>
+<hook module="blockcategories" hook="actionAdminMetaControllerUpdate_optionsBefore" position="1"/>
+<hook module="blockcategories" hook="actionAdminLanguagesControllerStatusBefore" position="1"/>
+<hook module="blockcurrencies" hook="Header" position="7"/>
+<hook module="blockcurrencies" hook="displayNav" position="2"/>
+<hook module="blocklanguages" hook="Header" position="8"/>
+<hook module="blocklanguages" hook="displayNav" position="3"/>
+<hook module="blocklayered" hook="displayLeftColumn" position="2"/>
+<hook module="blocklayered" hook="Header" position="9"/>
+<hook module="blocklayered" hook="actionCategoryAdd" position="2"/>
+<hook module="blocklayered" hook="actionCategoryUpdate" position="2"/>
+<hook module="blocklayered" hook="actionCategoryDelete" position="2"/>
+<hook module="blocklayered" hook="displayAttributeGroupForm" position="1"/>
+<hook module="blocklayered" hook="actionAttributeGroupSave" position="1"/>
+<hook module="blocklayered" hook="actionAttributeGroupDelete" position="1"/>
+<hook module="blocklayered" hook="displayFeatureForm" position="1"/>
+<hook module="blocklayered" hook="actionFeatureSave" position="1"/>
+<hook module="blocklayered" hook="actionFeatureDelete" position="1"/>
+<hook module="blocklayered" hook="actionProductSave" position="1"/>
+<hook module="blocklayered" hook="actionProductListOverride" position="1"/>
+<hook module="blocklayered" hook="displayAttributeGroupPostProcess" position="1"/>
+<hook module="blocklayered" hook="displayFeaturePostProcess" position="1"/>
+<hook module="blocklayered" hook="displayFeatureValueForm" position="1"/>
+<hook module="blocklayered" hook="displayFeatureValuePostProcess" position="1"/>
+<hook module="blocklayered" hook="actionFeatureValueDelete" position="1"/>
+<hook module="blocklayered" hook="actionFeatureValueSave" position="1"/>
+<hook module="blocklayered" hook="displayAttributeForm" position="1"/>
+<hook module="blocklayered" hook="actionAttributePostProcess" position="1"/>
+<hook module="blocklayered" hook="actionAttributeDelete" position="1"/>
+<hook module="blocklayered" hook="actionAttributeSave" position="1"/>
+<hook module="blockcontactinfos" hook="Header" position="11"/>
+<hook module="blockmyaccount" hook="Header" position="12"/>
+<hook module="blockmyaccount" hook="actionModuleRegisterHookAfter" position="1"/>
+<hook module="blockmyaccount" hook="actionModuleUnRegisterHookAfter" position="1"/>
+<hook module="blockmyaccountfooter" hook="Header" position="13"/>
+<hook module="blockmyaccountfooter" hook="actionModuleRegisterHookAfter" position="2"/>
+<hook module="blockmyaccountfooter" hook="actionModuleUnRegisterHookAfter" position="2"/>
+<hook module="blocknewsletter" hook="Header" position="15"/>
+<hook module="blocknewsletter" hook="actionCustomerAccountAdd" position="1"/>
+<hook module="blockpaymentlogo" hook="Header" position="16"/>
+<hook module="blocktags" hook="Header" position="18"/>
+<hook module="blockuserinfo" hook="Header" position="19"/>
+<hook module="blockuserinfo" hook="displayNav" position="1"/>
+<hook module="dashactivity" hook="dashboardZoneOne" position="1"/>
+<hook module="dashactivity" hook="dashboardData" position="1"/>
+<hook module="dashactivity" hook="actionObjectOrderAddAfter" position="1"/>
+<hook module="dashactivity" hook="actionObjectCustomerAddAfter" position="1"/>
+<hook module="dashactivity" hook="actionObjectCustomerMessageAddAfter" position="1"/>
+<hook module="dashactivity" hook="actionObjectCustomerThreadAddAfter" position="1"/>
+<hook module="dashactivity" hook="actionObjectOrderReturnAddAfter" position="1"/>
+<hook module="dashactivity" hook="actionAdminControllerSetMedia" position="1"/>
+<hook module="dashtrends" hook="actionOrderStatusPostUpdate" position="2"/>
+<hook module="dashtrends" hook="dashboardData" position="2"/>
+<hook module="dashtrends" hook="actionAdminControllerSetMedia" position="2"/>
+<hook module="dashtrends" hook="dashboardZoneTwo" position="1"/>
+<hook module="dashgoals" hook="dashboardData" position="3"/>
+<hook module="dashgoals" hook="actionAdminControllerSetMedia" position="3"/>
+<hook module="dashgoals" hook="dashboardZoneTwo" position="2"/>
+<hook module="dashproducts" hook="actionSearch" position="1"/>
+<hook module="dashproducts" hook="dashboardData" position="4"/>
+<hook module="dashproducts" hook="actionObjectOrderAddAfter" position="2"/>
+<hook module="dashproducts" hook="dashboardZoneTwo" position="3"/>
+<hook module="productpaymentlogos" hook="Header" position="20"/>
+<hook module="productpaymentlogos" hook="displayProductButtons" position="2"/>
+<hook module="statsdata" hook="actionAuthentication" position="1"/>
+<hook module="statsdata" hook="actionCustomerAccountAdd" position="2"/>
+<hook module="sendtoafriend" hook="Header" position="21"/>
+<hook module="blockwishlist" hook="Header" position="23"/>
+<hook module="blockwishlist" hook="actionCartSave" position="1"/>
+<hook module="blockwishlist" hook="displayAdminCustomers" position="1"/>
+<hook module="blockwishlist" hook="displayCustomerAccount" position="1"/>
+<hook module="blockwishlist" hook="displayProductButtons" position="3"/>
+<hook module="blockwishlist" hook="displayMyAccountBlock" position="1"/>
+<hook module="blockwishlist" hook="displayProductListFunctionalButtons" position="1"/>
+<hook module="productcomments" hook="Header" position="27"/>
+<hook module="productcomments" hook="displayProductTab" position="1"/>
+<hook module="productcomments" hook="displayProductTabContent" position="1"/>
+<hook module="productcomments" hook="displayLeftColumnProduct" position="1"/>
+<hook module="productcomments" hook="displayProductComparison" position="1"/>
+<hook module="productcomments" hook="displayProductListReviews" position="1"/>
+<hook module="productscategory" hook="Header" position="33"/>
+<hook module="productscategory" hook="actionProductAdd" position="5"/>
+<hook module="productscategory" hook="actionProductUpdate" position="5"/>
+<hook module="productscategory" hook="actionProductDelete" position="5"/>
+<hook module="productscategory" hook="displayFooterProduct" position="1"/>
+</hooks>
+</modules>
+<images>
+<image name="cart_default" width="90" height="90" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+<image name="small_default" width="100" height="100" products="true" categories="false" manufacturers="true" suppliers="true" scenes="false"/>
+<image name="medium_default" width="155" height="155" products="true" categories="true" manufacturers="true" suppliers="true" scenes="false"/>
+<image name="home_default" width="270" height="270" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+<image name="large_default" width="525" height="525" products="true" categories="false" manufacturers="true" suppliers="true" scenes="false"/>
+<image name="thickbox_default" width="600" height="600" products="true" categories="false" manufacturers="false" suppliers="false" scenes="false"/>
+<image name="category_default" width="870" height="217" products="false" categories="true" manufacturers="false" suppliers="false" scenes="false"/>
+<image name="scene_default" width="870" height="270" products="false" categories="false" manufacturers="false" suppliers="false" scenes="true"/>
+<image name="m_scene_default" width="161" height="58" products="false" categories="false" manufacturers="false" suppliers="false" scenes="true"/>
+</images>
+</theme>
