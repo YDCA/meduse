@@ -3355,7 +3355,7 @@
   ),
   'Product' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Product.php',
     'type' => 'class',
     'override' => false,
   ),
