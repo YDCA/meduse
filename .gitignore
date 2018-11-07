@@ -31,4 +31,5 @@ admin726baf167/export/
 admin726baf167/import/
 download/
 /img/*
+!/img/p/*
 upload/
