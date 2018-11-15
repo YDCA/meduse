@@ -14,11 +14,11 @@
 .jms-megamenu img {
 	max-width:100%;
 }
-.jms-megamenu .nav > li {    
+.jms-megamenu .nav > li {
     display: inline-block;
     float: inherit;
     margin: 0px 25px;
-    padding: 0;    
+    padding: 0;
     vertical-align: top;
 }
 
@@ -32,15 +32,15 @@
     position: relative;
     text-transform: uppercase;
 }
-.jms-megamenu .nav > li:hover > a, 
+.jms-megamenu .nav > li:hover > a,
 .jms-megamenu .nav > li.open > a {
     color: #000;
 }
 .jms-megamenu .nav > li > a > .caret {
 	display:none;
 }
-.jms-megamenu .nav  a, 
-.jms-megamenu .nav  a:hover, 
+.jms-megamenu .nav  a,
+.jms-megamenu .nav  a:hover,
 .jms-megamenu .nav  a:focus {
 	background-color:transparent;
 }
@@ -77,14 +77,14 @@
 .jms-megamenu .dropdown-menu.fullwidth {
 	width:100%;
 }
-.jms-megamenu .row+ .row {    
+.jms-megamenu .row+ .row {
     padding-top: 10px;
 }
-.jms-megamenu .row .mega-inner {    
+.jms-megamenu .row .mega-inner {
     border-radius: 0;
-	
+
 }
-.jms-megamenu .mega-col-nav.col-sm-4, 
+.jms-megamenu .mega-col-nav.col-sm-4,
 .jms-megamenu .mega-col-nav.col-sm-3 {
     border-right: 1px solid #f6f6f6;
     padding: 0;
@@ -100,8 +100,9 @@
     margin: 0;
 }
 .jms-megamenu .nav a {
-    color: #999;
-    font-family: "Montserrat",sans-serif;
+    color: #111;
+    font-family: 'Univers LT Std';
+		font-stretch: condensed;
 }
 .jms-megamenu .mega-nav, .jms-megamenu  .dropdown-menu .mega-nav {
     list-style: outside none none;
@@ -146,21 +147,21 @@
 .mega-dropdown-menu.selected,
 .mega-col-nav.selected > .mega-inner {
 	border:1px solid #07b!important;
-}	
-.jms-megamenu .mega-nav li.group > a {	
+}
+.jms-megamenu .mega-nav li.group > a {
 	color: #000;
     font-size: 16px;
     text-transform: capitalize;
-}	
-.jms-megamenu .nav [class^="icon-"], 
-.jms-megamenu  .nav [class*=" icon-"], 
+}
+.jms-megamenu .nav [class^="icon-"],
+.jms-megamenu  .nav [class*=" icon-"],
 .jms-megamenu  .nav .fa {
     margin-right: 5px;
 }
 .mega-nav > .mega > .dropdown-menu  {
 	top:0px;
 	left:100%;
-	margin:0px;	
+	margin:0px;
 }
 .jms-megamenu .dropdown-menu .dropdown-menu {
 	margin-left:0px;
@@ -206,7 +207,7 @@
 @media (max-width: 991px) {
 	#jms-megamenu-container {
 		display:none;
-	}			
+	}
 }
 @media (min-width: 992px) {
 	.responsive #off-canvas-menu {
