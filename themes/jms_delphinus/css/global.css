@@ -9,7 +9,7 @@ body {
 	line-height: 30px;
 	color:#666;
 	font-weight: normal;
-	font-family: 'UniversLTStd', sans-serif;
+	font-family: 'Univers LT Std';
 	font-stretch: condensed;
 	background: #fff;
 }
@@ -1166,7 +1166,7 @@ table.std td, table.table_block td {
 .table thead:first-child tr:first-child th,
 .table thead:first-child tr:first-child td {
     border-top: 0 none;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -1755,7 +1755,7 @@ header .addon-box {
 }
 .section-home-banner {
     color: #fff;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -2180,7 +2180,7 @@ footer .jms-banner > a::before {
 }
 .box_category_list > p {
     color: #fff;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -2306,7 +2306,7 @@ footer .footer-2 .addon-title {
 }
 .mask-product > a {
     color: #fff;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.075em;
@@ -2485,7 +2485,7 @@ footer .footer-2 .addon-title {
     border: 0 none;
     border-radius: 0;
     color: #000;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -2685,7 +2685,7 @@ footer .footer-2 .addon-title {
     background: #fff none repeat scroll 0 0;
     color: #000;
     display: inline-block;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -2712,7 +2712,7 @@ footer .footer-2 .addon-title {
 }
 .box-sale-content > p {
     color: #fff;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -2811,7 +2811,7 @@ footer .footer-2 .addon-title {
 }
 .category-box .feature-box > a {
     background: #c7db9c none repeat scroll 0 0;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -3042,7 +3042,7 @@ footer .footer-2 .addon-title {
 }
 .section-categories-list .title > a {
     color: #000;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -3077,7 +3077,7 @@ footer .footer-2 .addon-title {
 	padding: 0 150px;
 }
 .testimonial-author {
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.075em;
@@ -3555,7 +3555,7 @@ header {
 }
 .product-info > a {
     color: #000;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.075em;
@@ -3763,7 +3763,7 @@ header {
 }
 .category-name {
     color: #000;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 1.14em;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -4149,7 +4149,7 @@ header {
     width: 30px;
 }
 .cart_description .product-name {
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.075em;
@@ -4538,5 +4538,3 @@ a.price_discount_delete:hover{
 .fancybox-error {
     font-size: 15px !important;
 }
-
-@import url('univers-font.css');
