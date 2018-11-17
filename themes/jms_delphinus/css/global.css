@@ -4538,3 +4538,6 @@ a.price_discount_delete:hover{
 .fancybox-error {
     font-size: 15px !important;
 }
+
+/********** FONT FACE ********/
+@import url('meduse-font.css');
