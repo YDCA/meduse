@@ -20,7 +20,7 @@
 .robotoslab span {
     border-bottom: 2px solid #000;
     display: inline-block !important;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -37,7 +37,7 @@
 }
 .robotoslab p{
 	display: inline-block !important;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 72px;
     font-weight: 700;
     letter-spacing: 0.4em;
@@ -47,28 +47,28 @@
 	padding: 15px 0;
 }
 .robotoslab1{
-	font-family: "Roboto Slab",sans-serif;
+	font-family: 'Univers LT Std';
 	font-weight: 700;
 	letter-spacing: 0.1em;
 }
 .robotoslab2{
-	font-family: "Roboto Slab",sans-serif;
+	font-family: 'Univers LT Std';
 	font-weight: 700;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 }
 .robotoslab4{
-	font-family: "Roboto Slab",sans-serif;
+	font-family: 'Univers LT Std';
 	font-weight: 700;
 	letter-spacing: 0.4em;
 	text-transform: uppercase;
 }
 .karla{
-	font-family: "Karla",sans-serif;
+	font-family: 'Univers LT Std';
 	text-align: center;
 }
 .karla-bold{
-	font-family: "Karla",sans-serif;
+	font-family: 'Univers LT Std';
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -84,7 +84,7 @@
 }
 
 .shopnow{
-	font-family: "Karla",sans-serif;
+	font-family: 'Univers LT Std';
 	font-weight: 700;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
@@ -92,7 +92,7 @@
 	padding: 7px 40px;
 }
 .shopnow2{
-	font-family: "Karla",sans-serif;
+	font-family: 'Univers LT Std';
 	font-weight: 700;
 	letter-spacing: 0.075em;
 	text-transform: uppercase;

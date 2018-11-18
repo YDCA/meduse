@@ -8,13 +8,13 @@
     border-radius: 0;
     color: #999;
     float: left;
-    font-family: "karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-weight: 700;
     height: 48px;
     letter-spacing: 0.2em;
-    line-height: 46px;
-    margin: 0 15px;
-    padding: 0 40px;
+    line-height: 48px;
+    margin: 0 10px;
+    padding: 0 23px;
     text-transform: uppercase;
 }
 .social-sharing:first-child {

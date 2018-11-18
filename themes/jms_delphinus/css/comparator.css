@@ -39,7 +39,7 @@ table#product_comparison tbody tr td.td_empty {}
 table#product_comparison tbody tr td.td_empty > span {
     color: #000;
     display: inline-block;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.075em;
@@ -84,7 +84,7 @@ table#product_comparison .available_now {
     color: #6fd9e9;
 }
 table#product_comparison .prices-container .price {
-    font-family: "karla",sans-serif;
+    font-family: 'Univers LT Std';
 	font-size: 1em;
 }
 table#product_comparison .comparison_availability_statut {

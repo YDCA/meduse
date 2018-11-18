@@ -1,0 +1,20 @@
+ul.PM_ASCriterionGroupCheckbox {
+    column-count: 2;
+}
+
+ul.PM_ASCriterionGroupCheckbox .checkbox {
+    margin-top: 0;
+  }
+
+.PM_ASCriterionGroupColor.color_to_pick_list li a,
+.PM_ASCriterionGroupLinkColor span.PM_ASCriterionColorSquare {
+    width: 15px;
+    height: 15px;
+}
+
+.PM_ASCriterionGroupLinkColor span.PM_ASCriterionColorSquare {
+    margin: 2px 6px 0 0 !important;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
