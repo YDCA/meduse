@@ -1455,7 +1455,7 @@ table th[class*="col-"] {
     border-width: 2px;
     color: #000;
     display: inline-block;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -1518,7 +1518,7 @@ table th[class*="col-"] {
 }
 .topbar .dropdown-menu > li > a {
     color: #999;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Univers LT Std';
     line-height: 24px;
     padding: 3px 20px;
 }
@@ -1690,7 +1690,7 @@ header .addon-box {
 }
 .list-categories a {
     color: #cdcdcd;
-    font-family: "montserrat",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 0.86em;
     letter-spacing: 0.075em;
     line-height: 36px;
@@ -1699,7 +1699,7 @@ header .addon-box {
 .list-categories a:hover{color: #fff;}
 .jms-banner a.shopnow-button {
     border: 2px solid #fff;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     letter-spacing: 0.2em;
     padding: 11px 40px;
@@ -1882,7 +1882,7 @@ h4.post-title {
     background: #fff none repeat scroll 0 0;
     color: #999999;
 	display: none;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     height: 100%;
     letter-spacing: 0.075em;
@@ -1997,7 +1997,7 @@ footer .addon-box > #social_block {
     text-transform: uppercase;
 }
 .the_story_content > p {
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     line-height: 30px;
     margin-bottom: 0;
@@ -2218,7 +2218,7 @@ footer .footer-center #newsletter-input.form-control {
     border: 2px solid #dddddd;
     color: #666;
     float: right;
-    font-family: "montserrat",sans-serif;
+    font-family: 'Univers LT Std';
     height: 45px;
     min-width: 570px;
     padding: 10px 20px;
@@ -3512,7 +3512,7 @@ header {
     border-radius: 0;
     color: #000;
     display: inline-block;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -3562,7 +3562,7 @@ header {
 }
 .price {
     color: #999999;
-    font-family: "montserrat",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 0.86em;
     font-weight: 400;
 }
@@ -4115,7 +4115,7 @@ header {
     border: 2px solid #f0f0f0;
     display: inline-block;
     float: left;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Univers LT Std';
     font-weight: 700;
     height: 48px;
     text-align: center;
