@@ -55,13 +55,13 @@
     float: left;
     height: 48px;
     line-height: 46px;
-    margin: 0 15px;
+    margin: 0 10px;
     text-align: center;
 	-ms-transform: scale(1); /* IE 9 */
     -webkit-transform: scale(1); /* Chrome, Safari, Opera */
     transform: scale(1);
     vertical-align: middle;
-    width: 60px;
+    width: 55px;
 }
 .product-util #add_to_cart.product-btn {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
