@@ -1534,8 +1534,11 @@ header .addon-box {
 .topbar .topbar-right {
     text-align: right;
 }
-.topbar .topbar-right  .addon-box{
-	float: right;
+.topbar .topbar-right  .addon-box {
+	float: right ;
+}
+.header-bar-7 .topbar-right  .addon-box {
+	float: right !important;
 }
 .topbar {
     border-bottom: 1px solid #f6f6f6;
@@ -1555,9 +1558,10 @@ header .addon-box {
 	padding: 0;
 	text-transform: uppercase;
 }
-.topbar .btn-xs{
+.topbar .btn-xs,
+.header-bar-7 .btn-xs {
 	line-height: 57px;
-	padding: 0 35px;
+	padding: 0 15px;
 	border-right: 1px solid #f6f6f6;
 	display: inline-block;
 	letter-spacing: 0.075em;
@@ -1573,7 +1577,7 @@ header .addon-box {
     line-height: 24px;
     text-align: center;
     width: 31px;
-	margin-left: 25px;
+	margin-left: 5px;
 }
 .header-bar .search_block .addon-box {
     line-height: 15px;
@@ -2926,7 +2930,8 @@ footer .footer-2 .addon-title {
 .topbar-header7 .topbar-left {
     position: static;
 }
-.topbar-left #jms_ajax_search{
+.topbar-left #jms_ajax_search,
+.header-bar-7 #jms_ajax_search {
 	line-height: 57px;
 }
 .topbar-header7 #jms_ajax_search .btn-xs.search-icon {
@@ -3928,6 +3933,19 @@ header {
 	border-color: #000;
 	margin-left: 0;
 }
+.products-list-in-row .product_button .addToWishlist,
+.products-list-in-row .product_button .add_to_compare,
+.products-list-in-row .product_button .quick-view {
+	margin: 0 10px;
+}
+
+.products-list-in-row .product_button .addToWishlist {
+	margin-left: 0;
+}
+.products-list-in-row .product_button .quick-view {
+	margin-right: 0;
+}
+
 .products-list-in-row .product_button .product-btn:hover {
     border-color: #000;
 }

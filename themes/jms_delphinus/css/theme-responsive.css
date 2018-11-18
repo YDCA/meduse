@@ -514,6 +514,15 @@
 		/* text-align: center;
 		width: 100%; */
 	}
+<<<<<<< HEAD
+=======
+	.header-bar-7 .topbar-right  .addon-box {
+		display: inline-block;
+		float: none;
+		width: 24%;
+		text-align: center;
+	}
+>>>>>>> localhost
 	.breadcrumb {
 		padding: 30px 0;
 	}
