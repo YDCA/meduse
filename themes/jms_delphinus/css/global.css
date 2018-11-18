@@ -1727,8 +1727,14 @@ header .addon-box {
 }
 .jms-row.section-categorylist {
     display: inline-block;
-    margin: 100px 0 0;
+    margin: 60px 0 0;
     width: 100%;
+}
+.jms-row.section-reassurance {
+    margin: 60px 0 0;
+}
+.jms-row.section-reassurance .fa {
+	font-size: 5rem;
 }
 .section-lastestproduct {
     margin-top: 85px;
