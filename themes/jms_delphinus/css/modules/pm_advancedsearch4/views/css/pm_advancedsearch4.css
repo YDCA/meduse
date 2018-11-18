@@ -149,11 +149,12 @@ ul.PM_ASCriterionGroupCheckbox {
 }
 
 ul.PM_ASCriterionGroupCheckbox {
-    column-count: 2;
+    column-count: 3;
 }
 
 ul.PM_ASCriterionGroupCheckbox .checkbox {
     margin-top: 0;
+    margin-bottom: 0;
   }
 
 .PM_ASCriterionsSEOGroupDisabled,
