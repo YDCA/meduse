@@ -8,7 +8,7 @@
 
 .jms-slider-wrapper .slider{
 	position:relative;
-	width:100%; 
+	width:100%;
 /*	height:400px; when responsive, comment this out */
 	margin:0 auto;
 	background:#1b1b1b;
@@ -20,7 +20,7 @@
 .robotoslab span {
     border-bottom: 2px solid #000;
     display: inline-block !important;
-    font-family: "Karla",sans-serif;
+    font-family: "Roboto Slab",sans-serif;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -84,7 +84,7 @@
 }
 
 .shopnow{
-	font-family: "Karla",sans-serif;
+	font-family: 'Univers LT Std';
 	font-weight: 700;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
@@ -92,7 +92,7 @@
 	padding: 7px 40px;
 }
 .shopnow2{
-	font-family: "Karla",sans-serif;
+	font-family: 'Univers LT Std';
 	font-weight: 700;
 	letter-spacing: 0.075em;
 	text-transform: uppercase;

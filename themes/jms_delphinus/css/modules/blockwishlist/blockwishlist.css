@@ -119,7 +119,7 @@
     width: 100%;
 }
 .wlp_bought .product-name {
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -128,7 +128,7 @@
 .form-control.grey.product_attribute {
     border: 2px solid #e3e3e3;
     display: inline-block;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 16px;
     font-weight: 700;
     height: 48px;
@@ -151,7 +151,7 @@ ul.wlp_bought_list li {
   ul.wlp_bought_list li .product_image {}
   ul.wlp_bought_list li .product-name {
     color: #000;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.075em;

@@ -68,7 +68,7 @@
     border-color: #000;
     border-radius: 0;
     color: #000;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -76,7 +76,7 @@
     text-transform: uppercase;
     width: auto;
 }
-.product-util .product-btn:hover, 
+.product-util .product-btn:hover,
 .product-util #add_to_cart.product-btn:hover {
     background: #000 none repeat scroll 0 0;
     border: 2px solid #000;
@@ -203,11 +203,11 @@ fieldset.attribute_fieldset {
 .thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-prev::before {
     content: "\f053";
 }
-.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-next:hover::before, 
+.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-next:hover::before,
 .thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-prev:hover::before {
     color: #fff;
 }
-.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-next:hover, 
+.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-next:hover,
 .thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-prev:hover {
     background: #000 none repeat scroll 0 0;
 }
@@ -222,7 +222,7 @@ fieldset.attribute_fieldset {
 #more_info_block .nav-tabs > li > a {
     border: 0 none;
     border-radius: 0;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;

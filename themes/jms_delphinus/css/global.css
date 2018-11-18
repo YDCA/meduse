@@ -1166,7 +1166,7 @@ table.std td, table.table_block td {
 .table thead:first-child tr:first-child th,
 .table thead:first-child tr:first-child td {
     border-top: 0 none;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -1755,7 +1755,7 @@ header .addon-box {
 }
 .section-home-banner {
     color: #fff;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -1931,7 +1931,7 @@ footer #newsletter_block_left > h4 {
 }
 footer .addon-box li > a {
     color: #666666;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 400;
     line-height: 36px;
@@ -1944,7 +1944,7 @@ footer #newsletter-input.form-control {
     border-style: none none solid;
     border-width: 0 0 2px;
     color: #666666;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-weight: 400;
     height: auto;
     padding: 15px 0;
@@ -2180,7 +2180,7 @@ footer .jms-banner > a::before {
 }
 .box_category_list > p {
     color: #fff;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -2266,7 +2266,7 @@ footer .footer-2 .addon-title {
 	margin-bottom: 0;
 }
 .section-products .price {
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
 }
 .section-lastestproduct.lastestproduct {
     display: inline-block;
@@ -2306,7 +2306,7 @@ footer .footer-2 .addon-title {
 }
 .mask-product > a {
     color: #fff;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.075em;
@@ -2314,7 +2314,7 @@ footer .footer-2 .addon-title {
 }
 .mask-product .price {
     color: #fff;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
 }
 .blog-home3 h4.post-title {
     display: none;
@@ -2475,7 +2475,7 @@ footer .footer-2 .addon-title {
 	margin-bottom: 0;
 }
 .section-cat .price {
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
 }
 .section-cat .jms-tab .nav-tabs {
     border-bottom: 0 none;
@@ -2485,7 +2485,7 @@ footer .footer-2 .addon-title {
     border: 0 none;
     border-radius: 0;
     color: #000;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -2685,7 +2685,7 @@ footer .footer-2 .addon-title {
     background: #fff none repeat scroll 0 0;
     color: #000;
     display: inline-block;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -2712,7 +2712,7 @@ footer .footer-2 .addon-title {
 }
 .box-sale-content > p {
     color: #fff;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -2811,7 +2811,7 @@ footer .footer-2 .addon-title {
 }
 .category-box .feature-box > a {
     background: #c7db9c none repeat scroll 0 0;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -2915,7 +2915,7 @@ footer .footer-2 .addon-title {
 }
 .section-banner-product .product-info .price {
     color: #ededed;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
 }
 .section-brand.brand-home6 {
     background: #f6f6f6 none repeat scroll 0 0;
@@ -2997,13 +2997,13 @@ footer .footer-2 .addon-title {
     margin-bottom: 50px;
 }
 .lastestproduct-home7 .price {
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
 }
 .label-box {
     background: #8ec78e none repeat scroll 0 0;
     border-radius: 3px;
     color: #fff;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 12px;
     font-weight: 700;
     line-height: 22px;
@@ -3042,7 +3042,7 @@ footer .footer-2 .addon-title {
 }
 .section-categories-list .title > a {
     color: #000;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -3077,7 +3077,7 @@ footer .footer-2 .addon-title {
 	padding: 0 150px;
 }
 .testimonial-author {
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.075em;
@@ -3085,7 +3085,7 @@ footer .footer-2 .addon-title {
 }
 .show_office {
     display: block;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0;
@@ -3111,7 +3111,7 @@ footer .footer-2 .addon-title {
 }
 .hotdeal-carousel .price {
     color: #000;
-    font-family: "karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 17px;
     font-weight: 700;
 }
@@ -3155,7 +3155,7 @@ footer .footer-2 .addon-title {
 .services-home7 .service-box-content {
     color: #666666;
     display: block;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
     letter-spacing: 0;
     line-height: 28px;
     padding: 0;
@@ -3339,7 +3339,7 @@ header {
     color: #fff;
 }
 .collection_block .box-content > p {
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-style: normal;
     font-weight: 400;
     margin: 0 auto 40px;
@@ -3401,7 +3401,7 @@ header {
 	text-align: center;
 }
 .products-filter .owl-item .item .product-box .price {
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
 }
 .products-filter .owl-item .item .product-box:last-child {
     margin-bottom: 0;
@@ -3555,7 +3555,7 @@ header {
 }
 .product-info > a {
     color: #000;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.075em;
@@ -3763,7 +3763,7 @@ header {
 }
 .category-name {
     color: #000;
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 1.14em;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -3831,7 +3831,7 @@ header {
     display: none;
 }
 .product_list .price {
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
 }
 .pagination > li > a,
 .pagination > li > span {
@@ -3924,7 +3924,7 @@ header {
 .products-list-in-row .product-preview .product_button .cart-button.ajax_add_to_cart_button {
     line-height: 44px;
     padding: 0 40px;
-	font-family: "Karla",sans-serif;
+	font-family: 'Univers LT Std';
 	border-color: #000;
 	margin-left: 0;
 }
@@ -4149,7 +4149,7 @@ header {
     width: 30px;
 }
 .cart_description .product-name {
-    font-family: "Roboto Slab",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.075em;
@@ -4164,7 +4164,7 @@ header {
 .cart_unit span,
 .cart_total span {
     color: #666666;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
 }
 .cart_unit .old-price {
@@ -4339,7 +4339,7 @@ ul.step li em {
 .page-heading span.heading-counter {
     color: #666;
     float: right;
-    font-family: Karla,sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.075em;
@@ -4367,7 +4367,7 @@ ul.step li em {
 }
 #cart_summary.table-bordered > tfoot > tr > td {
     color: #666666;
-    font-family: "Karla",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     line-height: 30px;
 }
