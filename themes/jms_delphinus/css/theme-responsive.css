@@ -514,6 +514,9 @@
 		/* text-align: center;
 		width: 100%; */
 	}
+	.breadcrumb {
+		padding: 30px 0;
+	}
 	header .topbar .layout-column .addon-box {
 		display: inline-block;
 		float: none;
