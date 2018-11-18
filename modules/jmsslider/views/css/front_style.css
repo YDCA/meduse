@@ -8,7 +8,7 @@
 
 .jms-slider-wrapper .slider{
 	position:relative;
-	width:100%; 
+	width:100%;
 /*	height:400px; when responsive, comment this out */
 	margin:0 auto;
 	background:#1b1b1b;
@@ -20,7 +20,7 @@
 .robotoslab span {
     border-bottom: 2px solid #000;
     display: inline-block !important;
-    font-family: 'Univers LT Std';
+    font-family: "Roboto Slab",sans-serif;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -37,7 +37,7 @@
 }
 .robotoslab p{
 	display: inline-block !important;
-    font-family: 'Univers LT Std';
+    font-family: "Roboto Slab",sans-serif;
     font-size: 72px;
     font-weight: 700;
     letter-spacing: 0.4em;
@@ -47,28 +47,28 @@
 	padding: 15px 0;
 }
 .robotoslab1{
-	font-family: 'Univers LT Std';
+	font-family: "Roboto Slab",sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.1em;
 }
 .robotoslab2{
-	font-family: 'Univers LT Std';
+	font-family: "Roboto Slab",sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 }
 .robotoslab4{
-	font-family: 'Univers LT Std';
+	font-family: "Roboto Slab",sans-serif;
 	font-weight: 700;
 	letter-spacing: 0.4em;
 	text-transform: uppercase;
 }
 .karla{
-	font-family: 'Univers LT Std';
+	font-family: "Karla",sans-serif;
 	text-align: center;
 }
 .karla-bold{
-	font-family: 'Univers LT Std';
+	font-family: "Karla",sans-serif;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	font-weight: 700;
