@@ -56,7 +56,7 @@
 }
 @media (max-width: 1199px){
 	.jms-megamenu .nav > li{
-		margin: 0 14px;
+		margin: 0 10px;
 	}
 	footer .footer-center #newsletter-input.form-control{
 		min-width: 430px;
