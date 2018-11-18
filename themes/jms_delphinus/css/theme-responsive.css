@@ -511,8 +511,8 @@
 }
 @media (max-width: 480px){
 	.topbar .layout-column {
-		text-align: center;
-		/* width: 100%; */
+		/* text-align: center;
+		width: 100%; */
 	}
 	.breadcrumb {
 		padding: 30px 0;
