@@ -155,7 +155,7 @@
 	.list-categories a{
 		line-height: 30px;
 	}
-	.section-category .jms-banner a img, 
+	.section-category .jms-banner a img,
 	.section-category .jms-banner a{
 		width: 100%;
 		max-width: 100%;
@@ -182,11 +182,11 @@
 	.collection-info{
 		margin: 50px 0;
 	}
-	.category-box.cup-box, 
+	.category-box.cup-box,
 	.category-box.plates-box {
 		margin-top: 30px;
 	}
-	.product_block_2 .product_block:nth-child(1), 
+	.product_block_2 .product_block:nth-child(1),
 	.product_block_2 .product_block:nth-child(2) {
 		margin-bottom: 30px;
 	}
@@ -511,8 +511,8 @@
 }
 @media (max-width: 480px){
 	.topbar .layout-column {
-		text-align: center;
-		width: 100%;
+		/* text-align: center;
+		width: 100%; */
 	}
 	header .topbar .layout-column .addon-box {
 		display: inline-block;
@@ -580,7 +580,7 @@
 		border-right: 0 none;
 	}
 	.collection_block .title,
-	.bedroom-collection.collection_block .title, 
+	.bedroom-collection.collection_block .title,
 	.office-collection.collection_block .title{
 		font-size: 20px;
 	}
