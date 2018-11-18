@@ -24,12 +24,13 @@
 *}
 <!-- MODULE Block cart -->
 <div class="btn-group compact-hidden" id="cart_block">
-	<a href="#"  class="btn-xs dropdown-toggle" data-toggle="dropdown">	
-		<span class="text-box">{l s='My Cart' mod='blockcart'}</span>
-		<span class="box ajax_cart_quantity">{$cart_qties}</span>	
-	</a>		
-	<div class="dropdown-menu shoppingcart-box" role="menu">	          
-        <span class="ajax_cart_no_product" {if $cart_qties != 0}style="display:none"{/if}>{l s='There is no product' mod='blockcart'}</span>		
+	<a href="#"  class="btn-xs dropdown-toggle" data-toggle="dropdown">
+		<span class="fa fa-shopping-bag"></span>
+		<!-- <span class="text-box">{l s='My Cart' mod='blockcart'}</span> -->
+		<span class="box ajax_cart_quantity">{$cart_qties}</span>
+	</a>
+	<div class="dropdown-menu shoppingcart-box" role="menu">
+        <span class="ajax_cart_no_product" {if $cart_qties != 0}style="display:none"{/if}>{l s='There is no product' mod='blockcart'}</span>
 		<ul class="list products" id="cart_block_list">
 		{if $products}
 		{foreach from=$products item='product' name='myLoop'}
@@ -38,7 +39,7 @@
 			<li id="cart_block_product_{$product.id_product}_{if $product.id_product_attribute}{$product.id_product_attribute}{else}0{/if}_{if $product.id_address_delivery}{$product.id_address_delivery}{else}0{/if}" class="{if $smarty.foreach.myLoop.first}first_item item{elseif $smarty.foreach.myLoop.last}last_item item{else}item{/if}">
 				<div class="cart-wrap">
 				<a class="preview-image" href="{$link->getProductLink($product.id_product, $product.link_rewrite, $product.category)|escape:'html':'UTF-8'}" title="{$product.name|escape:'html':'UTF-8'}"><img alt="{$product.name|escape:'html':'UTF-8'}" src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'cart_default')}" class="preview"></a>
-				<div class="description"> 
+				<div class="description">
 					<a href="{$link->getProductLink($product, $product.link_rewrite, $product.category, null, null, $product.id_shop, $product.id_product_attribute)|escape:'html':'UTF-8'}" title="{$product.name|escape:'html':'UTF-8'}">{$product.name|truncate:16:'...'|escape:'html':'UTF-8'}</a>
 					<div class="price-quantity">
 						{l s='Price' mod='blockcart'}:
@@ -58,17 +59,17 @@
 				</div>
 			</li>
 		{/foreach}
-		{/if}	
+		{/if}
 		</ul>
 		<div class="checkout-info">
 			<a id="button_order_cart" class="btn btn-default active" href="{$link->getPageLink("$order_process", true)|escape:"html":"UTF-8"}" title="{l s='Check out' mod='blockcart'}" rel="nofollow">
 				<span>
 					{l s='Check out' mod='blockcart'}
 				</span>
-			</a> 
+			</a>
 		</div>
 	</div>
-</div>	
+</div>
 {strip}
 {addJsDef CUSTOMIZE_TEXTFIELD=$CUSTOMIZE_TEXTFIELD}
 {addJsDef img_dir=$img_dir|addslashes}

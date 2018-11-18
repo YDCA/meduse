@@ -24,14 +24,15 @@
 *}
 
 <!-- Block user information module HEADER -->
-<div class="btn-group compact-hidden user-info">	
-	{if $is_logged}			
+<div class="btn-group compact-hidden user-info">
+	{if $is_logged}
 		<a class="btn-xs dropdown-toggle" data-toggle="dropdown" class="login account" href="{$link->getPageLink('my-account', true)}" title="{l s='View my customer account' mod='blockuserinfo'}" rel="nofollow">
 			<span class="text-box">{$cookie->customer_firstname}</span>{if $homepage !=1 || $homepage!=5}<span class="lnr lnr-chevron-down"></span>{/if}
 		</a>
 	{else}
 		<a class="btn-xs dropdown-toggle" data-toggle="dropdown" class="login" href="{$link->getPageLink('my-account', true)}" title="{l s='Login to your customer account' mod='blockuserinfo'}" rel="nofollow">
-			<span class="text-box">{l s='Login' mod='blockuserinfo'}</span>
+			<span class="fa fa-user"></span>
+			<!-- <span class="text-box">{l s='Login' mod='blockuserinfo'}</span> -->
 			<span class="lnr lnr-chevron-down"></span>
 		</a>
 	{/if}
@@ -42,7 +43,7 @@
 		<li><a class="compare" href="{$link->getPageLink('compare', true)}" title="{l s='View my customer account' mod='blockuserinfo'}" rel="nofollow">
 			{l s='Compare' mod='blockuserinfo'}
 		</a></li>
-		<li><a href="{$link->getPageLink('my-account', true)}" title="{l s='View my customer account' mod='blockuserinfo'}" class="account" rel="nofollow">{l s='Account' mod='blockuserinfo'} </a></li>		
+		<li><a href="{$link->getPageLink('my-account', true)}" title="{l s='View my customer account' mod='blockuserinfo'}" class="account" rel="nofollow">{l s='Account' mod='blockuserinfo'} </a></li>
 		<li><a href="{$link->getPageLink('order', true)}" title="{l s='View my customer account' mod='blockuserinfo'}" class="account" rel="nofollow">{l s='Checkout' mod='blockuserinfo'} </a></li>
 		{if $logged}
 		<li><a href="{$link->getPageLink('index', true, NULL, "mylogout")}" title="{l s='Log me out' mod='blockuserinfo'}" class="logout" rel="nofollow">{l s='Log out' mod='blockuserinfo'}</a></li>

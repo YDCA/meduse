@@ -1557,7 +1557,7 @@ header .addon-box {
 }
 .topbar .btn-xs{
 	line-height: 57px;
-	padding: 0 35px;
+	padding: 0 15px;
 	border-right: 1px solid #f6f6f6;
 	display: inline-block;
 	letter-spacing: 0.075em;
@@ -1573,7 +1573,7 @@ header .addon-box {
     line-height: 24px;
     text-align: center;
     width: 31px;
-	margin-left: 25px;
+	margin-left: 5px;
 }
 .header-bar .search_block .addon-box {
     line-height: 15px;
