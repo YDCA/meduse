@@ -36,13 +36,13 @@
 #off-canvas-menu li a {
     border-radius: 0;
     display: block;
-    font-family: "Montserrat",sans-serif;
+    font-family: 'Univers LT Std';
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
 }
 #off-canvas-menu #jms-megamenu > li > a {
-	text-transform:uppercase;	
+	text-transform:uppercase;
 }
 .responsive #off-canvas-menu-title {
     background: none repeat scroll 0 0 #fff;
