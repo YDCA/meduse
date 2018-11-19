@@ -1566,6 +1566,9 @@ header .addon-box {
 	display: inline-block;
 	letter-spacing: 0.075em;
 }
+.header-bar-7 .open-button {
+	line-height: 57px;
+}
 .topbar .btn-group{
 	vertical-align: top;
 }
