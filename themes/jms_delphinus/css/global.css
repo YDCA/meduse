@@ -2206,6 +2206,7 @@ footer .jms-banner > a::before {
 }
 .footer-2.footer-navbar {
     padding: 90px 0 50px;
+		background-color: #f6f6f6;
 }
 .footer-center .find-us .divider {
     display: inline-block;
@@ -2421,8 +2422,28 @@ footer .footer-2 .addon-title {
     line-height: 30px;
     text-transform: uppercase;
 }
-.footer-3.footer-bottom {
+
+.index .footer-2.footer-reassurance {
+	display: none;
+}
+
+.footer-2.footer-reassurance {
+	background: #f6f6f6 none repeat scroll 0 0;
+}
+
+.footer-2.footer-reassurance .fa {
+    font-size: 5rem;
+}
+
+.footer-2.footer-content {
     background: #f6f6f6 none repeat scroll 0 0;
+		font-size: 1.4rem;
+		padding: 35px 0 25px;
+}
+
+
+.footer-3.footer-bottom {
+    background: #ddd none repeat scroll 0 0;
 	padding: 35px 0 25px;
 }
 .footer-3.footer-bottom .addon-box > #social_block {
