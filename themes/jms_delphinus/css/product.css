@@ -140,6 +140,61 @@ fieldset.attribute_fieldset {
 }
 .attribute_list.product-options {
 }
+
+.attribute_list.product-options ul {
+}
+
+.attribute_list.product-options input.attribute_radio {
+	float: left;
+	margin-left: 3px; }
+
+.attribute_list.product-options div.radio span {
+	border: 2px solid #666;
+}
+
+.attribute_list.product-options div.radio span.checked {
+	border-color: #000;
+}
+
+.attribute_list.product-options div.radio,
+.attribute_list.product-options div.radio span,
+.attribute_list.product-options div.radio input {
+	float: none;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin: 0;
+	background: none;
+	left: 0;
+	top: 0;
+}
+
+.attribute_list.product-options .square-size {
+		position: relative;
+		margin-right: 0;
+		display: inline-block;
+		float: none;
+
+}
+
+.attribute_list.product-options .square-size label {
+		font-weight: 700;
+		position: absolute;
+		cursor: pointer;
+		top: 0;
+		right: 0;
+		left: 0;
+		display: inline-block;
+		height: 42px;
+		width: 40px;
+		text-align: center;
+		margin: 0;
+		line-height: 42px;
+}
+
+.attribute_list.product-options .square-size label {
+}
+
 .product-description {
     margin-top: 25px;
 }
