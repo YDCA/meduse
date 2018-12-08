@@ -14,13 +14,13 @@
 .jms-megamenu img {
 	max-width:100%;
 }
-.jms-megamenu .nav > li {    
+.jms-megamenu .nav > li {
     display: inline-block;
     float: inherit;
     margin: 0px 25px;
-    padding: 0;    
+    padding: 0;
     vertical-align: top;
-}	
+}
 .jms-megamenu .nav > li > a  {
 	color:#FFF;
     font-family: "Montserrat",serif;
@@ -45,8 +45,8 @@
 .jms-megamenu .nav > li > a > .caret {
 	display:none;
 }
-.jms-megamenu .nav  a, 
-.jms-megamenu .nav  a:hover, 
+.jms-megamenu .nav  a,
+.jms-megamenu .nav  a:hover,
 .jms-megamenu .nav  a:focus {
 	background-color:transparent;
 }
@@ -55,7 +55,7 @@
     border: 1px solid #ddd;
     border-radius: 0;
     box-shadow:0px;
-    margin-top: 0px;   
+    margin-top: 0px;
     padding: 30px;
     z-index: 99;
 	min-width:210px;
@@ -72,14 +72,14 @@
 .jms-megamenu .dropdown-menu.fullwidth {
 	width:100%;
 }
-.jms-megamenu .row+ .row {    
+.jms-megamenu .row+ .row {
     padding-top: 10px;
 }
-.jms-megamenu .row .mega-inner {    
+.jms-megamenu .row .mega-inner {
     border-radius: 0;
-	
+
 }
-.jms-megamenu .mega-inner {    
+.jms-megamenu .mega-inner {
 }
 .jms-megamenu .mega-nav, .jms-megamenu  .dropdown-menu .mega-nav {
     list-style: outside none none;
@@ -90,11 +90,11 @@
 
 .jms-megamenu .mega-nav li > a, .jms-megamenu .mega-nav li > span {
 	font-family: "Montserrat",serif;
-    background: #fff none repeat scroll 0 0;    
+    background: #fff none repeat scroll 0 0;
     border-radius: 0;
     color: #555;
-    font-size: 12px;    
-	display:block;	
+    font-size: 12px;
+	display:block;
 	text-decoration:none;
 	text-transform:uppercase;
 }
@@ -126,7 +126,7 @@
 .mega-dropdown-menu.selected,
 .mega-col-nav.selected > .mega-inner {
 	border:1px solid #07b!important;
-}	
+}
 
 .mega-nav .mega > a::after {
     border-color: transparent transparent transparent #555;
@@ -140,11 +140,11 @@
     margin-top: 12px;
     width: 0;
 }
-.jms-megamenu .mega-nav li.group > a {	
+.jms-megamenu .mega-nav li.group > a {
 	text-transform:uppercase;
 	font-size:16px;
 	color:#191919;
-}	
+}
 .jms-megamenu .mega-nav > li > ul > li.group,
 .jms-megamenu .mega-nav > li.group {
     margin-bottom: 20px;
@@ -152,7 +152,7 @@
 	position:relative;
 }
 
-.jms-megamenu .mega-nav > li > ul > li.group::after, 
+.jms-megamenu .mega-nav > li > ul > li.group::after,
 .jms-megamenu .mega-nav > li.group::after {
     content: none !important;
 }
@@ -169,15 +169,15 @@
     position: absolute;
     width: 30px;
 }
-.jms-megamenu .nav [class^="icon-"], 
-.jms-megamenu  .nav [class*=" icon-"], 
+.jms-megamenu .nav [class^="icon-"],
+.jms-megamenu  .nav [class*=" icon-"],
 .jms-megamenu  .nav .fa {
     margin-right: 5px;
 }
 .mega-nav > .mega > .dropdown-menu  {
 	top:0px;
 	left:100%;
-	margin:0px;	
+	margin:0px;
 }
 .jms-megamenu .dropdown-menu .dropdown-menu {
 	margin-left:0px;
@@ -223,7 +223,7 @@
 @media (max-width: 991px) {
 	#jms-megamenu-container {
 		display:none;
-	}			
+	}
 }
 @media (min-width: 992px) {
 	.responsive #off-canvas-menu {
