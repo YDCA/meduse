@@ -182,6 +182,7 @@
 								{foreach from=$groups key=id_attribute_group item=group}
 									{if $group.attributes|@count}
 										<fieldset class="attribute_fieldset col-md-12">
+											<label class="attribute_label" {if $group.group_type != 'color' && $group.group_type != 'radio'}for="group_{$id_attribute_group|intval}"{/if}>{l s='Select your'} {$group.name|escape:'html':'UTF-8'}&nbsp;</label>
 											{assign var="groupName" value="group_$id_attribute_group"}
 											<div class="attribute_list product-options">
 												{if ($group.group_type == 'select')}
@@ -214,9 +215,9 @@
 												{elseif ($group.group_type == 'radio')}
 													<ul>
 													{foreach from=$group.attributes key=id_attribute item=group_attribute}
-														<li>
-															<input type="radio" class="attribute_radio" name="{$groupName|escape:'html':'UTF-8'}" value="{$id_attribute}" {if ($group.default == $id_attribute)} checked="checked"{/if} />
-																<span>{$group_attribute|escape:'html':'UTF-8'}</span>
+														<li class="square-size">
+															<input id="{$group_attribute|escape:'html':'UTF-8'}" type="radio" class="attribute_radio" name="{$groupName|escape:'html':'UTF-8'}" value="{$id_attribute}" {if ($group.default == $id_attribute)} checked="checked"{/if} />
+																<label class="label-size" for="{$group_attribute|escape:'html':'UTF-8'}">{$group_attribute|escape:'html':'UTF-8'}</label>
 														</li>
 													{/foreach}
 													</ul>
