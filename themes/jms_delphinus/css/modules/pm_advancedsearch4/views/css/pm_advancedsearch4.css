@@ -211,12 +211,18 @@ div.PM_ASCriterionNbProduct {
     border: 1px solid #D6D4D4;
     display: inline-block;
     float: none;
+    -webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+					border-radius: 50%;
 }
 .PM_ASCriterionGroupColor.color_to_pick_list li a, .PM_ASCriterionGroupLinkColor span.PM_ASCriterionColorSquare {
-    width: 15px;
-    height: 15px;
+    width: 19px;
+    height: 19px;
     margin: 1px!important;
     background-size: 100% 100% !important;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+          border-radius: 50%;
 }
 .PM_ASCriterionGroupColor.color_to_pick_list li.PM_ASCriterionHide, ul.PM_ASCriterionGroupImage li.PM_ASCriterionHide {
     display: none;
