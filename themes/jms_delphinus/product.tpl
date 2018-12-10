@@ -112,7 +112,8 @@
 		<!-- pb-right-column-->
 		<div class="pb-right-column col-sm-6 col-md-6 col-lg-6">
 			{include file="$tpl_dir./breadcrumb.tpl"}
-			<h2 itemprop="name">{$product->name|escape:'html':'UTF-8'}</h2>
+			<h1 itemprop="name">{$shop_name|escape:'html':'UTF-8'} {$product->name|escape:'html':'UTF-8'}</h1>
+			<h2>{$category->name|escape:'html':'UTF-8'}</h2>
 			<div class="extra-product clearfix">
 				<div class="price-area" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 					{if $product->show_price && !isset($restricted_country_mode) && !$PS_CATALOG_MODE}

@@ -36,9 +36,9 @@
 				{$path}
 			{/if}
 		{/if}
-		<span class="category-name pull-right">
+		<h1 class="category-name pull-right">
 			{$category->name}
-		</span>
+		</h1>
 	</div>
 </div>
 {if isset($smarty.get.search_query) && isset($smarty.get.results) && $smarty.get.results > 1 && isset($smarty.server.HTTP_REFERER)}

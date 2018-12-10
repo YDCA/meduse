@@ -11,7 +11,7 @@
         padding: 10px 10px 10px 15px; } }
   .content_scene_cat span.category-name {
     display: none;
-    font: 600 42px/51px "Open Sans", sans-serif;
+    font: 600 42px/51px 'Univers LT Std';
     color: #fff;
     margin-bottom: 12px; }
   .heading-counter {
@@ -21,8 +21,13 @@
       .content_scene_cat span.category-name {
         font-size: 25px;
         line-height: 30px; } }
+  .content_scene_cat h1 {
+    color: #fff; 
+  }
   .content_scene_cat p {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    color: #fff;
+  }
   .content_scene_cat a {
     color: #fff; }
     .content_scene_cat a:hover {
