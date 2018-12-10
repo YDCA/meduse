@@ -86,12 +86,14 @@
 						</div>
 					</div>
 					<div class="product-info">
-						<a href="{$product.link|escape:'html'}" itemprop="url" itemprop="name">{$product.name|truncate:25:'...'|escape:'html':'UTF-8'}</a>
-						<h4>
-							{if isset($product.id_category_default)}
-								{assign var='catname' value=Category::getCategoryInformations(array($product.id_category_default))}{$catname[$product.id_category_default].name}
-							{/if}
-						</h4>
+						<h2>
+							<a href="{$product.link|escape:'html'}" itemprop="url" itemprop="name">
+								{if isset($product.id_category_default)}
+									{assign var='catname' value=Category::getCategoryInformations(array($product.id_category_default))}{$catname[$product.id_category_default].name}
+								{/if} 
+								{$product.name|truncate:25:'...'|escape:'html':'UTF-8'}
+							</a>
+						</h2>
 						<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 							{if $product.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
 								{if isset($product.specific_prices) && $product.specific_prices && isset($product.specific_prices.reduction) && $product.specific_prices.reduction > 0}
