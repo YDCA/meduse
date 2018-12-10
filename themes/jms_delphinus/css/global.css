@@ -3503,6 +3503,15 @@ header {
 .preview {
 	position: relative;
 }
+.price-percent-reduction {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 1px solid #000;
+	display: inline-block;
+	color: #000;
+	padding: 3px 5px;
+}
 .product_action {
     position: absolute;
     top: 11px;
@@ -3603,9 +3612,10 @@ header {
     font-weight: 600;
 }
 .old.price {
-    font-size: 13px;
+    font-size: 0.83em;
     margin-right: 20px;
     text-decoration: line-through;
+		color: #ccc;
 }
 .product-info {
     padding-top: 27px;

@@ -51,6 +51,9 @@
 		<div class="item ajax_block_product" itemscope itemtype="http://schema.org/Product">
 			<div class="product-preview {if $phover == 'image_swap'}image_swap{/if}">
 					<div class="preview">
+						{if $product.specific_prices.reduction_type == 'percentage'}
+							<span class="price-percent-reduction">-{$product.specific_prices.reduction * 100}%</span>
+						{/if}
 						<a href="{$product.link|escape:'html':'UTF-8'}" class="product-image" data-id-product="{$product.id_product|escape:'html':'UTF-8'}" itemprop="url">
 							<img class="img-responsive product-img1" src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'home_default')|escape:'html':'UTF-8'}" alt="{$product.name|escape:html:'UTF-8'}" itemprop="image" />
 						</a>
@@ -90,7 +93,7 @@
 							<a href="{$product.link|escape:'html'}" itemprop="url" itemprop="name">
 								{if isset($product.id_category_default)}
 									{assign var='catname' value=Category::getCategoryInformations(array($product.id_category_default))}{$catname[$product.id_category_default].name}
-								{/if} 
+								{/if}
 								{$product.name|truncate:25:'...'|escape:'html':'UTF-8'}
 							</a>
 						</h2>
