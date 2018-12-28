@@ -128,6 +128,7 @@
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
 					border-radius: 50%;
+		overflow: hidden;
 }
 #color_to_pick_list li a.selected span {
     border: 1px solid #000;
@@ -156,7 +157,7 @@ fieldset.attribute_fieldset {
 	margin-left: 3px; }
 
 .attribute_list.product-options div.radio span {
-	border: 2px solid #999;
+	border: 2px solid #eee;
 }
 
 .attribute_list.product-options div.radio span.checked {
