@@ -1,0 +1,25 @@
+$file_attachement = null;
+						}
+
+						// BEGIN Hamon law changes - Add another attachement to Order confirmation email
+						if (Configuration::get('lh_cms_attachment')) {
+							if (!class_exists('HTMLTemplateCMS')) {
+                                include_once(_PS_MODULE_DIR_.'loihamon/classes/HTMLTemplateCMS.php');
+                            }
+							if (!empty($file_attachement) && !$file_attachement) {
+								$file_attachement = array($file_attachement);
+							} else {
+								$file_attachement = array();
+							}
+
+							$cms_attachement = array();
+							$id_cms = Configuration::get('lh_id_cms');
+							$cms = new CMS($id_cms, (int)$order->id_lang, (int)$order->id_shop);
+							$pdf = new PDF($cms, PDF::TEMPLATE_CMS, $this->context->smarty);
+							$cms_attachement['content'] = $pdf->render(false);
+							$cms_attachement['name'] = $cms->link_rewrite.'.pdf';
+							$cms_attachement['mime'] = 'application/pdf';
+
+							array_push($file_attachement, $cms_attachement);
+						}
+						// END Hamon law changes

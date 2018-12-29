@@ -1,0 +1,19 @@
+Hello,
+
+Your retraction request has been sent successfully to {shop_name} Customer Service.
+
+Your message:
+
+{message}
+
+Order ID: {order_name}
+
+Concerned product(s):
+
+{products_txt}
+
+Attached file: {attached_file}
+
+We will respond as soon as possible.
+
+Regards,

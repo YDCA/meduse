@@ -1,0 +1,21 @@
+{customer_name} vient de faire une demande de rétractation depuis votre boutique {shop_name}
+
+Détails
+
+Référence commande : {order_name}
+
+Produit(s) concerné(s) :
+
+{products_txt}
+
+Nom du client : {customer_name}
+
+Adresse : {address}
+
+Adresse électronique : {email}
+
+Numéro de téléphone : {phone}
+
+Message
+
+{message}

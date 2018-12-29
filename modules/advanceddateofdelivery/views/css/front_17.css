@@ -1,0 +1,183 @@
+/************************************************************
+						Page Styles
+************************************************************/
+
+#checkout #advanceddateofdelivery {
+	padding-left: 50px;
+	position: relative;
+	display:none;
+}
+
+#checkout .advanced_box {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #d6d4d4;
+    line-height: 23px;
+    margin-bottom: 10px;
+    padding: 14px 18px 13px;
+}
+
+#checkout  #advanceddateofdelivery i {
+	font-size: 25px!important;
+	position: absolute;
+	left: 10px;
+	margin-top: -3px;
+}
+
+#history #advanceddateofdelivery {
+	padding-left: 50px;
+	position: relative;
+}
+
+#history #advanceddateofdelivery i {
+	font-size: 20px;
+	position: absolute;
+	left: 10px;
+}
+
+#product #advanceddateofdelivery_button i {
+	font-size: 20px!important;
+}
+	
+#product .table-data-delivery{
+	background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #d6d4d4;
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+#product .table-data-delivery tr.even {
+    background: #fdfdfd none repeat scroll 0 0;
+}
+
+#product .table-data-delivery tr {
+    border-top: 1px solid #d6d4d4;
+}
+
+#product .table-data-delivery tr td {
+    padding: 10px 20px 11px;
+	border-left: 1px solid #d6d4d4;
+}
+
+#product .table-data-delivery tr td:first-child {
+    border-left: none;
+}
+
+#product .table {
+    margin-bottom: 10px;
+}
+
+#usefull_link_block li.advanceddateofdelivery_extraleft a::before {
+    content: "\f073";
+}
+
+#checkout #advanceddateofdelivery tbody td.cart_description small{
+    display: block;
+    padding: 5px 0 0;
+}
+
+#checkout #advanceddateofdelivery tbody td.cart_product {
+    padding: 7px;
+    width: 137px;
+}
+
+#checkout #advanceddateofdelivery .adod_table_detail {
+	width:100%;
+}
+
+#checkout #advanceddateofdelivery .toggle_adod_products i {
+	position: relative!important;
+}
+
+#checkout #advanceddateofdelivery .toggle_adod_products i:hover{
+	color: black;
+	cursor:pointer;
+}
+
+#checkout #advanceddateofdelivery .adod_table_products_container {
+	display:none;
+}
+
+/* 1.7 compatibility */
+#checkout .delivery_dates {
+	color: #414141;
+	margin-bottom: 9px;
+}
+
+#checkout .cart_product img {
+	width:80px;
+}
+
+#advanceddateofdelivery .icon, #advanceddateofdelivery [class^="icon-"], #advanceddateofdelivery_button .icon, #advanceddateofdelivery_button [class^="icon-"] {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+        font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.icon-angle-down::before {
+    content: "";
+}
+
+.icon-angle-up::before {
+    content: "";
+}
+
+.icon-calendar::before {
+    content: "";
+}
+
+.pull-right {
+    float: right !important;
+}
+
+#product table.table-data-delivery td {
+	vertical-align:middle;
+}
+
+#product table.table-data-delivery td.delivery_dates {
+	width:45%;
+}
+
+.advanceddateofdelivery_container {
+	box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+	background: #fff;
+	margin-top: 2rem;
+	padding: 1rem 1.5rem;
+}
+
+.advanceddateofdelivery_link {
+	color:#414141!important;
+}
+
+.adod_product_page_txt {
+	display:none;
+}
+
+.advanceddateofdelivery_container i {
+	font-size:20px;
+	margin-right: .625rem;
+}
+
+#advanceddateofdelivery_button span{
+	font-weight: 700;
+}
+
+@media (max-width: 499px) {
+	#product .table-data-delivery thead {
+		display: none;
+	}
+	
+	#product .table-data-delivery tr td {
+		display: block;
+		border: none;
+		text-align: center;
+	}
+	
+	#product table.table-data-delivery td.delivery_dates {
+		width: 100%;
+	}
+}

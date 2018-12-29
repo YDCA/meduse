@@ -1,0 +1,98 @@
+/************************************************************
+						Page Styles
+************************************************************/
+a.maia-button {
+    color: #fff !important;
+    text-decoration: none!important;
+}
+.maia-button:hover, .maia-button:focus {
+    background-color: #396bbc;
+    background-image: -moz-linear-gradient(center top , #5587d7, #396bbc);
+}
+.maia-button {
+    background-color: #4173c9;
+    background-image: -moz-linear-gradient(center top , #5e8ee4, #4173c9);
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.54;
+    padding: 7px 12px;
+    text-align: center;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.row {
+    background: #fff repeat-x scroll left top;
+}
+
+.icon_module::before {
+    background: rgba(0, 0, 0, 0) url("../img/icons-sprite.png") no-repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 31px;
+    left: 5px;
+    overflow: hidden;
+    position: absolute;
+    top: 4px;
+    width: 31px;
+}
+
+.icon_module-globe::before {
+    background-position: -93px 0;
+}
+.icon_module-magnifier::before {
+    background-position: -217px -31px;
+}
+
+.icon_module-clock::before {
+    background-position: -186px 0;
+}
+
+.icon_module-phone::before {
+    background-position: -31px 0;
+}
+
+.icon_module {
+    padding: 0 0 10px 45px;
+    position: relative;
+}
+
+#gtrustedstores_content i {
+	font-size:35px;
+}
+
+.prerequisite_point {
+	margin-bottom:10px;
+}
+
+.prerequisite_point .icon-check{
+	color:#95cc6b;
+}
+
+.prerequisite_point .icon-times{
+	color:#ff5450;
+}
+
+.module_title_presentation {
+	font-weight:bold;
+	font-size:14px;
+	padding-bottom:10px;
+}
+
+.holiday_table_container{
+	display:none;
+}
+
+.bootstrap  .badge_options .alert {
+	margin-bottom:0px;
+}
+
+.bootstrap .table thead > tr > th span.title_box {
+    white-space: normal;
+	text-align: center;
+}

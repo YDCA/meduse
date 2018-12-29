@@ -1,0 +1,16 @@
+[{shop_url}] 
+
+Votre demande de rétractation a bien été envoyé à notre service client.
+
+MESSAGE : {message}
+
+COMMANDE # : {order_name}
+
+PRODUIT(S) CONCERNE(S) :
+
+{products_txt}
+PIÈCE JOINTE : {attached_file} 		 
+
+Nous vous répondrons dés que possible. 
+
+{shop_name} [{shop_url}]

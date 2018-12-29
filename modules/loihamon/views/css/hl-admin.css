@@ -1,0 +1,16 @@
+/* Loi Hamon Prestashop module
+ * Copyright 2015, Prestaddons
+ * Author: Prestaddons
+ * Website: http://www.prestaddons.fr
+ */
+
+/* Styles du module Loi Hamon */
+#hamon-law-buttons-admin a {
+	width:133px;
+	margin-right:10px;
+}
+#hamon-law-buttons-admin a i{
+	display:block;
+	font-size:28px;
+	height:30px;
+}
