@@ -25,7 +25,7 @@
 {if count($categoryProducts) > 0 && $categoryProducts !== false}
 <section class="page-product-box blockproductscategory">
 	<div class="addon-title">
-		<h3> {l s='Relatives product' mod='productscategory'}</h3>
+		<h2> {l s='Relatives product' mod='productscategory'}</h2>
 	</div>
 	<div id="productscategory_list">
 		<div class="accessories-carousel">
@@ -65,7 +65,7 @@
 						<a href="{$link->getProductLink($categoryProduct.id_product, $categoryProduct.link_rewrite, $categoryProduct.category, $categoryProduct.ean13)|escape:'html':'UTF-8'}" title="{$categoryProduct.name|htmlspecialchars}" itemprop="url" itemprop="name">			{$categoryProduct.name|escape:'html':'UTF-8'}
 						</a>
 						{if $ProdDisplayPrice && $categoryProduct.show_price == 1 && !isset($restricted_country_mode) && !$PS_CATALOG_MODE}
-						<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">		
+						<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 							{if isset($categoryProduct.specific_prices) && $categoryProduct.specific_prices
 							&& ($categoryProduct.displayed_price|number_format:2 !== $categoryProduct.price_without_reduction|number_format:2)}
 								<span class="old price">{displayWtPrice p=$categoryProduct.price_without_reduction}</span>
@@ -73,7 +73,7 @@
 							{else}
 								<span class="price new" itemprop="price">{convertPrice price=$categoryProduct.displayed_price}</span>
 							{/if}
-							
+
 						</div>
 						{else}
 							{/if}

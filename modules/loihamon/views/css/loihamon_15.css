@@ -1,0 +1,109 @@
+/* Loi Hamon Prestashop module
+ * Copyright 2014, Prestaddons
+ * Author: Prestaddons
+ * Website: http://www.prestaddons.fr
+ */
+
+/* Styles du module Retractation Loi Hamon */
+#module-loihamon-retractation .product_wrapper *,
+#module-loihamon-retractation .product_wrapper *:before,
+#module-loihamon-retractation .product_wrapper *:after {box-sizing: border-box;}
+
+#module-loihamon-retractation .product_wrapper p *,
+#module-loihamon-retractation .product_wrapper p *:before,
+#module-loihamon-retractation .product_wrapper p *:after {box-sizing: content-box;}
+
+#module-loihamon-retractation p.submit input {margin-left:190px;width:75px;}
+
+#module-loihamon-retractation #product_wrapper_label {float:left;display:none;}
+
+#module-loihamon-retractation .product_wrapper .text {float:left;}
+
+#module-loihamon-retractation .product_wrapper .input_wrapper{margin-left:3px;border:1px solid #ccc;padding:12px 5px;float:left;}
+
+#module-loihamon-retractation .product_wrapper .input_wrapper input{margin-top:3px;}
+
+#module-loihamon-retractation .product_wrapper img{float:left;margin-right:10px;}
+
+#module-loihamon-retractation .clear{clear:both;}
+
+#module-loihamon-retractation fieldset {
+	padding:0 0 15px 0;
+	border:1px solid #ccc;
+	background:#f8f8f8
+}
+#module-loihamon-retractation h3 {
+	margin:0 0 15px 0;
+	padding:8px;
+	font-size:14px;
+	color:#fff;
+	text-transform:uppercase;
+	background:url(../img/bg_form_h3.png) repeat-x 0 0 #989898
+}
+#module-loihamon-retractation #center_column p {margin:0; padding:0 0 10px 0;}
+#module-loihamon-retractation #center_column p.desc_contact { padding-left: 183px; padding-right: 10px; }
+input.button_large_form {
+	position:relative;
+	display:inline-block;
+	padding:4px 7px;
+	border:1px solid #b12345;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-weight:bold;
+	color:#FFF;
+	background:url(../img/bg_bt.gif) repeat-x 0 0;
+	cursor: pointer;
+	text-shadow: 1px 1px #444
+}
+input.button_large_form:hover {
+	text-shadow:none;
+}
+#module-loihamon-retractation p.text label,
+#module-loihamon-retractation p.select label,
+#module-loihamon-retractation p.select span,
+#module-loihamon-retractation p.textarea label {
+	display:inline-block;
+	padding:6px 15px;
+	width:150px;/* 180 */
+	font-size:12px;
+	text-align:right
+}
+#module-loihamon-retractation p.textarea label {vertical-align:top}
+#module-loihamon-retractation p.text input,
+#module-loihamon-retractation p.select input {
+	padding:0 5px;
+	height:22px;
+	width:260px;/* 270 */
+	border:1px solid #ccc;
+	font-size: 12px;
+	color:#666
+}
+#module-loihamon-retractation p.select select {
+	margin-right:10px;
+	border:1px solid #ccc;
+	font-size: 12px;
+	color:#666
+}
+#module-loihamon-retractation p.textarea textarea {
+	height:80px;
+	width:270px;
+	border:1px solid #ccc;
+	font-size: 12px;
+	color:#666
+}
+#module-loihamon-retractation .f_right {
+	float:right;
+}
+#module-loihamon-retractation form.std p.submit {
+	padding:0 !important;
+}
+#module-loihamon-retractation form.std p.submit label {
+	text-align:left;
+}
+@media only screen and (max-width: 479px) {
+
+}
+@media only screen and (max-width: 360px) {
+	
+}

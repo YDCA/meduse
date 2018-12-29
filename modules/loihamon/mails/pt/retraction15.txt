@@ -1,0 +1,23 @@
+Dear merchant,
+
+{customer_name} has just made a retraction request via your shop: {shop_name}
+
+Details
+
+Order ID: {order_name}
+
+Concerned product(s):
+
+{products_txt}
+
+Customer name: {customer_name}
+
+Customer address: {address}
+
+Customer e-mail address: {email}
+
+Customer phone number: {phone}
+
+Customer message:
+
+{message}

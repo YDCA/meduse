@@ -1,0 +1,14 @@
+/************************************************************
+						Page Styles
+************************************************************/
+#product-combinations-advanceddateofdelivery .product_adod_all td {
+	background-color: #ccc;
+}
+
+#product-combinations-advanceddateofdelivery .product_adod_all td.title {
+	font-weight: bold;
+}
+
+#product-combinations-advanceddateofdelivery .table thead > tr > th span.title_box {
+	text-align: left;
+}

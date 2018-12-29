@@ -1,0 +1,5 @@
+{foreach $list as $product}
+	- Product : {$product['product_name']}
+	- Quantity : {$product['product_quantity']}
+
+{/foreach}

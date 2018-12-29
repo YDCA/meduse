@@ -51,3 +51,4 @@
 		{/if}
 	</p>
 {/if}
+<div class="clearfix"></div>

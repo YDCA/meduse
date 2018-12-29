@@ -136,33 +136,7 @@
 					{if isset($HOOK_EXTRA_LEFT) && $HOOK_EXTRA_LEFT}{$HOOK_EXTRA_LEFT}{/if}
 				</div>
 			</div>
-			<!-- quantity wanted -->
-			<div class="quantity-cart">
-				{if !$PS_CATALOG_MODE}
-					<div class="option">
-						<div id="quantity_wanted_p"{if (!$allow_oosp && $product->quantity <= 0) || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if} class="input-group quantity-control">
-							<span class="input-group-addon">-</span>
-							<input type="text" name="qty" id="quantity_wanted" class="text form-control" value="{if isset($quantityBackup)}{$quantityBackup|intval}{else}{if $product->minimal_quantity > 1}{$product->minimal_quantity}{else}1{/if}{/if}" />
-							<span class="input-group-addon">+</span>
-						</div>
-					</div>
-				{/if}
-				<div class="product-util">
-					<button type="submit" name="Submit" id="add_to_cart" class="btn btn-default active product-btn">
-						<span>{l s='Add to cart'}</span>
-					</button>
-					<a class="addToWishlist product-btn" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$product->id_product|escape:'html'}', false, 1); return false;" data-id-product="{$product->id_product|escape:'html'}" title="{l s='Add to Wishlist'}">
-						<span class="fa fa-heart"></span>
-					</a>
-					{if isset($comparator_max_item) && $comparator_max_item}
-					<a class="add_to_compare product-btn" href="{$product->link|escape:'html':'UTF-8'} " data-id-product="{$product->id_product}" title="{l s='Add to Compare'}">
-						<span class="fa fa-exchange"></span>
-						<span class="fa fa-spin fa-spinner"></span>
-						<span class="fa fa-check"></span>
-					</a>
-					{/if}
-				</div>
-			</div>
+
 			{if $product->description_short}
 				<div id="short_description_content" class="rte align_justify" itemprop="description">{$product->description_short}</div>
 			{/if}
@@ -235,130 +209,165 @@
 						</p>
 					</form>
 					{/if}
-					<div class="other-info">
-						{if ($display_qties == 1 && !$PS_CATALOG_MODE && $PS_STOCK_MANAGEMENT && $product->available_for_order)}
-						<!-- number of item in stock -->
-						<p id="pQuantityAvailable"{if $product->quantity <= 0} style="display: none;"{/if}>
-							<label>{l s='Number of item in stock:'}</label>
-							<span id="quantityAvailable">{$product->quantity|intval}</span>
-							<span {if $product->quantity > 1} style="display: none;"{/if} id="quantityAvailableTxt">{l s='Item'}</span>
-							<span {if $product->quantity == 1} style="display: none;"{/if} id="quantityAvailableTxtMultiple">{l s='Items'}</span>
-						</p>
-						{/if}
+			</div>
 
-						<p id="product_reference"{if empty($product->reference) || !$product->reference} style="display: none;"{/if}>
-							<label>{l s='Model'}: </label>
-							<span class="editable" itemprop="sku">{if !isset($groups)}{$product->reference|escape:'html':'UTF-8'}{/if}</span>
-						</p>
-						{if $product->online_only}
-						<p class="online_only">{l s='Online only'}</p>
-						{/if}
-						{capture name=condition}
-							{if $product->condition == 'new'}{l s='New'}
-							{elseif $product->condition == 'used'}{l s='Used'}
-							{elseif $product->condition == 'refurbished'}{l s='Refurbished'}
-							{/if}
-						{/capture}
-						<p id="product_condition"{if !$product->condition} style="display: none;"{/if}>
-							<label>{l s='Condition'}: </label>
-							<span class="editable" itemprop="itemCondition">{$smarty.capture.condition}</span>
-						</p>
-						{if $PS_STOCK_MANAGEMENT}
-							{hook h="displayProductDeliveryTime" product=$product}
-							<p class="warning_inline" id="last_quantities"{if ($product->quantity > $last_qties || $product->quantity <= 0) || $allow_oosp || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none"{/if} >{l s='Warning: Last items in stock!'}</p>
-						{/if}
-						<p id="availability_date"{if ($product->quantity > 0) || !$product->available_for_order || $PS_CATALOG_MODE || !isset($product->available_date) || $product->available_date < $smarty.now|date_format:'%Y-%m-%d'} style="display: none;"{/if}>
-							<span id="availability_date_label">{l s='Availability date:'}</span>
-							<span id="availability_date_value">{dateFormat date=$product->available_date full=false}</span>
-						</p>
-						<!-- Out of stock hook -->
-						<div id="oosHook"{if $product->quantity > 0} style="display: none;"{/if}>
-							{$HOOK_PRODUCT_OOS}
+			<!-- quantity wanted -->
+			<div class="quantity-cart">
+				{if !$PS_CATALOG_MODE}
+					<div class="option">
+						<div id="quantity_wanted_p"{if (!$allow_oosp && $product->quantity <= 0) || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none;"{/if} class="input-group quantity-control">
+							<span class="input-group-addon">-</span>
+							<input type="text" name="qty" id="quantity_wanted" class="text form-control" value="{if isset($quantityBackup)}{$quantityBackup|intval}{else}{if $product->minimal_quantity > 1}{$product->minimal_quantity}{else}1{/if}{/if}" />
+							<span class="input-group-addon">+</span>
 						</div>
 					</div>
+				{/if}
+				<div class="product-util">
+					<button type="submit" name="Submit" id="add_to_cart" class="btn btn-default active product-btn">
+						<span>{l s='Add to cart'}</span>
+					</button>
+					<a class="addToWishlist product-btn" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$product->id_product|escape:'html'}', false, 1); return false;" data-id-product="{$product->id_product|escape:'html'}" title="{l s='Add to Wishlist'}">
+						<span class="fa fa-heart"></span>
+					</a>
+					{if isset($comparator_max_item) && $comparator_max_item}
+					<a class="add_to_compare product-btn" href="{$product->link|escape:'html':'UTF-8'} " data-id-product="{$product->id_product}" title="{l s='Add to Compare'}">
+						<span class="fa fa-exchange"></span>
+						<span class="fa fa-spin fa-spinner"></span>
+						<span class="fa fa-check"></span>
+					</a>
+					{/if}
+				</div>
+				<div class="clearfix"></div>
+			</div>
 
-					{if isset($accessories) && $accessories}
-						<!--Accessories -->
-						<section class="slider-products accessories_block">
-							<div class="addon-title">
-								<h2>
-									{l s='Accessories'}
-								</h2>
-							</div>
-							<div class="products_category">
-								<div class="accessories-carousel">
-									{foreach from=$accessories item=accessory name=accessories_list}
-										{if ($accessory.allow_oosp || $accessory.quantity_all_versions > 0 || $accessory.quantity > 0) && $accessory.available_for_order && !isset($restricted_country_mode)}
-												{assign var='accessoryLink' value=$link->getProductLink($accessory.id_product, $accessory.link_rewrite, $accessory.category)}
-										<div class="item ajax_block_product" itemscope itemtype="http://schema.org/Product">
-											<div class="product-preview {if $phover == 'image_swap'}image_swap{/if}">
-												<div class="preview">
-													<a href="{$accessoryLink|escape:'html':'UTF-8'}" title="{$accessory.legend|escape:'html':'UTF-8'}" class="product-image product_image">
-														<img class="img-responsive" src="{$link->getImageLink($accessory.link_rewrite, $accessory.id_image, 'home_default')|escape:'html':'UTF-8'}" alt="{$accessory.legend|escape:'html':'UTF-8'}" width="{$homeSize.width}" height="{$homeSize.height}"/>
-													</a>
-													<div class="product_action">
-														<a class="addToWishlist product-btn" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$accessoryLink.id_product|escape:'html'}', false, 1); return false;" data-id-product="{$accessoryLink.id_product|escape:'html'}" title="{l s='Add to Wishlist' mod='jmspagebuilder'}">
-															<span class="fa fa-heart"></span>
-														</a>
-														{if isset($comparator_max_item) && $comparator_max_item}
-														<a class="add_to_compare product-btn" href="{$accessoryLink.link|escape:'html':'UTF-8'} " data-id-product="{$accessoryLink.id_product}" title="{l s='Add to Compare' mod='jmspagebuilder'}">
-															<span class="fa fa-exchange"></span>
-															<span class="fa fa-spin fa-spinner"></span>
-															<span class="fa fa-check"></span>
-														</a>
-														{/if}
-														<a data-link="{$accessoryLink|escape:'html':'UTF-8'}" class="quick-view btn-radius-square product-btn hidden-xs" title="{l s='Quick View'}">
-															<span class="fa fa-search"></span>
-														</a>
-													</div>
-													<div class="action">
-														<a class="product-btn cart-button btn-default active ajax_add_to_cart_button" data-id-product="{$accessory.id_product|intval}" href="{$link->getPageLink('cart', true, NULL, 'qty=1&amp;id_product={$accessory.id_product|intval}&amp;token={$static_token}&amp;add')|escape:'html':'UTF-8'}" title="{l s='Add to cart'}">
-															{l s="Add to cart"}
-															<span class="fa fa-spin fa-spinner"></span>
-															<span class="fa fa-check"></span>
-														</a>
-														{else}
-														<a href="#" class="product-btn cart-button btn-default ajax_add_to_cart_button disable" title="{l s='Out of Stock'}">
-															{l s="Add to cart"}
-														</a>
-														{/if}
-													</div>
-												</div>
-												<div class="product-info">
-													<a href="{$accessoryLink|escape:'html':'UTF-8'}" itemprop="url">{$accessory.name|truncate:25:'...':true|escape:'html':'UTF-8'}</a>
-													{if !$PS_CATALOG_MODE && ($accessory.allow_oosp || $accessory.quantity > 0)}
-													<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-														{if isset($accessory.specific_prices) && $accessory.specific_prices && isset($accessory.specific_prices.reduction) && $accessory.specific_prices.reduction > 0}
-														{hook h="displayProductPriceBlock" product=$accessoryLink type="old_price"}
-														<span class="old price">
-															{displayWtPrice p=$accessory.price_without_reduction}
-														</span>
-														{/if}
-														{if $accessory.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}<span class="price new" itemprop="price">{if !$priceDisplay}{convertPrice price=$accessory.price}{else}{convertPrice price=$accessory.price_tax_exc}{/if}</span>{/if}
-														<meta itemprop="priceCurrency" content="{$currency->iso_code}" />
-													</div>
-												</div>
+			<div class="other-info">
+				{if ($display_qties == 1 && !$PS_CATALOG_MODE && $PS_STOCK_MANAGEMENT && $product->available_for_order)}
+				<!-- number of item in stock -->
+				<p id="pQuantityAvailable"{if $product->quantity <= 0} style="display: none;"{/if}>
+					<label>{l s='Number of item in stock:'}</label>
+					<span id="quantityAvailable">{$product->quantity|intval}</span>
+					<span {if $product->quantity > 1} style="display: none;"{/if} id="quantityAvailableTxt">{l s='Item'}</span>
+					<span {if $product->quantity == 1} style="display: none;"{/if} id="quantityAvailableTxtMultiple">{l s='Items'}</span>
+				</p>
+				{/if}
+
+				<p id="product_reference"{if empty($product->reference) || !$product->reference} style="display: none;"{/if}>
+					<label>{l s='Model'}: </label>
+					<span class="editable" itemprop="sku">{if !isset($groups)}{$product->reference|escape:'html':'UTF-8'}{/if}</span>
+				</p>
+				{if $product->online_only}
+				<p class="online_only">{l s='Online only'}</p>
+				{/if}
+				{capture name=condition}
+					{if $product->condition == 'new'}{l s='New'}
+					{elseif $product->condition == 'used'}{l s='Used'}
+					{elseif $product->condition == 'refurbished'}{l s='Refurbished'}
+					{/if}
+				{/capture}
+				<p id="product_condition"{if !$product->condition} style="display: none;"{/if}>
+					<label>{l s='Condition'}: </label>
+					<span class="editable" itemprop="itemCondition">{$smarty.capture.condition}</span>
+				</p>
+				{if $PS_STOCK_MANAGEMENT}
+					{hook h="displayProductDeliveryTime" product=$product}
+					<p class="warning_inline" id="last_quantities"{if ($product->quantity > $last_qties || $product->quantity <= 0) || $allow_oosp || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none"{/if} >{l s='Warning: Last items in stock!'}</p>
+				{/if}
+				<p id="availability_date"{if ($product->quantity > 0) || !$product->available_for_order || $PS_CATALOG_MODE || !isset($product->available_date) || $product->available_date < $smarty.now|date_format:'%Y-%m-%d'} style="display: none;"{/if}>
+					<span id="availability_date_label">{l s='Availability date:'}</span>
+					<span id="availability_date_value">{dateFormat date=$product->available_date full=false}</span>
+				</p>
+				<!-- Out of stock hook -->
+				<div id="oosHook"{if $product->quantity > 0} style="display: none;"{/if}>
+					{$HOOK_PRODUCT_OOS}
+				</div>
+			</div>
+
+			<div class="social_sharing_product">
+				{if isset($HOOK_EXTRA_RIGHT) && $HOOK_EXTRA_RIGHT}{$HOOK_EXTRA_RIGHT}{/if}
+			</div>
+
+			{if isset($accessories) && $accessories}
+				<!--Accessories -->
+				<section class="slider-products accessories_block">
+					<div class="addon-title">
+						<h2>
+							{l s='Accessories'}
+						</h2>
+					</div>
+					<div class="products_category">
+						<div class="accessories-carousel">
+							{foreach from=$accessories item=accessory name=accessories_list}
+								{if ($accessory.allow_oosp || $accessory.quantity_all_versions > 0 || $accessory.quantity > 0) && $accessory.available_for_order && !isset($restricted_country_mode)}
+										{assign var='accessoryLink' value=$link->getProductLink($accessory.id_product, $accessory.link_rewrite, $accessory.category)}
+								<div class="item ajax_block_product" itemscope itemtype="http://schema.org/Product">
+									<div class="product-preview {if $phover == 'image_swap'}image_swap{/if}">
+										<div class="preview">
+											<a href="{$accessoryLink|escape:'html':'UTF-8'}" title="{$accessory.legend|escape:'html':'UTF-8'}" class="product-image product_image">
+												<img class="img-responsive" src="{$link->getImageLink($accessory.link_rewrite, $accessory.id_image, 'home_default')|escape:'html':'UTF-8'}" alt="{$accessory.legend|escape:'html':'UTF-8'}" width="{$homeSize.width}" height="{$homeSize.height}"/>
+											</a>
+											<div class="product_action">
+												<a class="addToWishlist product-btn" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$accessoryLink.id_product|escape:'html'}', false, 1); return false;" data-id-product="{$accessoryLink.id_product|escape:'html'}" title="{l s='Add to Wishlist' mod='jmspagebuilder'}">
+													<span class="fa fa-heart"></span>
+												</a>
+												{if isset($comparator_max_item) && $comparator_max_item}
+												<a class="add_to_compare product-btn" href="{$accessoryLink.link|escape:'html':'UTF-8'} " data-id-product="{$accessoryLink.id_product}" title="{l s='Add to Compare' mod='jmspagebuilder'}">
+													<span class="fa fa-exchange"></span>
+													<span class="fa fa-spin fa-spinner"></span>
+													<span class="fa fa-check"></span>
+												</a>
+												{/if}
+												<a data-link="{$accessoryLink|escape:'html':'UTF-8'}" class="quick-view btn-radius-square product-btn hidden-xs" title="{l s='Quick View'}">
+													<span class="fa fa-search"></span>
+												</a>
+											</div>
+											<div class="action">
+												<a class="product-btn cart-button btn-default active ajax_add_to_cart_button" data-id-product="{$accessory.id_product|intval}" href="{$link->getPageLink('cart', true, NULL, 'qty=1&amp;id_product={$accessory.id_product|intval}&amp;token={$static_token}&amp;add')|escape:'html':'UTF-8'}" title="{l s='Add to cart'}">
+													{l s="Add to cart"}
+													<span class="fa fa-spin fa-spinner"></span>
+													<span class="fa fa-check"></span>
+												</a>
+												{else}
+												<a href="#" class="product-btn cart-button btn-default ajax_add_to_cart_button disable" title="{l s='Out of Stock'}">
+													{l s="Add to cart"}
+												</a>
+												{/if}
 											</div>
 										</div>
-										{/if}
-									{/foreach}
+										<div class="product-info">
+											<a href="{$accessoryLink|escape:'html':'UTF-8'}" itemprop="url">{$accessory.name|truncate:25:'...':true|escape:'html':'UTF-8'}</a>
+											{if !$PS_CATALOG_MODE && ($accessory.allow_oosp || $accessory.quantity > 0)}
+											<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+												{if isset($accessory.specific_prices) && $accessory.specific_prices && isset($accessory.specific_prices.reduction) && $accessory.specific_prices.reduction > 0}
+												{hook h="displayProductPriceBlock" product=$accessoryLink type="old_price"}
+												<span class="old price">
+													{displayWtPrice p=$accessory.price_without_reduction}
+												</span>
+												{/if}
+												{if $accessory.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}<span class="price new" itemprop="price">{if !$priceDisplay}{convertPrice price=$accessory.price}{else}{convertPrice price=$accessory.price_tax_exc}{/if}</span>{/if}
+												<meta itemprop="priceCurrency" content="{$currency->iso_code}" />
+											</div>
+										</div>
+									</div>
 								</div>
-							</div>
-						</section>
-						<!--end Accessories -->
-					{/if}
-
-					<div class="social_sharing_product">
-						{if isset($HOOK_EXTRA_RIGHT) && $HOOK_EXTRA_RIGHT}{$HOOK_EXTRA_RIGHT}{/if}
+								{/if}
+							{/foreach}
+						</div>
 					</div>
+				</section>
+				<!--end Accessories -->
+			{/if}
 
-			</div>
 		</div> <!-- end pb-right-column-->
 		{if !$content_only}
 			<div id="more_info_block">
 				<div class="tabs-info">
 					<ul class="nav nav-tabs">
-						{if $product->description}<li class="active"><a href="#tabs-1" data-toggle="tab">{l s='Description'}</a></li>{/if}
+						{if $product->description}
+						<li class="active">
+							<h2>
+								<a href="#tabs-1" data-toggle="tab">{l s='Description'}</a>
+							</h2>
+						</li>{/if}
 						{if isset($features) && $features}
 						<li><a href="#tabs-2" data-toggle="tab">{l s='Specification'}</a></li>
 						{/if}

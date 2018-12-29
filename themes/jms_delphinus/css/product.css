@@ -89,12 +89,12 @@
     color: #fff;
 }
 .quantity-cart {
-    margin-top: 30px;
+    margin-top: 5px;
 }
 #short_description_content {
     display: inline-block;
     width: 100%;
-	margin-top: 40px;
+		margin-top: 10px;
 }
 #short_description_content p {
     line-height: 30px;
@@ -144,7 +144,7 @@
     vertical-align: middle;
 }
 fieldset.attribute_fieldset {
-    margin: 15px 0;
+    margin: 0 0 15px 0;
 }
 .attribute_list.product-options {
 }
@@ -169,8 +169,8 @@ fieldset.attribute_fieldset {
 .attribute_list.product-options div.radio input {
 	float: none;
 	display: inline-block;
-	height: 40px;
-	width: 40px;
+	height: 37px;
+	width: 37px;
 	margin: 0;
 	background: none;
 	left: 0;
@@ -180,9 +180,9 @@ fieldset.attribute_fieldset {
 .attribute_list.product-options .square-size {
 		position: relative;
 		margin-right: 0;
+		margin-bottom: 5px;
 		display: inline-block;
 		float: none;
-
 }
 
 .attribute_list.product-options .square-size label {
@@ -193,18 +193,18 @@ fieldset.attribute_fieldset {
 		right: 0;
 		left: 0;
 		display: inline-block;
-		height: 42px;
-		width: 40px;
+		height: 39px;
+		width: 37px;
 		text-align: center;
 		margin: 0;
-		line-height: 42px;
+		line-height: 39px;
 }
 
 .attribute_list.product-options .square-size label {
 }
 
 .product-description {
-    margin-top: 25px;
+    margin-top: 15px;
 }
 .other-info > p {
     line-height: 30px;
@@ -239,7 +239,7 @@ fieldset.attribute_fieldset {
 .social_sharing_product {
     border-top: 2px solid #f0f0f0;
     margin-top: 25px;
-    padding-top: 35px;
+    padding-top: 15px;
 }
 .thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, .thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
     background: #fff none repeat scroll 0 0;
@@ -286,7 +286,8 @@ fieldset.attribute_fieldset {
     margin-right: 15px;
     width: 100%;
 }
-#more_info_block .nav-tabs > li > a {
+#more_info_block .nav-tabs > li > a,
+#more_info_block .nav-tabs > li > h2 {
     border: 0 none;
     border-radius: 0;
     font-family: 'Univers LT Std';
@@ -299,7 +300,8 @@ fieldset.attribute_fieldset {
     padding: 20px 70px;
     text-transform: uppercase;
 }
-#more_info_block .nav-tabs > li:first-child > a{
+#more_info_block .nav-tabs > li:first-child > a,
+#more_info_block .nav-tabs > li:first-child > h2 {
 	padding-left: 0;
 }
 #more_info_block .nav-tabs > li {
@@ -313,7 +315,7 @@ fieldset.attribute_fieldset {
     border-bottom: 2px solid #e3e3e3;
 }
 #more_info_block .tab-content {
-    padding-top: 60px;
+    padding-top: 20px;
 }
 #more_info_block .tab-content p {
     line-height: 30px;

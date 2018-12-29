@@ -1597,8 +1597,7 @@ header .addon-box {
     vertical-align: baseline;
 }
 .topbar .dropdown-menu > li > a:hover{color: #000;}
-.layout-column.search_block,
-.topbar-right {
+.layout-column.search_block {
     position: static;
 }
 #cart_block .shoppingcart-box {
@@ -1757,6 +1756,12 @@ header .addon-box {
     letter-spacing: 0.2em;
 	padding-bottom: 0;
 }
+
+.addon-title h2 {
+	padding: 0 0 0.67em;
+	font-size: 1.5em;
+}
+
 .addon-title::after {
     background: rgba(0, 0, 0, 0) url("../img/meduse-sep.png") no-repeat scroll center center;
     content: "";

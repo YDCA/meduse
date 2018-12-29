@@ -1,0 +1,17 @@
+Votre demande de rétractation a bien été envoyé à notre service client.
+
+Votre message :
+
+{message}
+
+Référence commande : {order_name}
+
+Produit(s) concerné(s) : 
+
+{products_txt}
+
+Fichier attaché : {attached_file}
+
+Nous vous répondrons dés que possible.
+
+Cordialement,

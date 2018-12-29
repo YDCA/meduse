@@ -1,0 +1,24 @@
+
+[{shop_url}] 
+
+{customer_name} has just made a retraction request via your shop: {shop_name}
+
+ORDER ID: {order_name}
+
+CONCERNED PRODUCT(S): 
+
+{products_txt}
+CUSTOMER NAME: {customer_name}
+
+CUSTOMER ADDRESS: {address}
+
+CUSTOMER E-MAIL ADDRESS: {email}
+
+CUSTOMER PHONE NUMBER: {phone}
+
+CUSTOMER MESSAGE: {message}
+
+ATTACHED FILE: {attached_file} 		 
+
+{shop_name} [{shop_url}]
+
