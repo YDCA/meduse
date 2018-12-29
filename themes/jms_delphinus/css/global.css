@@ -1597,7 +1597,8 @@ header .addon-box {
     vertical-align: baseline;
 }
 .topbar .dropdown-menu > li > a:hover{color: #000;}
-.layout-column.search_block {
+.layout-column.search_block,
+.topbar-right {
     position: static;
 }
 #cart_block .shoppingcart-box {
@@ -1750,7 +1751,8 @@ header .addon-box {
 	padding-top: 48px;
 	padding-bottom: 55px;
 }
-.addon-title h3 {
+.addon-title h3,
+.addon-title h2 {
     font-weight: 700;
     letter-spacing: 0.2em;
 	padding-bottom: 0;

@@ -281,9 +281,9 @@
 						<!--Accessories -->
 						<section class="slider-products accessories_block">
 							<div class="addon-title">
-								<h3>
+								<h2>
 									{l s='Accessories'}
-								</h3>
+								</h2>
 							</div>
 							<div class="products_category">
 								<div class="accessories-carousel">
