@@ -505,3 +505,25 @@ a.PM_ASSelectionsRemoveLink:hover,
 }
 @keyframes as4loader { 0%, 80%, 100% { box-shadow: 0 2.5em 0 -1.3em #333333; } 40% { box-shadow: 0 2.5em 0 0 #666666; } }@-webkit-keyframes as4loader { 0%, 80%, 100% { box-shadow: 0 2.5em 0 -1.3em #333333; } 40% { box-shadow: 0 2.5em 0 0 #666666; } }
 /* /Blur */
+
+
+/* Custom RangeSlider */
+
+.PM_ASCriterionStepEnable {
+  margin-top: 25px;
+}
+
+.PM_ASCritRange {
+  height: .5em;
+}
+.ui-slider-handle.ui-state-default.ui-corner-all {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #eee;
+  top: -.4em;
+}
+
+.ui-slider-range.ui-widget-header.ui-corner-all {
+
+}

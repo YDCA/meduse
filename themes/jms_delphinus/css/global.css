@@ -1730,14 +1730,15 @@ header .addon-box {
 }
 .jms-row.section-categorylist {
     display: inline-block;
-    margin: 60px 0 0;
+    margin: 10px 0 0;
     width: 100%;
 }
 .jms-row.section-reassurance {
-    margin: 60px 0 0;
+    margin: 20px 0 0;
 }
 .jms-row.section-reassurance .fa {
 	font-size: 5rem;
+	float: left;
 }
 .section-lastestproduct {
     margin-top: 85px;
@@ -2342,6 +2343,7 @@ footer .footer-2 .addon-title {
 }
 .section-blog.blog-home3 {
     margin-top: 30px;
+		margin-bottom: 100px;
 }
 .jms-row.section-brand.brand-home3 {
     padding: 100px 0;
@@ -2436,6 +2438,7 @@ footer .footer-2 .addon-title {
 
 .footer-2.footer-reassurance {
 	background: #f6f6f6 none repeat scroll 0 0;
+	padding-top: 90px;
 }
 
 .footer-2.footer-reassurance .fa {

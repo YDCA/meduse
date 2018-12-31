@@ -258,12 +258,12 @@
 				{if $product->online_only}
 				<p class="online_only">{l s='Online only'}</p>
 				{/if}
-				{capture name=condition}
+				<!-- {capture name=condition}
 					{if $product->condition == 'new'}{l s='New'}
 					{elseif $product->condition == 'used'}{l s='Used'}
 					{elseif $product->condition == 'refurbished'}{l s='Refurbished'}
 					{/if}
-				{/capture}
+				{/capture} -->
 				<p id="product_condition"{if !$product->condition} style="display: none;"{/if}>
 					<label>{l s='Condition'}: </label>
 					<span class="editable" itemprop="itemCondition">{$smarty.capture.condition}</span>
