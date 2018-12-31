@@ -16,6 +16,7 @@ admin726baf167/autoupgrade/
 !/cache/push/index.php
 !/cache/sandbox/index.php
 !/cache/smarty/index.php
+/cache/smarty/*
 !/cache/tcpdf/index.php
 config/xml/*.xml
 /log/*
