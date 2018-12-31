@@ -258,16 +258,16 @@
 				{if $product->online_only}
 				<p class="online_only">{l s='Online only'}</p>
 				{/if}
-				<!-- {capture name=condition}
+				{capture name=condition}
 					{if $product->condition == 'new'}{l s='New'}
 					{elseif $product->condition == 'used'}{l s='Used'}
 					{elseif $product->condition == 'refurbished'}{l s='Refurbished'}
 					{/if}
-				{/capture} -->
-				<p id="product_condition"{if !$product->condition} style="display: none;"{/if}>
+				{/capture}
+				<!-- <p id="product_condition"{if !$product->condition} style="display: none;"{/if}>
 					<label>{l s='Condition'}: </label>
 					<span class="editable" itemprop="itemCondition">{$smarty.capture.condition}</span>
-				</p>
+				</p> -->
 				{if $PS_STOCK_MANAGEMENT}
 					{hook h="displayProductDeliveryTime" product=$product}
 					<p class="warning_inline" id="last_quantities"{if ($product->quantity > $last_qties || $product->quantity <= 0) || $allow_oosp || !$product->available_for_order || $PS_CATALOG_MODE} style="display: none"{/if} >{l s='Warning: Last items in stock!'}</p>
