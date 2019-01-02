@@ -1587,6 +1587,20 @@ header .addon-box {
     text-align: right;
     width: 100%;
 }
+
+.banner-top {
+	background: #000;
+	text-align: center;
+}
+
+.banner-top .addon-box {
+    float: none;
+}
+
+.banner-top p{
+	margin: 10px 0;
+}
+
 .jms-row.header-bar {
     min-height: 102px;
     padding: 22px 95px;
@@ -3510,6 +3524,7 @@ header {
 /******** PRODUCT BOX ********/
 .product-preview {
     text-align: center;
+		padding-bottom: 30px;
 }
 .preview {
 	position: relative;
@@ -3629,7 +3644,7 @@ header {
 		color: #ccc;
 }
 .product-info {
-    padding-top: 27px;
+	padding-top: 27px;
 }
 .image_swap .product-img2 {
     left: 0;
