@@ -169,8 +169,8 @@ fieldset.attribute_fieldset {
 .attribute_list.product-options div.radio input {
 	float: none;
 	display: inline-block;
-	height: 37px;
-	width: 37px;
+	height: 34px;
+	width: 34px;
 	margin: 0;
 	background: none;
 	left: 0;
@@ -193,11 +193,11 @@ fieldset.attribute_fieldset {
 		right: 0;
 		left: 0;
 		display: inline-block;
-		height: 39px;
-		width: 37px;
+		height: 35px;
+		width: 34px;
 		text-align: center;
 		margin: 0;
-		line-height: 39px;
+		line-height: 34px;
 }
 
 .attribute_list.product-options .square-size label {
