@@ -62,7 +62,9 @@
 						{/if}
 					</div>
 					<div class="product-info">
-						<a href="{$link->getProductLink($categoryProduct.id_product, $categoryProduct.link_rewrite, $categoryProduct.category, $categoryProduct.ean13)|escape:'html':'UTF-8'}" title="{$categoryProduct.name|htmlspecialchars}" itemprop="url" itemprop="name">			{$categoryProduct.name|escape:'html':'UTF-8'}
+						<a href="{$link->getProductLink($categoryProduct.id_product, $categoryProduct.link_rewrite, $categoryProduct.category, $categoryProduct.ean13)|escape:'html':'UTF-8'}" title="{$categoryProduct.name|htmlspecialchars}" itemprop="url" itemprop="name">
+							{$category->name|escape:'html':'UTF-8'}
+							{$categoryProduct.name|escape:'html':'UTF-8'}
 						</a>
 						{if $ProdDisplayPrice && $categoryProduct.show_price == 1 && !isset($restricted_country_mode) && !$PS_CATALOG_MODE}
 						<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">

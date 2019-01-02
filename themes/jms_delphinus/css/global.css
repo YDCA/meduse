@@ -1597,8 +1597,10 @@ header .addon-box {
     float: none;
 }
 
-.banner-top p{
-	margin: 10px 0;
+.banner-top p {
+	margin: 5px 0;
+	line-height: 20px;
+	font-size: .9em;
 }
 
 .jms-row.header-bar {
@@ -3855,7 +3857,7 @@ h1.category-name {
     margin: 0 5px;
 }
 .container.page-content{
-	margin-top: 70px;
+	margin-top: 40px;
 }
 #product header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);

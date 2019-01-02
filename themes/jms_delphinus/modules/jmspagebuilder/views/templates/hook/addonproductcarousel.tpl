@@ -26,17 +26,17 @@
 <script type="text/javascript">
 jQuery(function ($) {
     "use strict";
-	var productCarousel = $(".product-carousel");		
+	var productCarousel = $(".product-carousel");
 	var items = {if $cols}{$cols}{else}4{/if},
 	    itemsDesktop = {if $cols}{$cols}{else}4{/if},
 	    itemsDesktopSmall = {if $cols_md}{$cols_md}{else}3{/if},
 	    itemsTablet = {if $cols_sm}{$cols_sm}{else}2{/if},
 	    itemsMobile = {if $cols_xs}{$cols_xs}{else}1{/if};
 	var rtl = false;
-	if ($("body").hasClass("rtl")) rtl = true;				
+	if ($("body").hasClass("rtl")) rtl = true;
 	productCarousel.owlCarousel({
 		responsiveClass:true,
-		responsive:{			
+		responsive:{
 			1199:{
 				items:itemsDesktop
 			},
@@ -58,7 +58,7 @@ jQuery(function ($) {
 	    rewindNav: {if $rewind == '1'}true{else}false{/if},
 	    navigationText: ["", ""],
 	    slideBy: {if $slidebypage == '1'}'page'{else}1{/if},
-	    slideSpeed: 200	
+	    slideSpeed: 200
 	});
 });
 </script>
@@ -67,18 +67,18 @@ jQuery(function ($) {
 	<h3>
 	{if $producttype == 'topseller'}
 		{l s='TopSeller Products' mod='jmspagebuilder'}
-	{elseif $producttype == 'new'}	
+	{elseif $producttype == 'new'}
 		{l s='Latest Products' mod='jmspagebuilder'}
-	{elseif $producttype == 'onsale'}	
-		{l s='OnSale Products' mod='jmspagebuilder'}	
-	{elseif $producttype == 'special'}	
-		{l s='Special Products' mod='jmspagebuilder'}	
-	{else}		
-		{l s='Featured Products' mod='jmspagebuilder'}	
-	{/if}	
-	</h3>	
-</div>	
-<div class="product-carousel">	
+	{elseif $producttype == 'onsale'}
+		{l s='OnSale Products' mod='jmspagebuilder'}
+	{elseif $producttype == 'special'}
+		{l s='Special Products' mod='jmspagebuilder'}
+	{else}
+		{l s='Featured Products' mod='jmspagebuilder'}
+	{/if}
+	</h3>
+</div>
+<div class="product-carousel">
 	{foreach from = $products_slides item = products_slide}
 		<div class="item ajax_block_product" itemscope itemtype="http://schema.org/Product">
 			{foreach from = $products_slide item = product}
@@ -118,35 +118,38 @@ jQuery(function ($) {
 								{l s='Add to cart' mod='jmspagebuilder'}
 								<span class="fa fa-spin fa-spinner"></span>
 								<span class="fa fa-check"></span>
-							</a>							
+							</a>
 							{else}
 								<a href="#" class="product-btn cart-button btn-default ajax_add_to_cart_button disable" title="{l s='Out of Stock' mod='jmspagebuilder'}">
 									{l s='Add to cart' mod='jmspagebuilder'}
 								</a>
-							{/if}									
+							{/if}
 						{/if}
 						</div>
 					</div>
 					<div class="product-info">
-						<a href="{$product.link|escape:'html'}" itemprop="url">{$product.name|truncate:25:'...'|escape:'html':'UTF-8'}</a>			
-						<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">			
+						<a href="{$product.link|escape:'html'}" itemprop="url">
+              {$category->name|escape:'html':'UTF-8'}
+              {$product.name|truncate:25:'...'|escape:'html':'UTF-8'}
+            </a>			
+						<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 							{if $product.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
 								{if isset($product.specific_prices) && $product.specific_prices && isset($product.specific_prices.reduction) && $product.specific_prices.reduction > 0}
 									{hook h="displayProductPriceBlock" product=$product type="old_price"}
 									<span class="old price">
 										{displayWtPrice p=$product.price_without_reduction}
-									</span>								
+									</span>
 								{/if}
 								<span class="price new" itemprop="price">
 									{hook h="displayProductPriceBlock" product=$product type="before_price"}
 									{if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
-								</span>	
+								</span>
 								{hook h="displayProductPriceBlock" product=$product type="price"}
 								{hook h="displayProductPriceBlock" product=$product type="unit_price"}
 							{/if}
 							<meta itemprop="priceCurrency" content="{$currency->iso_code}" />
 						</div>
-					</div>		 
+					</div>
 				</div>
 			{/foreach}
 		</div>

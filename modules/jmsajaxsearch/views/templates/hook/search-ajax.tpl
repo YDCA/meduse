@@ -24,7 +24,7 @@
 *}
 <div class="result_div">
 {if $products}
-<div class="results">	
+<div class="results">
 	{foreach from=$products item=product name=i}
 		<div class="item">
 			<div class="left-img">
@@ -34,12 +34,13 @@
 			</div>
 			<div class="right-info">
 				<a href="{$product.link|escape:'htmlall':'UTF-8'}" title="{$product.name|truncate:50:'...'|escape:'htmlall':'UTF-8'}">
+					<!-- {$product.category|escape:'html':'UTF-8'} boom -->
 					{$product.name|truncate:35:'...'|escape:'htmlall':'UTF-8'}
 				</a>
 				<span class="price">{convertPrice price=$product.price}</span>
 			</div>
 		</div>
-	{/foreach}	
+	{/foreach}
 </div>
 {else}
 {$no_text|escape:'htmlall':'UTF-8'}
