@@ -324,3 +324,9 @@ fieldset.attribute_fieldset {
 .slider-products.accessories_block {
     margin-top: 90px;
 }
+
+.size {
+	float: right;
+	font-style: italic;
+	font-size: .8em;
+}

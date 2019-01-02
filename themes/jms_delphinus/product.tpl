@@ -157,7 +157,12 @@
 								{foreach from=$groups key=id_attribute_group item=group}
 									{if $group.attributes|@count}
 										<fieldset class="attribute_fieldset col-md-12">
-											<label class="attribute_label" {if $group.group_type != 'color' && $group.group_type != 'radio'}for="group_{$id_attribute_group|intval}"{/if}>{l s='Select your'} {$group.name|escape:'html':'UTF-8'}&nbsp;</label>
+											<label class="attribute_label" {if $group.group_type != 'color' && $group.group_type != 'radio'} for="group_{$id_attribute_group|intval}" {/if}>{l s='Select your'} {$group.name|escape:'html':'UTF-8'}&nbsp;</label>
+												{if $group.group_type != 'color'}
+														<a class="size" href="{$link->getCMSLink(6)}" title="{l s='Size chart'}" target="_blank">
+															{l s='Size chart'}
+														</a>
+												{/if}
 											{assign var="groupName" value="group_$id_attribute_group"}
 											<div class="attribute_list product-options">
 												{if ($group.group_type == 'select')}
