@@ -129,9 +129,10 @@
 		-moz-border-radius: 50%;
 					border-radius: 50%;
 		overflow: hidden;
+    border: 1px solid #eee;
 }
 #color_to_pick_list li a.selected span {
-    border: 1px solid #000;
+    border-color: #000;
 }
 #color_to_pick_list li {
     display: inline-block;
