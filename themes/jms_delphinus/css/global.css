@@ -1766,7 +1766,7 @@ header .addon-box {
 	position: relative;
     text-transform: uppercase;
 	padding-top: 48px;
-	padding-bottom: 55px;
+	padding-bottom: 25px;
 }
 .addon-title h3,
 .addon-title h2 {
@@ -2284,6 +2284,10 @@ footer .footer-2 .addon-title {
     padding-top: 0;
 }
 /**********HOME PAGE 3***********/
+.section-seocontent {
+    font-size: 1.4rem;    
+}
+
 .jms-row.section-products {
     margin-top: 90px;
 }
@@ -2662,7 +2666,7 @@ footer .footer-2 .addon-title {
     padding-bottom: 90px;
 }
 .section-features-product.features-product-home5 {
-    background: #f6f6f6 none repeat scroll 0 0;
+    /* background: #f6f6f6 none repeat scroll 0 0; */
     margin-top: -10px;
     padding: 100px 0;
 }
@@ -3526,8 +3530,15 @@ header {
 /******** PRODUCT BOX ********/
 .product-preview {
     text-align: center;
-		padding-bottom: 30px;
+    padding-bottom: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
+
+.product-preview:hover {
+    border: 1px dotted #eee;
+}
+
 .preview {
 	position: relative;
 }
@@ -3646,7 +3657,7 @@ header {
 		color: #ccc;
 }
 .product-info {
-	padding-top: 27px;
+	padding-top: 15px;
 }
 .image_swap .product-img2 {
     left: 0;
