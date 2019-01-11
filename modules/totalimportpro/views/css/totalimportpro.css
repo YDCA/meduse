@@ -1,0 +1,187 @@
+.btn-reset, .btn-reset i {
+  color: white !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+.hori.vert .selectize-control
+{
+  display: inline-block;
+  width: 250px;
+}
+
+/* Home Page */
+
+#settingsUpload,
+#settingsUpload input {
+  display: none;
+}
+
+/* / Home Page */
+
+.tooltip-wrapper {
+  display: inline-block;
+}
+
+.cron-input {
+  width: 100%;
+  cursor: pointer;
+  border-radius: -3px;
+}
+
+/* Step 2 */
+
+/*Multi-shop Trees*/
+.tree-shop{
+  padding-left: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+#multishop-tree ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+/* / Step 2 */
+
+/* Step 3 */
+
+select.error,
+input.error {
+  border: 1px solid red !important;
+}
+.panel {
+  overflow: auto;
+}
+.stepInfo {
+  padding: 5px;
+}
+#operations td select, #operations td input {
+  width: auto !important;
+  display: inline-block;
+  margin: 0 5px;
+}
+#sampleFields th {
+  border-top: 1px solid rgb(221, 211, 211) !important;
+  border-left: 1px solid rgb(221, 211, 211) !important;
+  border-right: 1px solid rgb(221, 211, 211) !important;
+}
+
+#sampleFields {
+  overflow-x: scroll;
+}
+
+/* / Step 3 */
+
+/* Step 4 */
+
+#sampleFields {
+  overflow-x: scroll;
+}
+#sampleFields th {
+  border: 1px solid rgb(221, 211, 211) !important;
+}
+.info_image{
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+.mapping_field {
+  width: 25%;
+}
+.source_field {
+  width: 70%;
+}
+/* Tabs */
+.fieldsTab {
+  float: left;
+  margin: 0;
+  padding: 10px 0;
+  text-align: left;
+  min-height: 27px;
+  line-height: 16px;
+ }
+.fieldsTab li {
+  text-align: left;
+  float: left;
+  display: inline;
+  padding: 5px 8px;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 1px solid #CCCCCC;
+ }
+ .fieldsTab li:hover {
+  background-color: #EEE;
+ }
+.fieldsTab li.fieldsTabButton.selected {
+  border: none;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-top: 1px solid #CCCCCC;
+}
+h3 {
+  border: none !important;
+  margin: 2px 0 !important;
+}
+.tabItem{
+  display:none;
+}
+
+ .tabItem.selected{
+   display: block;
+   padding: 0;
+}
+.stepInfo {
+  padding: 5px;
+}
+.panel {
+  overflow: auto;
+}
+#full .hori select {
+  width: 25%;
+}
+#full select {
+  display: inline-block;
+}
+.combo td {
+  position: relative;
+}
+.combo_button {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+.lang-select-group {
+  display: inline;
+}
+/* / Step 4 */
+
+/* Step 5 */
+
+.ui-progressbar-value {
+  background-image: none;
+  background-color: #428bca;
+}
+.progress-label {
+  text-shadow: 1px 1px 0 #fff;
+}
+#import_info {
+  padding: 5px 0;
+}
+.progress-wrap {
+  padding: 20px;
+}
+
+.range-container label {
+  display: inline;
+  width: auto;
+}
+.non_reset {
+  overflow: auto;
+}
+.range_input {
+  width: 16.6% !important;
+  display: inline-block !important;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* / Step 5 */

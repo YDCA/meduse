@@ -1,0 +1,37 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_b0320c8fd6986f1c8115bb7085080656'] = 'Jms Brands.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_f6cf938c0d55b78f9857cba3ce4a0b40'] = 'Displays Brand logo slider.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_f0e46a4a91ffce2fb550f2a9a898505f'] = 'Invalid Brand';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_51826bd0c7d8cc82b62283a582fe7af1'] = 'Invalid brand ordering';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_9e4b5f886cfe4331e5bf535799790710'] = 'Invalid id_brand';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_14f09fd0804a8f1cd0eb757125fc9c28'] = 'The title is too long.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_4477f672766f6f255f760649af8bd92a'] = 'The URL is too long.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_62239300ba982b06ab0f1aa7100ad297'] = 'The description is too long.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_980f56796b8bf9d607283de9815fe217'] = 'The URL format is not correct.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_7a92ef6b168d77ebcdad785b01d77a8e'] = 'Invalid filename';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_349097dadf7e6b01dd2af601d54fd59a'] = 'The title is not set.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_0f059227d0a750ce652337d911879671'] = 'The URL is not set.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_8cf45ba354f4725ec8a0d31164910895'] = 'The image is not set.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_20015706a8cbd457cbb6ea3e7d5dc9b3'] = 'Congiguration updated';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_7f82c65d548588c8d5412463c182e450'] = 'The congiguration could not be updated.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_7cc92687130ea12abb80556681538001'] = 'An error occurred during the image upload process.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_0b99c92913adcca98be3917e0d7e6f55'] = 'The brand could not be added.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_c193c7d102087282397be14a2e45b0ec'] = 'The branh could not be updated.';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_b9f5c797ebbf55adccdd8539a65a0241'] = 'Disabled';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Enabled';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_0cf1be019c72ff723f76ae1b764e713b'] = 'Brand informations';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_be53a0541a6d36f6ecb879fa2c584b08'] = 'Image';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_b78a3223503896721cca1303f776159b'] = 'Title';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_e6b391a8d2c4d45902a23a8b6585703d'] = 'URL';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_b5a7adde1af5c87d7fd797b6245c2a39'] = 'Description';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Active';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_93cba07454f06a4a960172bbd6e2a435'] = 'Yes';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_bafd7322c6e97d25b6299b5d6fe8920b'] = 'No';
+$_MODULE['<{jmsbrands}jms_delphinus>jmsbrands_c9cc8cce247e49bae79f15173ce97354'] = 'Save';
+$_MODULE['<{jmsbrands}jms_delphinus>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'Choose a file';
+$_MODULE['<{jmsbrands}jms_delphinus>list_05c4839b0cd3c14808607f8efac33604'] = 'Brands list';
+$_MODULE['<{jmsbrands}jms_delphinus>list_7dce122004969d56ae2e0245cb754d35'] = 'Edit';
+$_MODULE['<{jmsbrands}jms_delphinus>list_f2a6c498fb90ee345d997f888fce3b18'] = 'Delete';

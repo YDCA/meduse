@@ -4,7 +4,7 @@
 	height: 100%;
 }
 
-#content-wrap {	
+#content-wrap {
 	-webkit-overflow-scrolling: touch;
 }
 
@@ -75,7 +75,7 @@
 
 /* Menu */
 .menu-wrap {
-	position: absolute;
+	position: fixed;
 	z-index: 1001;
 	width: 300px;
 	height: 100%;
@@ -90,7 +90,9 @@
     z-index: 3001;
 }
 #off-canvas-menu {
-	background:#fff;
+	background: #fff;
+	overflow: auto;
+	height: 100%;
 }
 /* Shown menu */
 .show-menu .menu-wrap {
@@ -110,4 +112,3 @@
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
-

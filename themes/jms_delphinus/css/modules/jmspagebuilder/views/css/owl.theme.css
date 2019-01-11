@@ -1,5 +1,5 @@
 /*
-* 	Owl Carousel Owl Demo Theme 
+* 	Owl Carousel Owl Demo Theme
 *	v1.3.2
 */
 .owl-slider .item {
@@ -25,31 +25,31 @@
 	top:auto;
 	padding-bottom:0
 }
-.owl-theme .owl-controls .owl-nav {
+.owl-theme .owl-controls {
 	text-align: center;
 }
 /* Styling Next and Prev buttons */
-.owl-theme .owl-controls .owl-nav div {
+.owl-theme .owl-controls div {
 	display:inline-block;
 	width:50px;
 	zoom:1;
 	width: 30px;
 	*display:inline
 }
-.owl-slider-outer .owl-slider-next:hover, .owl-slider-outer .owl-slider-prev:hover, .owl-theme .owl-controls .owl-nav div:hover {	
+.owl-slider-outer .owl-slider-next:hover, .owl-slider-outer .owl-slider-prev:hover, .owl-theme .owl-controls div:hover {
 }
-.owl-theme .owl-controls .owl-nav div.disabled {	
-	cursor:default;	
+.owl-theme .owl-controls div.disabled {
+	cursor:default;
 }
-.owl-theme .owl-controls .owl-nav div {
+.owl-theme .owl-controls div {
 	display: inline-block;
-	margin: 0 5px;	
-	font-size: 0;	
+	margin: 0 5px;
+	font-size: 0;
 	position: relative;
 }
 
-.owl-theme .owl-controls .owl-nav div.owl-prev,
-.owl-theme .owl-controls .owl-nav div.owl-next {
+.owl-theme .owl-controls div.owl-prev,
+.owl-theme .owl-controls div.owl-next {
 	border: none;
 	display: inline-block;
 	width: 0;
@@ -59,60 +59,60 @@
 	position: absolute;
 }
 
-.owl-theme .owl-controls .owl-nav div.owl-prev {
+.owl-theme .owl-controls div.owl-prev {
 	left: -150px;
 }
 
-.owl-theme .owl-controls .owl-nav div.owl-next {
+.owl-theme .owl-controls div.owl-next {
 	right: -150px;
 }
 
-.owl-theme .owl-controls .owl-nav div.owl-prev:before,
-.owl-theme .owl-controls .owl-nav div.owl-next:before {
+.owl-theme .owl-controls div.owl-prev:before,
+.owl-theme .owl-controls div.owl-next:before {
 	color: #999999;
     font-family: "FontAweSome";
     font-size: 30.29px;
     line-height: 40px;
 }
 
-.owl-theme .owl-controls .owl-nav div.owl-prev:before {	
+.owl-theme .owl-controls div.owl-prev:before {
 	content: "\f104";
 }
 
-.owl-theme .owl-controls .owl-nav div.owl-next:before {	
+.owl-theme .owl-controls div.owl-next:before {
 	content: "\f105";
 }
 
-.owl-theme .owl-controls .owl-nav div.owl-next:hover:before,
-.owl-theme .owl-controls .owl-nav div.owl-prev:hover:before{
-	color: #000;	
+.owl-theme .owl-controls div.owl-next:hover:before,
+.owl-theme .owl-controls div.owl-prev:hover:before{
+	color: #000;
 }
 
-.owl-theme .owl-controls .owl-nav div.owl-next:hover,
-.owl-theme .owl-controls .owl-nav div.owl-prev:hover {
+.owl-theme .owl-controls div.owl-next:hover,
+.owl-theme .owl-controls div.owl-prev:hover {
 	background: #373737;
-} 
+}
 
-.owl-theme .owl-controls .owl-nav div.owl-next:hover {
+.owl-theme .owl-controls div.owl-next:hover {
 	background-position: right center !important;
 }
-.owl-theme .owl-controls .owl-nav div.owl-prev:hover {
+.owl-theme .owl-controls div.owl-prev:hover {
 	background-position: left center !important;
 }
 
 .thumb-carousel.owl-carousel .owl-wrapper{
 	margin-top: 30px;
 }
-.main-slider .owl-slider-outer .owl-controls .owl-nav div.owl-next {
+.main-slider .owl-slider-outer .owl-controls div.owl-next {
 	float:right
 }
-.main-slider .owl-theme .owl-controls .owl-nav div.disabled {
+.main-slider .owl-theme .owl-controls div.disabled {
 	opacity:1!important;
 	filter:alpha(opacity=100);
 	cursor: pointer;
 
 }
-.main-slider .owl-slider-outer .owl-slider-next:hover, .main-slider .owl-slider-outer .owl-slider-prev:hover, .main-slider .owl-theme .owl-controls .owl-nav div:hover {
+.main-slider .owl-slider-outer .owl-slider-next:hover, .main-slider .owl-slider-outer .owl-slider-prev:hover, .main-slider .owl-theme .owl-controls div:hover {
 	color:#ee3b27 !important
 }
 .owl-dot > span {

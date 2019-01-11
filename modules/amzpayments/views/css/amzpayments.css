@@ -1,0 +1,339 @@
+@CHARSET "UTF-8";
+
+body#module-amzpayments-amzpayments #center_column {width: 100%; margin-bottom: 15px;}
+
+.amzpayments-header-banner {
+	text-align: center;
+}
+.amzpayments-product-banner img {
+	max-width: 100%;
+}
+.amzpayments-footer-banner {
+	clear: both;
+	display: block;
+}
+
+#payWithAmazonCartDiv {
+	clear: both;
+	padding-top: 5px;
+	margin-top: 5px;
+	display: block;
+	text-align: right;	
+}
+
+.amz_widgets {
+	float: left;
+	width: 450px;	
+}
+.amz_cart_widgets {
+	float: right;
+	width: 450px;
+}
+
+#carrier_area h2 {
+	display:none;
+}
+
+.amz_cart_widgets textarea#message {
+	width: 420px;
+	height: 100px;
+}
+.amz_cart_widgets  #gift_div #gift_message {
+	width: 400px;
+	height: 100px;
+}
+.amz_cart_widgets_bs #gift_div #gift_message,
+.amz_cart_widgets_bs textarea#message {
+	height: 100px;
+}
+.amz_cart_widgets_summary_bs h1#cart_title span.heading-counter,
+.amz_cart_widgets_bs #carrier_area h1.step-num span {
+	display: none;	
+}
+
+body#module-amzpayments-amzpayments .delivery_options_address h3 {
+	background: url("../../../themes/default/img/bg_table_th.png") repeat-x scroll 0 -15px #999999;
+	padding: 10px;
+	color: #fff;
+	text-shadow: 0 1px 0 #666666;
+}
+
+body#module-amzpayments-amzpayments .order_carrier_content {
+	margin-bottom: 15px;
+}
+
+body#module-amzpayments-amzpayments .delivery_option {
+	clear: both;	
+	padding: 3px;
+}
+body#module-amzpayments-amzpayments .delivery_option input[type=radio],
+body#module-amzpayments-amzpayments .delivery_option label {
+	display: inline-block;
+	vertical-align: middle;
+}
+body#module-amzpayments-amzpayments .delivery_option label {
+	margin-left: 20px;
+}
+body#module-amzpayments-amzpayments .delivery_option_logo img {
+	width: auto;
+	max-height: 100px;
+}
+
+#amzOverlay {
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(99,99,99,0.5);
+	z-index: 200;
+	text-align: center;
+	display: none;
+	vertical-align: middle;
+}
+#amzOverlay img {
+	position: relative;
+	top: 50%;
+}
+
+/* #module-amzpayments-amzpayments td.cart_delete.text-center div,
+#module-amzpayments-amzpayments td.cart_quantity.text-center,
+#module-amzpayments-amzpayments th.cart_quantity.item.text-center, */
+#module-amzpayments-amzpayments #HOOK_SHOPPING_CART,
+#module-amzpayments-amzpayments #order_step {
+	display: none;
+}
+#amz_carriers .breadcrumb,
+#amz_cart_widgets_summary .order_delivery {
+	display: none;
+}
+
+input.disabled {
+	background: #efefef;
+	border-color: #ccc;
+	opacity: .5;
+}
+
+.amzSetAddressWr{
+    margin:20px 0;
+    text-align:center;
+    height:250px;
+    width: 100%;
+}
+
+#amazonLogin {
+	float: right;
+	margin-top: 2px;
+	margin-right: 2px;
+}
+#payWithAmazonCartDiv {
+	text-align: center;
+	margin-bottom: 5px;
+}
+#payWithAmazonDivAbove,
+#payWithAmazonDiv {
+	float: right;
+	margin-bottom: 4px;
+}
+#payWithAmazonMainDiv:after {
+    content:'';
+    display:block;
+    clear: both;
+}
+p.payment_module a.amzPayments {
+	cursor: pointer;
+}
+p.payment_module a.amzPayments::after {
+    color: #777;
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 25px;
+    height: 22px;
+    margin-top: -11px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 14px;
+}
+
+#addressBookWidgetDiv {
+	min-width: 200px; 
+	max-width: 800px; 
+	min-height: 228px; 
+	max-height: 400px;}
+#readOnlyAddressBookWidgetDiv {
+	min-width: 200px; 
+	max-width: 800px; 
+	height: 185px;
+}
+#walletWidgetDiv {
+	min-width: 200px; 
+	max-width:800px; 
+	min-height: 228px;
+ 	max-height: 400px;
+ }
+#readOnlyWalletWidgetDiv {
+	min-width: 200px; 
+	max-width: 800px; 
+	height: 185px;
+}
+#walletWidgetDivBs,
+#addressBookWidgetDivBs {
+	height: 290px;
+	min-height: 290px;
+	max-height: 400px;
+}
+
+#uniform-connect_amz_account {
+	float: none;
+	display: inline-block;
+}
+
+/* Smartphone and small window */
+#addressBookWidgetDiv {
+	width: 100%; 
+	height: 228px;
+}
+#walletWidgetDiv {
+	width: 100%;
+	height: 228px;
+}
+/* Desktop and tablet */
+@media only screen and (min-width: 768px) {
+    /* #addressBookWidgetDiv {width: 400px; height: 228px;} 
+    #walletWidgetDiv {width: 400px; height: 228px;} */
+}
+
+@media (max-width: 470px) {
+	.amz_cart_widgets {
+		width: 100%;
+	}
+}
+
+#submitAddress {
+	margin-top: 20px;
+}
+
+#jsLoginAuthPage {
+	margin-top: 20px;
+	display: block;
+}
+
+#payWithAmazonPaymentOPC {
+	margin-left: 8.33333%;
+	margin-bottom: 5px;
+	display: block;
+}
+
+#HOOK_ADVANCED_PAYMENT #payWithAmazonListDiv {
+	width:100%;
+	padding: 47px;
+	padding-left: 95px;
+	background: #fff;
+	border: 1px solid #d6d4d4;
+	display: inline-block;
+	border-radius: 4px; 
+}
+	
+@media only screen and (min-width: 981px) {
+	#HOOK_ADVANCED_PAYMENT #payWithAmazonListDiv {
+		background: #fff;
+		width: 48.8%;
+		padding-left: 190px;
+	} 
+	#HOOK_ADVANCED_PAYMENT #amzRowElement #payWithAmazonListDiv {
+		width: 100%;
+		padding: 37px;
+		padding-left: 190px;
+	}	
+}
+
+p.payment_module a.amzPaymentsPayNow {
+	border: 1px solid #ff9900;
+	background-color: rgba(255, 153, 0, .1);
+}
+.show_alternative_payment_methods {
+	cursor: pointer;	
+}
+p.payment_module a.amzPaymentsPayNow:link, p.payment_module a.amzPaymentsPayNow:visited {
+	color: #000;
+}
+p.payment_module a.amzPaymentsPayNow span {
+	display: inline-block;
+	box-sizing: border-box;
+	text-decoration: none;
+	white-space: nowrap;
+	border-radius: 4px;
+	color: #000;
+	padding: 10px;
+	background: #ffd65e; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffd65e 0%, #febf04 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffd65e 0%,#febf04 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffd65e 0%,#febf04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */	
+}
+p.payment_module a.amzPaymentsPayNow span:hover {
+	background: #ffd65e; /* Old browsers */
+	background: -moz-linear-gradient(top, #febf04 0%, #ffd65e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #febf04 0%,#ffd65e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #febf04 0%,#ffd65e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febf04', endColorstr='#ffd65e',GradientType=0 ); /* IE6-9 */	
+}
+p.amzpay_reset {
+	font-size: .8em;
+}
+
+#addressMissings .additional_field {
+	border: 2px solid orange;
+}
+
+#submitAddress.button.button-medium {
+  font-size: 17px;
+  line-height: 21px;
+  color: #fff;
+  padding: 0;
+  font-weight: bold;
+  background: #43b754;
+  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#43b754), to(#42ac52));
+  background-image: -webkit-linear-gradient(top, #43b754, 0%, #42ac52, 100%);
+  background-image: -moz-linear-gradient(top, #43b754 0%, #42ac52 100%);
+  background-image: linear-gradient(to bottom, #43b754 0%, #42ac52 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF43B754', endColorstr='#FF42AC52', GradientType=0);
+  border: 1px solid;
+  border-color: #399a49 #247f32 #1a6d27 #399a49;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+  #submitAddress.button.button-medium span {
+    display: block;
+    padding: 10px 10px 10px 14px;
+    border: 1px solid;
+    border-color: #74d578; }
+    @media (max-width: 480px) {
+      #submitAddress.button.button-medium span {
+        font-size: 15px;
+        padding-right: 7px;
+        padding-left: 7px; } }
+    #submitAddress.button.button-medium span i.left {
+      font-size: 24px;
+      vertical-align: -2px;
+      margin: -4px 10px 0 0;
+      display: inline-block; }
+      @media (max-width: 480px) {
+        #submitAddress.button.button-medium span i.left {
+          margin-right: 5px; } }
+    #submitAddress.button.button-medium span i.right {
+      margin-right: 0;
+      margin-left: 9px; }
+      @media (max-width: 480px) {
+        #submitAddress.button.button-medium span i.right {
+          margin-left: 5px; } }
+  #submitAddress.button.button-medium:hover {
+    background: #3aa04c;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#3aa04c), to(#3aa04a));
+    background-image: -webkit-linear-gradient(top, #3aa04c, 0%, #3aa04a, 100%);
+    background-image: -moz-linear-gradient(top, #3aa04c 0%, #3aa04a 100%);
+    background-image: linear-gradient(to bottom, #3aa04c 0%, #3aa04a 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF3AA04C', endColorstr='#FF3AA04A', GradientType=0);
+    border-color: #196f28 #399a49 #399a49 #258033; }

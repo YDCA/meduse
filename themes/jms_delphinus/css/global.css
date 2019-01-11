@@ -2287,7 +2287,6 @@ footer .footer-2 .addon-title {
 .section-seocontent {
     font-size: 1.4rem;    
 }
-
 .jms-row.section-products {
     margin-top: 90px;
 }
@@ -3534,11 +3533,9 @@ header {
     padding: 10px;
     margin-bottom: 20px;
 }
-
 .product-preview:hover {
     border: 1px dotted #eee;
 }
-
 .preview {
 	position: relative;
 }

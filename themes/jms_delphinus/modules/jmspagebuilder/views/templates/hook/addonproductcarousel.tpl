@@ -64,19 +64,7 @@ jQuery(function ($) {
 </script>
 
 <div class="addon-title">
-	<h3>
-	{if $producttype == 'topseller'}
-		{l s='TopSeller Products' mod='jmspagebuilder'}
-	{elseif $producttype == 'new'}
-		{l s='Latest Products' mod='jmspagebuilder'}
-	{elseif $producttype == 'onsale'}
-		{l s='OnSale Products' mod='jmspagebuilder'}
-	{elseif $producttype == 'special'}
-		{l s='Special Products' mod='jmspagebuilder'}
-	{else}
-		{l s='Featured Products' mod='jmspagebuilder'}
-	{/if}
-	</h3>
+	<h3>{$addon_title|escape:'htmlall':'UTF-8'}</h3>
 </div>
 <div class="product-carousel">
 	{foreach from = $products_slides item = products_slide}

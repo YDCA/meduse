@@ -35,3 +35,7 @@ download/
 /img/*
 !/img/p/*
 upload/
+
+*.zip
+preprod.zip
+adminydca/autoupgrade/backup/*

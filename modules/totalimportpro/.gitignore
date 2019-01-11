@@ -1,0 +1,4 @@
+config.xml
+feed.txt
+log/*
+*.log

@@ -317,7 +317,7 @@ class JmsPageBuilder extends Module
             $jpb_layout = configuration::get('JPB_PRODUCTLAYOUT');
         } elseif (Tools::getValue('module') == 'jmsblog') {
             $jpb_layout = configuration::get('JPB_BLOGLAYOUT');
-        }        
+        }
         if ($jpb_layout == 'withoutcolumn') {
             $this->context->smarty->assign('hide_left_column', 1);
             $this->context->smarty->assign('hide_right_column', 1);
