@@ -64,7 +64,11 @@ jQuery(function ($) {
 </script>
 
 <div class="addon-title">
+<<<<<<< HEAD
 	<h3>{$addon_title|escape:'htmlall':'UTF-8'}</h3>
+=======
+  <h3>{$addon_title|escape:'htmlall':'UTF-8'}</h3>
+>>>>>>> localhost
 </div>
 <div class="product-carousel">
 	{foreach from = $products_slides item = products_slide}
@@ -119,7 +123,7 @@ jQuery(function ($) {
 						<a href="{$product.link|escape:'html'}" itemprop="url">
               {$category->name|escape:'html':'UTF-8'}
               {$product.name|truncate:25:'...'|escape:'html':'UTF-8'}
-            </a>			
+            </a>
 						<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 							{if $product.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
 								{if isset($product.specific_prices) && $product.specific_prices && isset($product.specific_prices.reduction) && $product.specific_prices.reduction > 0}
