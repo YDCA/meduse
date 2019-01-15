@@ -37,10 +37,4 @@ download/
 !/img/p/*
 upload/
 
-<<<<<<< HEAD
-*.zip
-preprod.zip
-adminydca/autoupgrade/backup/*
-=======
 /blog/*
->>>>>>> localhost

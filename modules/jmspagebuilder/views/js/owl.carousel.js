@@ -2837,11 +2837,6 @@
 	Navigation.prototype.initialize = function() {
 		var override,
 			settings = this._core.settings;
-<<<<<<< HEAD
-	
-=======
-
->>>>>>> localhost
 		// create DOM structure for relative navigation
 		this._controls.$relative = (settings.navContainer ? $(settings.navContainer)
 			: $('<div>').addClass(settings.controlsClass).appendTo(this.$element)).addClass('disabled');
