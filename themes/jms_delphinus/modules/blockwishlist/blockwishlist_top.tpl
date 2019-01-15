@@ -35,5 +35,6 @@
 {/if}
 {/strip}
 <a class="btn-xs" href="{$link->getModuleLink('blockwishlist', 'mywishlist', array(), true)|escape:'html':'UTF-8'}" title="{l s='Wishlists' mod='blockwishlist'}">
-	<span>{l s='Wishlists' mod='blockwishlist'}</span> 
+	<span class="fa fa-heart"></span>
+	<!-- <span>{l s='Wishlists' mod='blockwishlist'}</span>  -->
 </a>
