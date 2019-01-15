@@ -170,8 +170,8 @@ fieldset.attribute_fieldset {
 .attribute_list.product-options div.radio input {
 	float: none;
 	display: inline-block;
-	height: 37px;
-	width: 37px;
+	height: 34px;
+	width: 34px;
 	margin: 0;
 	background: none;
 	left: 0;
@@ -194,11 +194,11 @@ fieldset.attribute_fieldset {
 		right: 0;
 		left: 0;
 		display: inline-block;
-		height: 39px;
-		width: 37px;
+		height: 35px;
+		width: 34px;
 		text-align: center;
 		margin: 0;
-		line-height: 39px;
+		line-height: 34px;
 }
 
 .attribute_list.product-options .square-size label {
@@ -242,7 +242,7 @@ fieldset.attribute_fieldset {
     margin-top: 25px;
     padding-top: 15px;
 }
-.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-prev, .thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-next {
+.thumb-carousel.owl-theme .owl-controls div.owl-prev, .thumb-carousel.owl-theme .owl-controls div.owl-next {
     background: #fff none repeat scroll 0 0;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -251,11 +251,11 @@ fieldset.attribute_fieldset {
     position: static;
     width: 60px;
 }
-.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-prev::before, .thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-next::before {
+.thumb-carousel.owl-theme .owl-controls div.owl-prev::before, .thumb-carousel.owl-theme .owl-controls div.owl-next::before {
     font-size: 14px;
     line-height: 48px;
 }
-.thumb-carousel.owl-theme .owl-controls .owl-nav {
+.thumb-carousel.owl-theme .owl-controls {
     text-align: right;
 }
 .thumb-carousel.owl-controls {
@@ -265,18 +265,18 @@ fieldset.attribute_fieldset {
     padding-right: 3.5px;
     top: -86px;
 }
-.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-next::before {
+.thumb-carousel.owl-theme .owl-controls div.owl-next::before {
     content: "\f054";
 }
-.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-prev::before {
+.thumb-carousel.owl-theme .owl-controls div.owl-prev::before {
     content: "\f053";
 }
-.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-next:hover::before,
-.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-prev:hover::before {
+.thumb-carousel.owl-theme .owl-controls div.owl-next:hover::before,
+.thumb-carousel.owl-theme .owl-controls div.owl-prev:hover::before {
     color: #fff;
 }
-.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-next:hover,
-.thumb-carousel.owl-theme .owl-controls .owl-nav div.owl-prev:hover {
+.thumb-carousel.owl-theme .owl-controls div.owl-next:hover,
+.thumb-carousel.owl-theme .owl-controls div.owl-prev:hover {
     background: #000 none repeat scroll 0 0;
 }
 #more_info_block {

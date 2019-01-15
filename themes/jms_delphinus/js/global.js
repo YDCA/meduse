@@ -66,7 +66,7 @@ $(document).ready(function(){
 		if (this.value != '')
 			location.href = this.value;
 	});
-	
+
 	// Close Alert messages
 	$(".alert.alert-danger").on('click', this, function(e){
 		if (e.offsetX >= 16 && e.offsetX <= 39 && e.offsetY >= 16 && e.offsetY <= 34)
@@ -114,18 +114,18 @@ function view_as() {
 	var viewGrid = $(".view-grid"),
         viewList = $(".view-list"),
         productList = $(".product_list");
-    viewGrid.click(function (e) {    	
+    viewGrid.click(function (e) {
         productList.removeClass("products-list-in-row");
         productList.addClass("products-list-in-column");
         $(this).addClass('active');
         viewList.removeClass("active");
         e.preventDefault()
     });
-    viewList.click(function (e) {    	
+    viewList.click(function (e) {
         productList.removeClass("products-list-in-column");
         productList.addClass("products-list-in-row");
         viewGrid.removeClass("active");
-        $(this).addClass('active');        
+        $(this).addClass('active');
         e.preventDefault()
     })
 }
@@ -136,10 +136,10 @@ jQuery(function ($) {
 jQuery(function ($) {
     "use strict";
 	var rtl = false;
-	if ($("body").hasClass("rtl")) rtl = true;	
+	if ($("body").hasClass("rtl")) rtl = true;
 	$('.thumb-carousel').owlCarousel({
 		rtl:rtl,
-		loop:true,
+		loop:false,
 		margin:15,
 		nav:true,
 		dots: false,
@@ -162,12 +162,12 @@ jQuery(function ($) {
 jQuery(function ($) {
     "use strict";
 	var rtl = false;
-	if ($("body").hasClass("rtl")) rtl = true;	
+	if ($("body").hasClass("rtl")) rtl = true;
 	$('.accessories-carousel').owlCarousel({
 		rtl:rtl,
-		loop:true,
+		loop:false,
 		margin:15,
-		nav:false,
+		nav:true,
 		dots: false,
 		responsive:{
 			0:{
@@ -185,11 +185,11 @@ jQuery(function ($) {
 		}
 	});
 });
-$(window).load(function () {      	
+$(window).load(function () {
     $('.dropdown-menu input').click(function(e) {
         e.stopPropagation();
-    });     
- 
+    });
+
 });
 jQuery(function ($) {
     "use strict";
@@ -260,15 +260,15 @@ jQuery(function ($) {
     "use strict";
 	$('#jms_ajax_search > a').click(function (event) {
 		$('.jms_ajax_search').addClass('open');
-		event.stopPropagation();	
+		event.stopPropagation();
 	});
 	$('#mobile-jmsvermegamenu').click(function (event) {
 		$('#mobile-vermegamenu').toggle(500);
-		event.stopPropagation();	
+		event.stopPropagation();
 	});
 	$('#close-search').click(function (event) {
 		$('.jms_ajax_search').removeClass('open');
-		event.stopPropagation();	
+		event.stopPropagation();
 	});
 	$('.collection_block').css('height',$( window ).height());
 });

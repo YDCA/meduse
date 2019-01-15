@@ -230,7 +230,6 @@
 		stageClass: 'owl-stage',
 		stageOuterClass: 'owl-stage-outer',
 		grabClass: 'owl-grab'
-		
 	};
 
 	/**
@@ -2814,8 +2813,7 @@
 	 */
 	Navigation.Defaults = {
 		nav: false,
-		navRewind: true,
-		navText: [ 'prev', 'next' ],
+		navText: [ '', '' ],
 		navSpeed: false,
 		navElement: 'div',
 		navContainer: false,
@@ -2826,77 +2824,64 @@
 		dotsClass: 'owl-dots',
 		dots: true,
 		dotsEach: false,
-		dotData: false,
+		dotsData: false,
 		dotsSpeed: false,
 		dotsContainer: false,
 		controlsClass: 'owl-controls'
-	}
+	};
 
 	/**
 	 * Initializes the layout of the plugin and extends the carousel.
 	 * @protected
 	 */
 	Navigation.prototype.initialize = function() {
-		var $container, override,
-			options = this._core.settings;
+		var override,
+			settings = this._core.settings;
 
-		// create the indicator template
-		if (!options.dotsData) {
+		// create DOM structure for relative navigation
+		this._controls.$relative = (settings.navContainer ? $(settings.navContainer)
+			: $('<div>').addClass(settings.controlsClass).appendTo(this.$element)).addClass('disabled');
+
+		this._controls.$previous = $('<' + settings.navElement + '>')
+			.addClass(settings.navClass[0])
+			.html(settings.navText[0])
+			.prependTo(this._controls.$relative)
+			.on('click', $.proxy(function(e) {
+				this.prev(settings.navSpeed);
+			}, this));
+		this._controls.$next = $('<' + settings.navElement + '>')
+			.addClass(settings.navClass[1])
+			.html(settings.navText[1])
+			.appendTo(this._controls.$relative)
+			.on('click', $.proxy(function(e) {
+				this.next(settings.navSpeed);
+			}, this));
+
+		// create DOM structure for absolute navigation
+		if (!settings.dotsData) {
 			this._templates = [ $('<div>')
-				.addClass(options.dotClass)
+				.addClass(settings.dotClass)
 				.append($('<span>'))
 				.prop('outerHTML') ];
 		}
 
-		// create controls container if needed
-		if (!options.navContainer || !options.dotsContainer) {
-			this._controls.$container = $('<div>')
-				.addClass(options.controlsClass)
-				.appendTo(this.$element);
-		}
+		this._controls.$absolute = (settings.dotsContainer ? $(settings.dotsContainer)
+			: $('<div>').addClass(settings.dotsClass).appendTo(this.$element)).addClass('disabled');
 
-		// create DOM structure for absolute navigation
-		this._controls.$indicators = options.dotsContainer ? $(options.dotsContainer)
-			: $('<div>').hide().addClass(options.dotsClass).appendTo(this._controls.$container);
-
-		this._controls.$indicators.on('click', 'div', $.proxy(function(e) {
-			var index = $(e.target).parent().is(this._controls.$indicators)
+		this._controls.$absolute.on('click', 'div', $.proxy(function(e) {
+			var index = $(e.target).parent().is(this._controls.$absolute)
 				? $(e.target).index() : $(e.target).parent().index();
 
 			e.preventDefault();
 
-			this.to(index, options.dotsSpeed);
+			this.to(index, settings.dotsSpeed);
 		}, this));
-
-		// create DOM structure for relative navigation
-		this._controls.$relative = options.navContainer ? $(options.navContainer)
-			: $('<div>').addClass(options.navContainerClass).prependTo(this._controls.$container);
-
-		this._controls.$next = $('<' + options.navElement + '>');
-		this._controls.$previous = this._controls.$next.clone();
-
-		this._controls.$previous
-			.addClass(options.navClass[0])
-			.html(options.navText[0])
-			.hide()
-			.prependTo($container)
-			.on('click', $.proxy(function(e) {
-				this.prev(options.navSpeed);
-			}, this));
-		this._controls.$next
-			.addClass(options.navClass[1])
-			.html(options.navText[1])
-			.hide()
-			.appendTo($container)
-			.on('click', $.proxy(function(e) {
-				this.next(options.navSpeed);
-			}, this));
 
 		// override public methods of the carousel
 		for (override in this._overrides) {
 			this._core[override] = $.proxy(this[override], this);
 		}
-	}
+	};
 
 	/**
 	 * Destroys the plugin.
@@ -2961,44 +2946,36 @@
 	 * @protected
 	 */
 	Navigation.prototype.draw = function() {
-		var difference, i, html = '',
-			options = this._core.settings,
-			$items = this._core.$stage.children(),
-			index = this._core.relative(this._core.current());
+		var difference,
+			settings = this._core.settings,
+			disabled = this._core.items().length <= settings.items,
+			index = this._core.relative(this._core.current()),
+			loop = settings.loop || settings.rewind;
 
-		if (options.nav && !options.loop && !options.navRewind) {
-			this._controls.$previous.toggleClass('disabled', index <= 0);
-			this._controls.$next.toggleClass('disabled', index >= this._core.maximum());
+		this._controls.$relative.toggleClass('disabled', !settings.nav || disabled);
+
+		if (settings.nav) {
+			this._controls.$previous.toggleClass('disabled', !loop && index <= this._core.minimum(true));
+			this._controls.$next.toggleClass('disabled', !loop && index >= this._core.maximum(true));
 		}
 
-		this._controls.$previous.toggle(options.nav);
-		this._controls.$next.toggle(options.nav);		
-		//JMS Added to fix control not hidden when only has one page
-		if (options.items >= $items.length) {
-			this._controls.$container.hide();
-		}
-		//JMS end add
-		if (options.dots) {
-			difference = this._pages.length - this._controls.$indicators.children().length;
+		this._controls.$absolute.toggleClass('disabled', !settings.dots || disabled);
 
-			if (options.dotData && difference !== 0) {
-				for (i = 0; i < this._controls.$indicators.children().length; i++) {
-					html += this._templates[this._core.relative(i)];
-				}
-				this._controls.$indicators.html(html);
+		if (settings.dots) {
+			difference = this._pages.length - this._controls.$absolute.children().length;
+
+			if (settings.dotsData && difference !== 0) {
+				this._controls.$absolute.html(this._templates.join(''));
 			} else if (difference > 0) {
-				html = new Array(difference + 1).join(this._templates[0]);
-				this._controls.$indicators.append(html);
+				this._controls.$absolute.append(new Array(difference + 1).join(this._templates[0]));
 			} else if (difference < 0) {
-				this._controls.$indicators.children().slice(difference).remove();
+				this._controls.$absolute.children().slice(difference).remove();
 			}
 
-			this._controls.$indicators.find('.active').removeClass('active');
-			this._controls.$indicators.children().eq($.inArray(this.current(), this._pages)).addClass('active');
+			this._controls.$absolute.find('.active').removeClass('active');
+			this._controls.$absolute.children().eq($.inArray(this.current(), this._pages)).addClass('active');
 		}
-
-		this._controls.$indicators.toggle(options.dots);
-	}
+	};
 
 	/**
 	 * Extends event data.
