@@ -64,11 +64,7 @@ jQuery(function ($) {
 </script>
 
 <div class="addon-title">
-<<<<<<< HEAD
-	<h3>{$addon_title|escape:'htmlall':'UTF-8'}</h3>
-=======
   <h3>{$addon_title|escape:'htmlall':'UTF-8'}</h3>
->>>>>>> localhost
 </div>
 <div class="product-carousel">
 	{foreach from = $products_slides item = products_slide}

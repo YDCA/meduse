@@ -38,3 +38,6 @@ download/
 upload/
 
 /blog/*
+
+*.zip
+preprod.zip
