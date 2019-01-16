@@ -3532,6 +3532,7 @@ header {
     padding-bottom: 30px;
     padding: 10px;
     margin-bottom: 20px;
+		border: 1px dotted #fff;
 }
 .product-preview:hover {
     border: 1px dotted #eee;
