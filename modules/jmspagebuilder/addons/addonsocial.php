@@ -51,15 +51,15 @@ class JmsAddonSocial extends JmsAddonBase
                 'name' => 'facebook_url',
                 'label' => $this->l('FaceBook URL'),
                 'lang' => '0',
-                'desc' => 'our Facebook fan page.',
-                'default' => 'https://www.facebook.com/joommasters2015'
+                'desc' => 'Your Facebook fan page.',
+                'default' => ''
             ),
              array(
                 'type' => 'text',
                 'name' => 'twitter_url',
                 'label' => $this->l('Twitter Url'),
                 'lang' => '0',
-                'desc' => 'Your Linkedin Page.',
+                'desc' => 'Your Twitter Page.',
                 'default' => '#'
             ),
             array(
@@ -67,7 +67,7 @@ class JmsAddonSocial extends JmsAddonBase
                 'name' => 'linkedin_url',
                 'label' => $this->l('LinkedIn Url'),
                 'lang' => '0',
-                'desc' => 'Your official Twitter accounts.',
+                'desc' => 'Your official LinkedIn accounts.',
                 'default' => '#'
             ),
             array(
@@ -80,10 +80,10 @@ class JmsAddonSocial extends JmsAddonBase
             ),
             array(
                 'type' => 'text',
-                'name' => 'google_plus_url',
-                'label' => $this->l('Google Plus Url'),
+                'name' => 'instagram_url',
+                'label' => $this->l('Instagram Url'),
                 'lang' => '0',
-                'desc' => 'You official Google Plus page.',
+                'desc' => 'Your official Instagram account.',
                 'default' => '#'
             ),
             array(
@@ -101,7 +101,7 @@ class JmsAddonSocial extends JmsAddonBase
                 'lang' => '0',
                 'desc' => 'Use When you want overwrite template file'
             )
-            
+
         );
         return $inputs;
     }
@@ -116,7 +116,7 @@ class JmsAddonSocial extends JmsAddonBase
                 'twitter_url' => $addon->fields[3]->value,
                 'linkedin_url' => $addon->fields[4]->value,
                 'youtube_url' => $addon->fields[5]->value,
-                'google_plus_url' => $addon->fields[6]->value,
+                'instagram_url' => $addon->fields[6]->value,
                 'pinterest_url' => $addon->fields[7]->value
         ));
         $this->overwrite_tpl = $addon->fields[count($addon->fields)-1]->value;
