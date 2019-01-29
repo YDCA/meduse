@@ -24,11 +24,11 @@
 *}
 <div id="social_block">
 	<ul class="find-us">
-       {if $facebook_url != ''}<li class="divider"><a href="{$facebook_url|escape:'html':'UTF-8'}" class="facebook"><span class="fa fa-facebook"></span></a></li>{/if}
+			 {if $instagram_url != ''}<li class="divider"><a href="{$instagram_url|escape:'html':'UTF-8'}" class="instagram"><span class="fa fa-instagram"></span></a></li>{/if}
        {if $twitter_url != ''}<li class="divider"><a href="{$twitter_url|escape:'html':'UTF-8'}" class="twitter"><span class="fa fa-twitter"></span></a></li>{/if}
+			 {if $facebook_url != ''}<li class="divider"><a href="{$facebook_url|escape:'html':'UTF-8'}" class="facebook"><span class="fa fa-facebook"></span></a></li>{/if}
        {if $linkedin_url != ''}<li class="divider"><a href="{$linkedin_url|escape:'html':'UTF-8'}" class="linkedin"><span class="fa fa-linkedin"></span></a></li>{/if}
+			 {if $pinterest_url != ''}<li class="divider"><a href="{$pinterest_url|escape:'html':'UTF-8'}" class="pinterest"><span class="fa fa-pinterest"></span></a></li>{/if}
        {if $youtube_url != ''}<li class="divider"><a href="{$youtube_url|escape:'html':'UTF-8'}" class="youtube"><span class="fa fa-youtube"></span></a></li>{/if}
-       {if $google_plus_url != ''}<li class="divider"><a href="{$google_plus_url|escape:'html':'UTF-8'}" class="gplus"><span class="fa fa-google-plus"></span></a></li>{/if}
-		{if $pinterest_url != ''}<li class="divider"><a href="{$pinterest_url|escape:'html':'UTF-8'}" class="pinterest"><span class="fa fa-pinterest"></span></a></li>{/if}            
     </ul>
 </div>

@@ -2012,6 +2012,9 @@ footer .newsletter-btn:hover {
     display: inline-block;
 	margin-right: 50px;
 }
+.find-us .divider:last-child{
+	margin-right: 0;
+}
 .find-us .divider a {
     color: #999;
 }
