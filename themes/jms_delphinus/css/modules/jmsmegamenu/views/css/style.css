@@ -119,6 +119,14 @@
     margin-left: 0;
     padding: 15px 0;
 }
+
+.jms-megamenu .mega-nav .size-col {
+	display: inline-block;
+	border: 1px solid;
+	margin: 10px;
+	padding: 15px;
+}
+
 .jms-megamenu .mega-nav li.group {
     /* padding-top: 48px; */
     border-bottom: 1px solid #ccc;
