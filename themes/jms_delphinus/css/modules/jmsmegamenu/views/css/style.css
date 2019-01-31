@@ -124,10 +124,10 @@
 	display: inline-block;
 	border: 1px solid;
 	margin: 10px;
-	/* padding: 13px; */
+	padding: 0;
 }
 
-.jms-megamenu .mega-nav .size-col:nth-child(6n) {
+.jms-megamenu .mega-nav .size-col:nth-child(5n+1) {
 	margin-right: 0;
 }
 
