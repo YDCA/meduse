@@ -20,6 +20,7 @@
     margin: 0px 10px;
     padding: 0;
     vertical-align: top;
+		position: inherit;
 }
 
 .jms-megamenu .nav > li > a  {
