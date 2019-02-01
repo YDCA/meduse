@@ -29,7 +29,7 @@ Product list Styles
 .content_scene_cat p {
   font-size: 18px;
   margin-bottom: 0;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 ul.product_list .product-name {
   display: inline-block;
@@ -455,23 +455,23 @@ div.selector select {
     text-transform: none;
 	min-width: 100px;
 }
-select:focus, 
-textarea:focus, 
-input[type="text"]:focus, 
-input[type="password"]:focus, 
-input[type="datetime"]:focus, 
-input[type="datetime-local"]:focus, 
-input[type="date"]:focus, 
-input[type="month"]:focus, 
-input[type="time"]:focus, 
-input[type="week"]:focus, 
-input[type="number"]:focus, 
-input[type="email"]:focus, 
-input[type="url"]:focus, 
-input[type="search"]:focus, 
-input[type="tel"]:focus, 
-input[type="color"]:focus, 
-.inputbox:focus, 
+select:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.inputbox:focus,
 .form-control:focus{
 	box-shadow: none;
 	border: 0;
