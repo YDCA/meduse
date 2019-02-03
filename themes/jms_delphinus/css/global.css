@@ -1609,6 +1609,10 @@ header .addon-box {
     padding: 22px 95px;
     z-index: 1000;
 }
+.jms-row.nav-bar {
+	padding: 10px 95px;
+	min-height: inherit;
+}
 .topbar .dropdown-menu > li > a .image_language img {
     margin-right: 5px;
     vertical-align: baseline;
