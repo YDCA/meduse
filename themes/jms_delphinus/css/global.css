@@ -1547,6 +1547,7 @@ header .addon-box {
     line-height: 57px;
     margin: 0;
     width: 100%;
+		padding: 0 95px;
 }
 .btn-group-xs > .btn,
 .btn-xs {
@@ -1607,6 +1608,10 @@ header .addon-box {
     min-height: 102px;
     padding: 22px 95px;
     z-index: 1000;
+}
+.jms-row.nav-bar {
+	padding: 10px 95px;
+	min-height: inherit;
 }
 .topbar .dropdown-menu > li > a .image_language img {
     margin-right: 5px;

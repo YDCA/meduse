@@ -517,9 +517,18 @@
 	.header-bar-7 .topbar-right  .addon-box {
 		display: inline-block;
 		float: none;
-		width: 24%;
+		width: 20%;
 		text-align: center;
 	}
+
+	.header-bar-7 .btn-xs {
+		border: none;
+	}
+
+	#card-block .text-box {
+		display: none;
+	}
+
 	.breadcrumb {
 		padding: 30px 0;
 	}
