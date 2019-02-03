@@ -26,17 +26,17 @@
 <!-- Block user information module HEADER -->
 <div class="btn-group compact-hidden user-info">
 	{if $is_logged}
-		<a class="btn-xs dropdown-toggle" data-toggle="dropdown" class="login account" href="{$link->getPageLink('my-account', true)}" title="{l s='View my customer account' mod='blockuserinfo'}" rel="nofollow">
+		<a class="btn-xs dropdown-toggle" class="login account" href="{$link->getPageLink('my-account', true)}" title="{l s='View my customer account' mod='blockuserinfo'}" rel="nofollow">
 			<span class="text-box">{$cookie->customer_firstname}</span>{if $homepage !=1 || $homepage!=5}<span class="lnr lnr-chevron-down"></span>{/if}
 		</a>
 	{else}
-		<a class="btn-xs dropdown-toggle" data-toggle="dropdown" class="login" href="{$link->getPageLink('my-account', true)}" title="{l s='Login to your customer account' mod='blockuserinfo'}" rel="nofollow">
+		<a class="btn-xs dropdown-toggle" class="login" href="{$link->getPageLink('my-account', true)}" title="{l s='Login to your customer account' mod='blockuserinfo'}" rel="nofollow">
 			<span class="fa fa-user"></span>
 			<!-- <span class="text-box">{l s='Login' mod='blockuserinfo'}</span> -->
 			<span class="lnr lnr-chevron-down"></span>
 		</a>
 	{/if}
-	<ul role="menu" class="dropdown-menu">
+	<!-- <ul role="menu" class="dropdown-menu">
 		<li><a class="wishlist" href="index.php?fc=module&amp;module=blockwishlist&amp;controller=mywishlist" title="{l s='View my Wishlist' mod='blockuserinfo'}" rel="nofollow">
 			<span class="text-box">{l s='Wishlist' mod='blockuserinfo'}</span>
 		</a></li>
@@ -50,5 +50,5 @@
 		{else}
 		<li><a href="{$link->getPageLink('my-account', true)|escape:'html'}" title="{l s='Log in to your customer account' mod='blockuserinfo'}" class="login" rel="nofollow">{l s='Sign in' mod='blockuserinfo'}</a></li>
 		{/if}
-	</ul>
+	</ul> -->
 </div>

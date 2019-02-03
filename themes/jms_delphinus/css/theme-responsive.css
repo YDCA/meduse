@@ -521,6 +521,10 @@
 		text-align: center;
 	}
 
+	.header-bar-7 .btn-xs {
+		border: none;
+	}
+
 	#card-block .text-box {
 		display: none;
 	}
