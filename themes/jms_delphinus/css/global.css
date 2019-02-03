@@ -1610,7 +1610,7 @@ header .addon-box {
     z-index: 1000;
 }
 .jms-row.nav-bar {
-	padding: 10px 95px;
+	padding: 0 95px;
 	min-height: inherit;
 }
 .topbar .dropdown-menu > li > a .image_language img {
@@ -1632,7 +1632,7 @@ header .addon-box {
 
 @media (min-width: 992px) {
 	.mega-menu, .search_block {
-		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 }
 /********* HOME PAGE **********/
