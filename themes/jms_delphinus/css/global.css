@@ -1787,7 +1787,7 @@ header .addon-box {
 }
 
 .addon-title::after {
-    background: rgba(0, 0, 0, 0) url("../img/meduse-sep.png") no-repeat scroll center center;
+    background: rgba(0, 0, 0, 0) url("../img/meduse-sep.svg") no-repeat scroll center center;
     content: "";
     display: inline-block;
     height: 31px;
