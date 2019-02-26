@@ -199,7 +199,7 @@ h6 {
 	color: #444;
 }
 .page-heading {
-    color: #000;
+    color: #5cbdc3;
     font-size: 1.14em;
     font-weight: 700;
     letter-spacing: 0.2em;
@@ -1380,7 +1380,7 @@ table th[class*="col-"] {
 }
 .btn-default,
 .button_large {
-	border: 2px solid #000;
+	border: 2px solid #5cbdc3;
     font-size: 14px;
     padding: 13px 35px;
 }
@@ -1390,7 +1390,7 @@ table th[class*="col-"] {
 }
 
 .button_large:hover{
-	background:#000000;
+	background: #5cbdc3;
 	color: #fff;
 }
 .btn-mega {
@@ -1410,8 +1410,8 @@ table th[class*="col-"] {
 .btn-mega:hover,
 .btn-mega:focus,
 .btn-mega:active {
-	background-color: #000000 ;
-    border-color: #000000;
+	background-color: #5cbdc3;
+    border-color: #5cbdc3;
     color: #fff;
     outline: 0 none !important;
 }
@@ -1450,10 +1450,10 @@ table th[class*="col-"] {
 }
 #button_order_cart {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border-color: #000;
+    border-color: #5cbdc3;
     border-radius: 0;
     border-width: 2px;
-    color: #000;
+    color: #5cbdc3;
     display: inline-block;
     font-family: 'Univers LT Std';
     font-size: 14px;
@@ -1474,7 +1474,7 @@ table th[class*="col-"] {
     text-align: center;
 }
 #button_order_cart:hover {
-    background: #000 none repeat scroll 0 0;
+    background: #5cbdc3 none repeat scroll 0 0;
     color: #fff;
 }
 .btn-group.open .dropdown-toggle{
@@ -3644,7 +3644,7 @@ header {
 }
 .product-info > a,
 .product-info > h2 {
-    color: #000;
+    color: #5cbdc3;
     font-family: 'Univers LT Std';
     font-size: 16px;
     font-weight: 700;
@@ -4038,7 +4038,7 @@ h1.category-name {
 }
 
 .products-list-in-row .product_button .product-btn:hover {
-    border-color: #000;
+    border-color: #5cbdc3;
 }
 .products-list-in-row .list_info {
     margin-top: 17px;
@@ -4377,8 +4377,8 @@ ul.step li.last span {
 }
 ul.step li.step_current {
 		font-weight: bold;
-		background: #d6a916 none repeat scroll 0 0;
-		border-color: #d6a916;
+		background: #5cbdc3 none repeat scroll 0 0;
+		border-color: #5cbdc3;
 }
 ul.step li.step_current span {
       position: relative;
