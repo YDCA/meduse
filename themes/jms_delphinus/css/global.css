@@ -1590,7 +1590,7 @@ header .addon-box {
 }
 
 .banner-top {
-	background: #000;
+	background: #5cbdc3;
 	text-align: center;
 }
 
@@ -1766,7 +1766,7 @@ header .addon-box {
     margin-top: 85px;
 }
 .addon-title {
-    color: #000;
+    color: #939291;
     text-align: center;
 	position: relative;
     text-transform: uppercase;
@@ -1975,7 +1975,7 @@ footer #newsletter_block_left > h4 {
 footer .addon-box li > a {
     color: #666666;
     font-family: 'Univers LT Std';
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 36px;
 }
@@ -2021,7 +2021,7 @@ footer .newsletter-btn:hover {
 	margin-right: 0;
 }
 .find-us .divider a {
-    color: #999;
+    color: #fe78ba9;
 }
 footer .addon-box > #social_block {
     margin-top: 60px;
@@ -2279,8 +2279,13 @@ footer .footer-center .addon-box > #social_block {
     margin-top: 0;
     padding: 4px 0;
 }
+
+.footer-sociaux {
+    text-align: center;
+}
+
 .footer-bottom {
-    color: #999999;
+    color: #fbfbfb;
     font-size: 14px;
     padding: 35px 0;
     text-align: center;
@@ -2481,7 +2486,7 @@ footer .footer-2 .addon-title {
 
 
 .footer-3.footer-bottom {
-    background: #ddd none repeat scroll 0 0;
+    background: #5cbdc3 none repeat scroll 0 0;
 	padding: 35px 0 25px;
 }
 .footer-3.footer-bottom .addon-box > #social_block {
