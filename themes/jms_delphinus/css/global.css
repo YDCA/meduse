@@ -37,7 +37,7 @@ textarea {
   line-height: inherit;
 }
 a {
-	color: #454545;
+	color: #000;
   text-decoration: none;
   outline: none;
   -webkit-transition: all 0.4s;
@@ -3581,7 +3581,7 @@ header {
 	-o-transition: transform 1s ease 0s;
 }
 .product-btn:hover{
-	background: #000;
+	background: #5cbdc3;
 	color: #fff;
 }
 .product-btn .fa-spin,
@@ -3643,7 +3643,8 @@ header {
     width: 100%;
 }
 .product-info > a,
-.product-info > h2 {
+.product-info > h2,
+.product-info > h2 > a {
     color: #5cbdc3;
     font-family: 'Univers LT Std';
     font-size: 16px;
