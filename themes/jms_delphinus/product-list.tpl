@@ -75,14 +75,15 @@
 						<div class="action">
 						{if ($product.id_product_attribute == 0 OR (isset($add_prod_display) AND ($add_prod_display == 1))) AND $product.available_for_order AND !isset($restricted_country_mode) AND $product.minimal_quantity == 1 AND $product.customizable != 2 AND !$PS_CATALOG_MODE}
 							{if ($product.quantity > 0 OR $product.allow_oosp)}
-							<a class="product-btn cart-button btn-default active ajax_add_to_cart_button" data-id-product="{$product.id_product}" href="{$link->getPageLink('cart')|escape:'html':'UTF-8'}?qty=1&amp;id_product={$product.id_product}&amp;token={$static_token}&amp;add" title="{l s='Add to cart'}">
-								{l s="Add to cart"}
+							<!-- <a class="product-btn cart-button btn-default active ajax_add_to_cart_button" data-id-product="{$product.id_product}" href="{$link->getPageLink('cart')|escape:'html':'UTF-8'}?qty=1&amp;id_product={$product.id_product}&amp;token={$static_token}&amp;add" title="{l s='Add to cart'}"> -->
+							<a class="product-btn cart-button btn-default active ajax_add_to_cart_button" data-id-product="{$product.id_product}" href="{$product.link|escape:'html'}" title="{l s='See product'}">
+								{l s="See product"}
 								<span class="fa fa-spin fa-spinner"></span>
 								<span class="fa fa-check"></span>
 							</a>
 							{else}
 								<a href="#" class="product-btn cart-button btn-default ajax_add_to_cart_button disable" title="{l s='Out of Stock' mod="jmspagebuilder"}">
-									{l s="Add to cart"}
+									{l s="Out of Stock"}
 								</a>
 							{/if}
 						{/if}

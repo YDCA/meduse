@@ -1787,7 +1787,7 @@ header .addon-box {
 }
 
 .addon-title::after {
-    background: rgba(0, 0, 0, 0) url("../img/meduse-sep.png") no-repeat scroll center center;
+    background: rgba(0, 0, 0, 0) url("../img/meduse-sep.svg") no-repeat scroll center center;
     content: "";
     display: inline-block;
     height: 31px;
@@ -3608,7 +3608,7 @@ header {
     background: #fff none repeat scroll 0 0;
     border-color: #fff;
     border-radius: 0;
-    color: #000;
+    color: #5cbdc3;
     display: inline-block;
     font-family: 'Univers LT Std';
     font-size: 14px;
@@ -3636,8 +3636,8 @@ header {
 	-o-transform: scale(1);
 }
 .product-preview .cart-button.ajax_add_to_cart_button:hover {
-    background: #000 none repeat scroll 0 0;
-    border-color: #000;
+    background: #5cbdc3 none repeat scroll 0 0;
+    border-color: #5cbdc3;
     color: #fff;
 }
 .product-preview .cart-button.ajax_add_to_cart_button.disable:hover {
