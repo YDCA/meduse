@@ -1381,6 +1381,7 @@ table th[class*="col-"] {
 .btn-default,
 .button_large {
 	border: 2px solid #5cbdc3;
+    color: #5cbdc3;
     font-size: 14px;
     padding: 13px 35px;
 }
