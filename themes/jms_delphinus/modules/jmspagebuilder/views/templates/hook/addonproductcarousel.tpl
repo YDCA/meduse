@@ -104,7 +104,7 @@ jQuery(function ($) {
 							{if ($product.quantity > 0 OR $product.allow_oosp)}
               <!-- <a class="product-btn cart-button btn-default active ajax_add_to_cart_button" data-id-product="{$product.id_product}" href="{$link->getPageLink('cart')|escape:'html':'UTF-8'}?qty=1&amp;id_product={$product.id_product}&amp;token={$static_token}&amp;add" title="{l s='Add to cart' mod='jmspagebuilder'}"> -->
               <a class="product-btn cart-button btn-default active ajax_add_to_cart_button" data-id-product="{$product.id_product}" href="{$product.link|escape:'html'}" title="{l s='See product' mod='jmspagebuilder'}">
-								{$product.link|escape:'html'}{l s='See product' mod='jmspagebuilder'}
+								{l s='See product' mod='jmspagebuilder'}
 								<span class="fa fa-spin fa-spinner"></span>
 								<span class="fa fa-check"></span>
 							</a>
