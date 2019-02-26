@@ -2021,11 +2021,13 @@ footer .newsletter-btn:hover {
 	margin-right: 0;
 }
 .find-us .divider a {
-    color: #fe78ba9;
+    color: #e78ba9;
 }
 footer .addon-box > #social_block {
-    margin-top: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
+
 .the_story_box {
     color: #fff;
     height: 100%;
@@ -2239,7 +2241,7 @@ footer .jms-banner > a::before {
 }
 .footer-2.footer-navbar {
     padding: 90px 0 50px;
-		background-color: #f6f6f6;
+    background-color: #f6f6f6;
 }
 .footer-center .find-us .divider {
     display: inline-block;
@@ -2282,6 +2284,7 @@ footer .footer-center .addon-box > #social_block {
 
 .footer-sociaux {
     text-align: center;
+    background-color: #f6f6f6;
 }
 
 .footer-bottom {
