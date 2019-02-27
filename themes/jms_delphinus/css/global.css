@@ -3604,7 +3604,8 @@ header {
 .product-btn.checked .fa-check{
 	display: inline-block;
 }
-.product-preview  .cart-button.ajax_add_to_cart_button {
+.product-preview  .cart-button.ajax_add_to_cart_button,
+.product-preview  .cart-button.see_button {
     background: #fff none repeat scroll 0 0;
     border-color: #fff;
     border-radius: 0;
@@ -3629,18 +3630,21 @@ header {
 	height: auto;
 }
 .product-preview:hover  .cart-button.ajax_add_to_cart_button,
+.product-preview:hover  .cart-button.see_button,
 .product-preview:hover .product-btn{
 	transform: scale(1);
 	-moz-transform: scale(1);
 	-webkit-transform: scale(1);
 	-o-transform: scale(1);
 }
-.product-preview .cart-button.ajax_add_to_cart_button:hover {
+.product-preview .cart-button.ajax_add_to_cart_button:hover,
+.product-preview .cart-button.see_button:hover {
     background: #5cbdc3 none repeat scroll 0 0;
     border-color: #5cbdc3;
     color: #fff;
 }
-.product-preview .cart-button.ajax_add_to_cart_button.disable:hover {
+.product-preview .cart-button.ajax_add_to_cart_button.disable:hover,
+.product-preview .cart-button.see_button.disable:hover {
     background: #f0f0f0 none repeat scroll 0 0;
     border-color: #f0f0f0;
     color: #ccc;
@@ -4010,7 +4014,8 @@ h1.category-name {
     display: block;
 }
 .products-list-in-row .product_button .product-btn,
-.products-list-in-row .product-preview .product_button .cart-button.ajax_add_to_cart_button {
+.products-list-in-row .product-preview .product_button .cart-button.ajax_add_to_cart_button,
+.products-list-in-row .product-preview .product_button .cart-button.see_button  {
     transform: scale(1);
 	-moz-transform: scale(1);
 	-webkit-transform: scale(1);
@@ -4027,7 +4032,8 @@ h1.category-name {
 .products-list-in-row .product-preview .preview .product_action {
     display: none;
 }
-.products-list-in-row .product-preview .product_button .cart-button.ajax_add_to_cart_button {
+.products-list-in-row .product-preview .product_button .cart-button.ajax_add_to_cart_button,
+.products-list-in-row .product-preview .product_button .cart-button.see_button  {
     line-height: 44px;
     padding: 0 40px;
 	font-family: 'Univers LT Std';
