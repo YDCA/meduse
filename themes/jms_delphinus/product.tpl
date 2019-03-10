@@ -290,6 +290,7 @@
 				{if isset($HOOK_EXTRA_RIGHT) && $HOOK_EXTRA_RIGHT}{$HOOK_EXTRA_RIGHT}{/if}
 			</div>
 		</div> <!-- end pb-right-column-->
+		<div class="clearfix"></div>
 
 		{if isset($accessories) && $accessories}
 			<!--Accessories -->
