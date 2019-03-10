@@ -286,83 +286,82 @@
 					{$HOOK_PRODUCT_OOS}
 				</div>
 			</div>
-
 			<div class="social_sharing_product">
 				{if isset($HOOK_EXTRA_RIGHT) && $HOOK_EXTRA_RIGHT}{$HOOK_EXTRA_RIGHT}{/if}
 			</div>
+		</div> <!-- end pb-right-column-->
 
-			{if isset($accessories) && $accessories}
-				<!--Accessories -->
-				<section class="slider-products accessories_block">
-					<div class="addon-title">
-						<h2>
-							{l s='Accessories'}
-						</h2>
-					</div>
-					<div class="products_category">
-						<div class="accessories-carousel">
-							{foreach from=$accessories item=accessory name=accessories_list}
-								{if ($accessory.allow_oosp || $accessory.quantity_all_versions > 0 || $accessory.quantity > 0) && $accessory.available_for_order && !isset($restricted_country_mode)}
-										{assign var='accessoryLink' value=$link->getProductLink($accessory.id_product, $accessory.link_rewrite, $accessory.category)}
-								<div class="item ajax_block_product" itemscope itemtype="http://schema.org/Product">
-									<div class="product-preview {if $phover == 'image_swap'}image_swap{/if}">
-										<div class="preview">
-											<a href="{$accessoryLink|escape:'html':'UTF-8'}" title="{$accessory.legend|escape:'html':'UTF-8'}" class="product-image product_image">
-												<img class="img-responsive" src="{$link->getImageLink($accessory.link_rewrite, $accessory.id_image, 'home_default')|escape:'html':'UTF-8'}" alt="{$accessory.legend|escape:'html':'UTF-8'}" width="{$homeSize.width}" height="{$homeSize.height}"/>
+		{if isset($accessories) && $accessories}
+			<!--Accessories -->
+			<section class="slider-products accessories_block">
+				<div class="addon-title">
+					<h2>
+						{l s='Accessories'}
+					</h2>
+				</div>
+				<div class="products_category">
+					<div class="accessories-carousel">
+						{foreach from=$accessories item=accessory name=accessories_list}
+							{if ($accessory.allow_oosp || $accessory.quantity_all_versions > 0 || $accessory.quantity > 0) && $accessory.available_for_order && !isset($restricted_country_mode)}
+									{assign var='accessoryLink' value=$link->getProductLink($accessory.id_product, $accessory.link_rewrite, $accessory.category)}
+							<div class="item ajax_block_product" itemscope itemtype="http://schema.org/Product">
+								<div class="product-preview {if $phover == 'image_swap'}image_swap{/if}">
+									<div class="preview">
+										<a href="{$accessoryLink|escape:'html':'UTF-8'}" title="{$accessory.legend|escape:'html':'UTF-8'}" class="product-image product_image">
+											<img class="img-responsive" src="{$link->getImageLink($accessory.link_rewrite, $accessory.id_image, 'home_default')|escape:'html':'UTF-8'}" alt="{$accessory.legend|escape:'html':'UTF-8'}" width="{$homeSize.width}" height="{$homeSize.height}"/>
+										</a>
+										<div class="product_action">
+											<a class="addToWishlist product-btn" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$accessoryLink.id_product|escape:'html'}', false, 1); return false;" data-id-product="{$accessoryLink.id_product|escape:'html'}" title="{l s='Add to Wishlist' mod='jmspagebuilder'}">
+												<span class="fa fa-heart"></span>
 											</a>
-											<div class="product_action">
-												<a class="addToWishlist product-btn" href="#" onclick="WishlistCart('wishlist_block_list', 'add', '{$accessoryLink.id_product|escape:'html'}', false, 1); return false;" data-id-product="{$accessoryLink.id_product|escape:'html'}" title="{l s='Add to Wishlist' mod='jmspagebuilder'}">
-													<span class="fa fa-heart"></span>
-												</a>
-												{if isset($comparator_max_item) && $comparator_max_item}
-												<a class="add_to_compare product-btn" href="{$accessoryLink.link|escape:'html':'UTF-8'} " data-id-product="{$accessoryLink.id_product}" title="{l s='Add to Compare' mod='jmspagebuilder'}">
-													<span class="fa fa-exchange"></span>
-													<span class="fa fa-spin fa-spinner"></span>
-													<span class="fa fa-check"></span>
-												</a>
-												{/if}
-												<a data-link="{$accessoryLink|escape:'html':'UTF-8'}" class="quick-view btn-radius-square product-btn hidden-xs" title="{l s='Quick View'}">
-													<span class="fa fa-search"></span>
-												</a>
-											</div>
-											<div class="action">
-												<a class="product-btn cart-button btn-default active ajax_add_to_cart_button" data-id-product="{$accessory.id_product|intval}" href="{$link->getPageLink('cart', true, NULL, 'qty=1&amp;id_product={$accessory.id_product|intval}&amp;token={$static_token}&amp;add')|escape:'html':'UTF-8'}" title="{l s='Add to cart'}">
-													{l s="Add to cart"}
-													<span class="fa fa-spin fa-spinner"></span>
-													<span class="fa fa-check"></span>
-												</a>
-												{else}
-												<a href="#" class="product-btn cart-button btn-default ajax_add_to_cart_button disable" title="{l s='Out of Stock'}">
-													{l s="Add to cart"}
-												</a>
-												{/if}
-											</div>
+											{if isset($comparator_max_item) && $comparator_max_item}
+											<a class="add_to_compare product-btn" href="{$accessoryLink.link|escape:'html':'UTF-8'} " data-id-product="{$accessoryLink.id_product}" title="{l s='Add to Compare' mod='jmspagebuilder'}">
+												<span class="fa fa-exchange"></span>
+												<span class="fa fa-spin fa-spinner"></span>
+												<span class="fa fa-check"></span>
+											</a>
+											{/if}
+											<a data-link="{$accessoryLink|escape:'html':'UTF-8'}" class="quick-view btn-radius-square product-btn hidden-xs" title="{l s='Quick View'}">
+												<span class="fa fa-search"></span>
+											</a>
 										</div>
-										<div class="product-info">
-											<a href="{$accessoryLink|escape:'html':'UTF-8'}" itemprop="url">{$accessory.name|truncate:25:'...':true|escape:'html':'UTF-8'}</a>
-											{if !$PS_CATALOG_MODE && ($accessory.allow_oosp || $accessory.quantity > 0)}
-											<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-												{if isset($accessory.specific_prices) && $accessory.specific_prices && isset($accessory.specific_prices.reduction) && $accessory.specific_prices.reduction > 0}
-												{hook h="displayProductPriceBlock" product=$accessoryLink type="old_price"}
-												<span class="old price">
-													{displayWtPrice p=$accessory.price_without_reduction}
-												</span>
-												{/if}
-												{if $accessory.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}<span class="price new" itemprop="price">{if !$priceDisplay}{convertPrice price=$accessory.price}{else}{convertPrice price=$accessory.price_tax_exc}{/if}</span>{/if}
-												<meta itemprop="priceCurrency" content="{$currency->iso_code}" />
-											</div>
+										<div class="action">
+											<a class="product-btn cart-button btn-default active ajax_add_to_cart_button" data-id-product="{$accessory.id_product|intval}" href="{$link->getPageLink('cart', true, NULL, 'qty=1&amp;id_product={$accessory.id_product|intval}&amp;token={$static_token}&amp;add')|escape:'html':'UTF-8'}" title="{l s='Add to cart'}">
+												{l s="Add to cart"}
+												<span class="fa fa-spin fa-spinner"></span>
+												<span class="fa fa-check"></span>
+											</a>
+											{else}
+											<a href="#" class="product-btn cart-button btn-default ajax_add_to_cart_button disable" title="{l s='Out of Stock'}">
+												{l s="Add to cart"}
+											</a>
+											{/if}
+										</div>
+									</div>
+									<div class="product-info">
+										<a href="{$accessoryLink|escape:'html':'UTF-8'}" itemprop="url">{$accessory.name|truncate:25:'...':true|escape:'html':'UTF-8'}</a>
+										{if !$PS_CATALOG_MODE && ($accessory.allow_oosp || $accessory.quantity > 0)}
+										<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+											{if isset($accessory.specific_prices) && $accessory.specific_prices && isset($accessory.specific_prices.reduction) && $accessory.specific_prices.reduction > 0}
+											{hook h="displayProductPriceBlock" product=$accessoryLink type="old_price"}
+											<span class="old price">
+												{displayWtPrice p=$accessory.price_without_reduction}
+											</span>
+											{/if}
+											{if $accessory.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}<span class="price new" itemprop="price">{if !$priceDisplay}{convertPrice price=$accessory.price}{else}{convertPrice price=$accessory.price_tax_exc}{/if}</span>{/if}
+											<meta itemprop="priceCurrency" content="{$currency->iso_code}" />
 										</div>
 									</div>
 								</div>
-								{/if}
-							{/foreach}
-						</div>
+							</div>
+							{/if}
+						{/foreach}
 					</div>
-				</section>
-				<!--end Accessories -->
-			{/if}
+				</div>
+			</section>
+			<!--end Accessories -->
+		{/if}
 
-		</div> <!-- end pb-right-column-->
 		{if !$content_only}
 			<div id="more_info_block">
 				<div class="tabs-info">
