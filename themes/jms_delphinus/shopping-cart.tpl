@@ -497,7 +497,7 @@
 									{if isset($address.formated[$key]) && !empty($address.formated[$key])}
 										{if (!$addedli)}
 											{$addedli = true}
-											<li><i class="fa fa fa-check-square-o"></i><span class="{if isset($addresses_style[$key])}{$addresses_style[$key]}{/if}">
+											<li><span class="{if isset($addresses_style[$key])}{$addresses_style[$key]}{/if}">
 										{/if}
 										{$address.formated[$key]|escape:'html':'UTF-8'}
 									{/if}
