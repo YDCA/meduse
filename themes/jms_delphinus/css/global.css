@@ -2510,7 +2510,7 @@ footer .footer-2 .addon-title {
 	line-height: 18px;
 }
 .rating .icon.star-full::before{
-	color: #6fd9e9;
+	color: #5cbdc3;
 }
 .star {
 	display:inline-block;
@@ -2525,7 +2525,7 @@ footer .footer-2 .addon-title {
 	line-height: 18px;
 }
 .star.star_hover > a::before {
-	color: #6fd9e9;
+	color: #5cbdc3;
 }
 .product-preview .rating .nbcomments {
     display: none;
@@ -3100,7 +3100,7 @@ footer .footer-2 .addon-title {
     top: 16px;
 }
 .label-box.sale-box {
-    background: #6fd9e9 none repeat scroll 0 0;
+    background: #5cbdc3 none repeat scroll 0 0;
 }
 
 .label-box::after {
@@ -3114,7 +3114,7 @@ footer .footer-2 .addon-title {
     position: absolute;
 }
 .label-box.sale-box::after {
-    border-top-color: #6fd9e9;
+    border-top-color: #5cbdc3;
 }
 .section-categories-list {
     margin: 90px 0 0;
@@ -3660,7 +3660,8 @@ header {
 }
 .product-info > a,
 .product-info > h2,
-.product-info > h2 > a {
+.product-info > h2 > a,
+.product-info > h5 > a  {
     color: #5cbdc3;
     font-family: 'Univers LT Std';
     font-size: 16px;
@@ -4507,7 +4508,7 @@ ul.step li em {
 .cart_avail > span {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border-radius: 0;
-    color: #6fd9e9;
+    color: #5cbdc3;
     font-size: 14px;
     font-weight: 400;
     padding: 0;
