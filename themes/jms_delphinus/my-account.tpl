@@ -38,7 +38,7 @@
 	{/if}
 	<li><a href="{$link->getPageLink('history', true)}" title="{l s='Orders'}"><i class="fa fa-history"></i> {l s='Order history and details '}</a></li>
 	{if $returnAllowed}
-		<li><a href="{$link->getPageLink('order-follow', true)}" title="{l s='Merchandise returns'}"><span class="icon_clock_alt"></span> {l s='My merchandise returns'}</a></li>
+		<li><a href="{$link->getPageLink('order-follow', true)}" title="{l s='Merchandise returns'}"><i class="fa fa-truck"></i> {l s='My merchandise returns'}</a></li>
 	{/if}
 	<li><a href="{$link->getPageLink('order-slip', true)}" title="{l s='Credit slips'}"><i class="fa fa-book"></i>{l s='My credit slips'}</a></li>
 	<li><a href="{$link->getPageLink('addresses', true)}" title="{l s='Addresses'}"><i class="fa fa-map-marker"></i> {l s='My addresses'}</a></li>
