@@ -3660,7 +3660,8 @@ header {
 }
 .product-info > a,
 .product-info > h2,
-.product-info > h2 > a {
+.product-info > h2 > a,
+.product-info > h5 > a  {
     color: #5cbdc3;
     font-family: 'Univers LT Std';
     font-size: 16px;
