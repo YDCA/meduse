@@ -1,0 +1,518 @@
+NOTICE OF LICENSE
+
+This source file is subject to a trade license awarded by
+Garamo Online L.T.D.
+
+Any use, reproduction, modification or distribution
+of this source file without the written consent of
+Garamo Online L.T.D it is prohibited.
+
+@author    Reaction Code <info@reactioncode.com>
+@copyright 2015-2018 Garamo Online L.T.D
+@license   Commercial license
+
+PREMIUM GOOGLE ANALYTICS ENHANCED E-COMMERCE
+-------------------------------------------
+*******************************************
+* 4.2.5 (November 15, 2018)
+*******************************************
+Added
+    - Added Country iso variable for remarketing prefixes
+Fixed
+    - fixed init gtag issue on empty adwords configurations
+*******************************************
+* 4.2.4 (October 16, 2018)
+*******************************************
+Fixed
+    - fixed quick view product redirection on bad integrations
+    - fixed addblock detection
+*******************************************
+* 4.2.3 (September 23, 2018)
+*******************************************
+Fixed
+    - allow product redirection on exceptional XHR server issue
+*******************************************
+* 4.2.2 (August 31, 2018)
+*******************************************
+Fixed
+    - fixed source / medium on BO transactions
+*******************************************
+* 4.2.1 (August 16, 2018)
+*******************************************
+    - fixed product cache price on product page
+    - updated online guide url
+*******************************************
+* 4.2.0 (July 18, 2018)
+*******************************************
+Improves
+    - added referral exclusion list for manual transactions
+    - improved source / medium tracking
+    - improved event on aborted transactions
+    - improved remarketing dimensions
+    - improved code performance
+*******************************************
+* 4.1.2 (July 9, 2018)
+*******************************************
+Improves
+    - added full events on quick view mode
+    - added detection for advanced search filtered view enabled
+Fixes
+    - fixed revenue value on order confirmation page
+    - fixed custom dimension ids on order confirmation page
+*******************************************
+* 4.1.1 (July 5, 2018)
+*******************************************
+Fixes
+    - fixed on order complete set transaction on control table
+*******************************************
+* 4.1.0 (July 4, 2018)
+*******************************************
+Improves
+    - added panel on back office order view to manage manually tracking status
+    - improved order sources for manual transaction
+Fixes
+    - fixed remove transaction value on splitted order
+    - fixed sign up events in OPC scenarios
+*******************************************
+* 4.0.2 (June 5, 2018)
+*******************************************
+Fixes
+    - fixed order set to control table when the order has not been really send to GA
+    - fixed event add to cart on quick view
+*******************************************
+* 4.0.1 (May 19, 2018)
+*******************************************
+Improves
+    - code performance
+    - added event to track search terms
+Fixes
+    - fixed unexpected event of aborted transaction by do not track on correct transaction
+    - fixed lists values
+    - fixed list_position on products with non default variant
+    - fixed product positions on pagination
+*******************************************
+* 4.0.0 (May 15, 2018)
+*******************************************
+Improves
+    - revamped with new tracking script Global Site Tag
+    - added option to honor the Do Not Track browser setting to be more compliant with GDPR
+    - added site speed sample rate value
+    - added google optimize feature
+    - added save customer id in control table
+    - added event goals to track sign ups
+    - added event goals to track social interactions on product page
+    - added event goals to track add to wish list on product page
+    - added event values for worthy events
+    - added on BO transactions send if is possible customer id to avoid missing AdWords transactions
+    - added control event to track transactions missed by addblock or similars
+    - added custom dimension ecomm_category for AdWords Remarketing
+    - improved code performance
+Fixes
+    - fixed split products on checkout and order transactions if is necessary
+    - fixed bounces distortion on product detail event setting it as non interaction
+    - fixed send updated product view on each attribute change
+*******************************************
+* 3.3.0 (December 27, 2017)
+*******************************************
+Improves
+    - added event Values Configurable
+    - added new fields on control table (sent_date and sent_from)
+    - scroll tracking
+
+Fixes
+    - ajax process for PS versions lower than 1.6.1
+
+*******************************************
+* 3.2.0 (November 9, 2017)
+*******************************************
+Improves
+    - new menu style
+    - added compatibility for Klarnaofficial
+    - added compatibility for best-kit one page checkout
+    - utm data when send order to GA from BO
+
+*******************************************
+* 3.1.4 (October 8, 2017)
+*******************************************
+Fixes
+    - fixed send orders to GA from BO, check if order status is on invalid statuses list
+
+*******************************************
+* 3.1.3 (August 21, 2017)
+*******************************************
+
+Fixes
+    - fixed price on cached products without variant
+
+*******************************************
+* 3.1.2 (July 4, 2017)
+*******************************************
+
+Improves
+	- added Security token for ajax request
+	- improved order log feature
+	- improved scroll tracking performance
+
+*******************************************
+* 3.1.1 (June 23, 2017)
+*******************************************
+
+Fixes
+	- fixed events with click + ctrl or click + shift
+
+*******************************************
+* 3.1.0 (May 17, 2017)
+*******************************************
+
+Improves
+    - new branding name ReactionCode
+    - custom hook for themes without hook_footer
+    - new online guide
+    - code performance
+
+*******************************************
+* 3.0.2 (March 31, 2017)
+*******************************************
+
+Improves
+    - Support to advanced payment from Advanced EU Compliance module
+
+Fixes
+    - Fixed adwords conversion tag with PS performance feature Move JS to end
+    - updated adwords conversion tag with google_conversion_order_id feature
+
+*******************************************
+3.0.1 (February 19, 2017)
+*******************************************
+
+Fixes
+    - issues on PS1.5 module installation
+    - remove from blockcart on PS1.5
+
+*******************************************
+* 3.0.0 (January 26, 2017)
+*******************************************
+
+Improves
+    - New integration guide.
+    - Select which order statuses don't send transaction to GA.
+    - Select which order statuses sends refund to GA.
+    - improved code performance
+
+Fixes
+    - fixed some issues in curl transactions
+
+*******************************************
+* 2.1.3 (December 15, 2016)
+*******************************************
+
+Fixes
+    - fixed send empty products to GA on update order status
+
+*******************************************
+* 2.1.2 (December 10, 2016)
+*******************************************
+Fixes
+    - fixed typo in footer does not enable the debug order log feature
+
+*******************************************
+* 2.1.1 (December 05, 2016)
+*******************************************
+
+Fixes
+    - fixed Shipping selection on checkout with virtual products
+    - fixed track payments with JS submit
+
+*******************************************
+* 2.1.0 (November 22, 2016)
+*******************************************
+
+Improves
+    - Added Enable / Disable Debug and order log features
+    - Added variants for dynamic remarketing
+    - Added User-ID on PHP transactions
+    - improved adblock detection and order log data
+    - improved compatibility tags on 3rd party opc-modules
+    - improved code performance
+
+Fixes
+    - fixed events blocked due back cache on Safari browsers
+    - fixed product language mismatch when sent orders to GA on multilingual sites
+    - fixed products position on instant search pages
+    - fixed send to GA all coupons used on order as "coupon1 / coupon2 / ..."
+    - fixed noninteraction only for scrollTracking
+    - fixed source and document_referrer on PHP transactions
+    - fixed affiliation data, should be shop-name or shop-name-lang
+
+*******************************************
+2.0.6 (July 10, 2016)
+*******************************************
+
+Improves
+    - Avoid QuickView link redirection in some custom themes
+
+Fixes
+    - few php warnings *Thanks To Ciro*
+
+*******************************************
+2.0.5 (July 02, 2016)
+*******************************************
+
+Improves
+    - Custom dimensions undefined in scroll tracking
+    - Retrieve correctly product Data on events
+    - Product query compliant with PS 1.6.0.14 and down
+
+*******************************************
+2.0.1 (Juny 02, 2016)
+*******************************************
+
+Improves
+    - Installation: compatibility with PHP versions older than 5.4
+
+*******************************************
+* 2.0.0 (May 10, 2016)
+*******************************************
+
+Improves
+    - Anonymize IP feature.
+    - Cross domain tracking feature.
+    - Indexable Custom Dimensions feature.
+    - Compatibility with Klarna Checkout Module.
+    - Debug order mode, creates a log of ga queue in order complete.
+    - Installation: copy actual orders to control DB. (avoid resend orders sent by older tracking modules).
+    - improved performance on Dynamic Tracking.
+
+Fixes
+    - fixed save configuration in multistore PS 1.5.*
+    - fixed link redirection.
+    - fixed Compatibility With Firefox Tracking Protection.
+    - fixed don't save order to DB when orders are not send to GA by soft blockers like (ublock, Addblock, Ghostery, etc..)
+    - fixed message GIF89a in manual transactions
+    - fixed added order currency / affiliation /source in manual transactions.
+    - fixed affiliation name in transactions created by marketplaces modules like Amazon, or eBay
+
+*******************************************
+1.9.5 (March 07, 2016)
+*******************************************
+
+Improves
+    - New debug feature, creates Log file for orders send to GA.
+
+Fixes
+    - fixed payment redirections on new browsers.
+    - fixed DB when orders are not send to GA by soft blockers like (ublock, Addblock, Ghostery, etc..).
+    - fixed save configuration in PS1.5 multistore
+    - Minor fixes.
+
+*******************************************
+* 1.9.2 (November 26, 2015)
+*******************************************
+
+Fixes
+    - fixed Compatibility with PS 1.6.2 "Move Javascript to the end".
+    - fixed response from curl transactions.
+    - fixed Order Bulk Actions set id_shop 0 in control database.
+    - fixed bounce rates dropped by scroll tracking interactions.
+    - fixed var not defined in chekout process.
+
+*******************************************
+* 1.9.1 (October 29, 2015)
+*******************************************
+
+Fixes
+    - fixed send to GA direct orders from marketplaces modules.
+    - fixed send manual orders in PS 1.5.x.
+
+*******************************************
+* 1.9.0 (October 22, 2015)
+*******************************************
+
+Improves
+    - Send manually orders to GA when oder status change.
+    - Improves Code Performance.
+
+Fixes
+    - fixed products in 5 step checkout *Thanks to Gorka*.
+    - fixed After order is sent to GA set the order in DB.
+    - fixed url tracking name in opc.
+    - fixed some orders not send to GA.
+    - fixed conserve database when uninstall or reinstall.
+
+*******************************************
+* 1.8.4 (October 08, 2015)
+*******************************************
+
+Improves
+    - Compatibility for onepagecheckout module by Zelarg
+    - Improves code performance.
+    - Send orders with OOS products to GA.
+
+Fixes
+    - Footer template error when ID Google Analytics empty.
+    - No null redirection when cart Ajax is disabled.
+
+*******************************************
+* 1.8.3 (September 24, 2015)
+*******************************************
+
+Improves
+    - Compatibility for supercheckout module by knowband
+    - Compatibility for onepagecheckoutps module by PresTeam
+    - Check if the order is valid.
+    - Bypass validation order on payment modules like bankwire or cheque.
+
+Fixes
+    - Code outside header when "Move JavaScript to the end" is enabled
+
+*******************************************
+* 1.8.2 (August 19, 2015)
+*******************************************
+
+Improves
+    - New Feature, Set products rate to send to GA. (Fixs GA payload limits).
+    - Database orders to GA compliant with multishop.
+    - Callbacks blocked by Ublock or similars.
+    - Console messages for debug.
+
+*******************************************
+* 1.8.1 (August 8, 2015)
+*******************************************
+
+Improves
+    - New Feature, Traking products list by ajax.
+    - Avoid to send the orders to GA more than 1 time.
+    - Improves templates compatibility.
+
+*******************************************
+* 1.7.3 (July 8, 2015)
+*******************************************
+
+Improves
+    - Affiliation host name for GA
+    - ordercomplete tracking compatibility with some payments modules.
+
+*******************************************
+* 1.7.2 (July 1, 2015)
+*******************************************
+
+Improves
+    - New Feature, Disable Tracking for Employees in Front Office
+    - Improves templates compatibility
+
+Fixes
+    - Issue with affiliation url track in ordercomplete
+    - Redirection issue on Quick View mode
+    - Add to cart on Quick View mode
+
+*******************************************
+* 1.7.1 (June 11, 2015)
+*******************************************
+
+Improves
+    - New Feature Adwords Conversion Tracking
+    - Better code performance
+
+Fixes
+    - Issue with Tax Prices on checkout and comparsion section
+    - Fix default variant on product view
+
+*******************************************
+1.6.1 (May 25, 2015)
+*******************************************
+
+Improves
+    - Full GA Dynamic Remarketing.
+
+*******************************************
+* 1.5.3 (May 04, 2015)
+*******************************************
+
+Improves
+    - Track logging status on 1st step of 5 step checkout.
+
+Fixes
+    - Fixed Increment override on PS1.6 (causes a blank category page).
+    - Fixed send options payment and carrier together to GA on opc.
+
+*******************************************
+* 1.5.2 (April 04, 2015)
+*******************************************
+
+Improves
+    - New step by step manual.
+    - Tracking Events in Comparsion page.
+    - Improves Home page product tracking
+
+Fixes
+    - Bug in Comparsion pages
+    - Fixed info sent in payment method
+
+*******************************************
+* 1.5.1 (March 01, 2015)
+*******************************************
+
+Improves
+    - Hint on module configuration with link to documentation.
+    - Tracking Events in Home page with official modules (Bestsellers, HomeFeatured, New Products).
+    - Improves Events Tracking compatibility.
+
+Fixes
+    - Minor bug fixes.
+
+*******************************************
+* 1.5.0 (February 27, 2015)
+*******************************************
+
+Improves
+    - Tracking Events in Search Results.
+    - Tracking Events in TopSellers.
+    - Tracking Events in Newest Products.
+    - Tracking Events in other products lists.
+    - Console Messages on template errors.
+    - Improves events tracking.
+
+Fixes
+    - Fixed stop linking redirections in Themes with bad tag integration.
+    - Fixed product tags sent to GA.
+    - Minor bug fixes.
+
+*******************************************
+* 1.4.2 (February 6, 2015)
+*******************************************
+
+Improves
+    - Enabled Session Unification, User-ID tracking.
+
+Fixes
+    - Fixed compatibility with PS 1.5.x
+    - Minor bug fixes.
+
+*******************************************
+* 1.4.1 (February 4, 2015)
+*******************************************
+
+Improves
+    - Enabled enhanced link attribution.
+    - Enabled Demographics and Interest Reports.
+    - Inproved theme click events compatibility
+
+Fixes
+    - Fixed issue on refunds.
+    - Minor bug fixes.
+
+*******************************************
+* 1.3 (January 24, 2015)
+*******************************************
+
+Fixes
+    - Fixed carrier and payment method One Page Checkout.
+    - Fixed bug with Paypal Payment.
+
+*******************************************
+* 1.2 (January 18, 2015)
+*******************************************
+
+Fixes
+    - Fixed Category Bug with 3rd Party CMS Plugins.
+    - Fixed SendPageView if tracking page name is null.
