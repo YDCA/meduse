@@ -2321,6 +2321,9 @@ footer .footer-2 .addon-title {
 	margin-bottom: 30px;
     width: 100%;
 }
+.product-preview .quick-view {
+	display: none;
+}
 .section-products .product-preview:last-child{
 	margin-bottom: 0;
 }
