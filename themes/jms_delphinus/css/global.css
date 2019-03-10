@@ -1976,9 +1976,9 @@ footer #newsletter_block_left > h4 {
 footer .addon-box li > a {
     color: #666666;
     font-family: 'Univers LT Std';
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 30px;
 }
 footer .addon-box li > a:hover{
 	color: #000;
@@ -2320,6 +2320,9 @@ footer .footer-2 .addon-title {
     display: inline-block;
 	margin-bottom: 30px;
     width: 100%;
+}
+.product-preview .quick-view {
+	display: none;
 }
 .section-products .product-preview:last-child{
 	margin-bottom: 0;
@@ -4403,8 +4406,8 @@ ul.step li.step_current span {
 @media (min-width: 992px) {
       ul.step li.step_current span {
         padding-left: 48px;
-		background: #d6a916 none repeat scroll 0 0;
-		border-color: #d6a916;
+		background: #5cbdc3 none repeat scroll 0 0;
+		border-color: #5cbdc3;
       }
 }
 ul.step li.step_current_end {
