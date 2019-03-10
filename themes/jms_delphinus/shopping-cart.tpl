@@ -47,15 +47,15 @@
 {elseif $PS_CATALOG_MODE}
 	<p class="alert alert-warning">{l s='This store has not accepted your new order.'}</p>
 {else}
-	<p style="display:none" id="emptyCartWarning" class="alert alert-warning">{l s='Your shopping cart is empty.'}</p>	
+	<p style="display:none" id="emptyCartWarning" class="alert alert-warning">{l s='Your shopping cart is empty.'}</p>
 	{assign var='total_discounts_num' value="{if $total_discounts != 0}1{else}0{/if}"}
 	{assign var='use_show_taxes' value="{if $use_taxes && $show_taxes}2{else}0{/if}"}
 	{assign var='total_wrapping_taxes_num' value="{if $total_wrapping != 0}1{else}0{/if}"}
 	<div class="row">
-	<section class="col-md-12 col-lg-12"> 
+	<section class="col-md-12 col-lg-12">
 		<section class="content-box">
-			<div class="shopping-cart"> 
-			<div id="order-detail-content" class="table_block table-responsive box">		
+			<div class="shopping-cart">
+			<div id="order-detail-content" class="table_block table-responsive box">
 				<table id="cart_summary" class="table table-bordered">
 					<thead>
 						<tr>
@@ -67,7 +67,7 @@
 							{/if}
 							<th class="cart_unit item">{l s='Unit price'}</th>
 							<th class="cart_quantity item">{l s='Qty'}</th>
-							<th class="cart_total item">{l s='Total'}</th>							
+							<th class="cart_total item">{l s='Total'}</th>
 						</tr>
 					</thead>
 					<tfoot>
@@ -85,11 +85,11 @@
 											{/if}
 											<h3>{l s='Vouchers'}</h3>
 											<form action="{if $opc}{$link->getPageLink('order-opc', true)}{else}{$link->getPageLink('order', true)}{/if}" method="post" id="voucher" class="form-horizontal form-inline">
-												<div class="form-group col-sm-8">											
+												<div class="form-group col-sm-8">
 													<input type="text" class="discount_name form-control" id="discount_name" name="discount_name" value="{if isset($discount_name) && $discount_name}{$discount_name}{/if}" />
-												</div>	
+												</div>
 												<input type="hidden" name="submitDiscount" />
-												<button type="submit" name="submitAddDiscount" class="btn btn-default col-sm-4"><span>{l s='Apply Coupon'}</span></button>					
+												<button type="submit" name="submitAddDiscount" class="btn btn-default col-sm-4"><span>{l s='Apply Coupon'}</span></button>
 											</form>
 											{if $displayVouchers}
 												<p id="title" class="title-offers">{l s='Take advantage of our exclusive offers:'}</p>
@@ -117,12 +117,12 @@
 												</ul>
 											{/if}
 											<h3>{l s='Vouchers'}</h3>
-											<form action="{if $opc}{$link->getPageLink('order-opc', true)}{else}{$link->getPageLink('order', true)}{/if}" method="post" id="voucher">										
-												<div class="form-group">
+											<form action="{if $opc}{$link->getPageLink('order-opc', true)}{else}{$link->getPageLink('order', true)}{/if}" method="post" id="voucher">
+												<div class="form-group col-sm-8">
 													<input type="text" class="discount_name form-control" id="discount_name" name="discount_name" value="{if isset($discount_name) && $discount_name}{$discount_name}{/if}" />
-												</div>	
+												</div>
 												<input type="hidden" name="submitDiscount" />
-												<button type="submit" name="submitAddDiscount" class="btn btn-default"><span>{l s='Apply Coupon'}</span></button>
+												<button type="submit" name="submitAddDiscount" class="btn btn-default col-sm-4"><span>{l s='Apply Coupon'}</span></button>
 											</form>
 											{if $displayVouchers}
 												<p id="title" class="title-offers">{l s='Take advantage of our exclusive offers:'}</p>
@@ -153,9 +153,9 @@
 										<form action="{if $opc}{$link->getPageLink('order-opc', true)}{else}{$link->getPageLink('order', true)}{/if}" method="post" id="voucher">
 											<div class="form-group">
 												<label for="coupon">Enter your coupon code if you have one</label>
-												<input type="text" class="discount_name form-control" id="discount_name" name="discount_name" value="{if isset($discount_name) && $discount_name}{$discount_name}{/if}" />							
-											</div>	
-											<input type="hidden" name="submitDiscount" />	
+												<input type="text" class="discount_name form-control" id="discount_name" name="discount_name" value="{if isset($discount_name) && $discount_name}{$discount_name}{/if}" />
+											</div>
+											<input type="hidden" name="submitDiscount" />
 											<button type="submit" name="submitAddDiscount" class="btn btn-default">
 												<span>{l s='Apply Coupon'}</span>
 											</button>
@@ -270,7 +270,7 @@
 						{assign var='have_non_virtual_products' value=false}
 						{foreach $products as $product}
 							{if $product.is_virtual == 0}
-								{assign var='have_non_virtual_products' value=true}						
+								{assign var='have_non_virtual_products' value=true}
 							{/if}
 							{assign var='productId' value=$product.id_product}
 							{assign var='productAttributeId' value=$product.id_product_attribute}
@@ -366,7 +366,7 @@
 									</tr>
 									{assign var='quantityDisplayed' value=$quantityDisplayed+$customization.quantity}
 								{/foreach}
-		
+
 								{* If it exists also some uncustomized products *}
 								{if $product.quantity-$quantityDisplayed > 0}{include file="$tpl_dir./shopping-cart-product-line.tpl" productLast=$product@last productFirst=$product@first}{/if}
 							{/if}
@@ -414,9 +414,9 @@
 				</table>
 			</div> <!-- end order-detail-content -->
 			</div>
-		</section>	
+		</section>
 	</section>
-	<section class="col-md-12 col-lg-12 shopping-cart-aside">		
+	<section class="col-md-12 col-lg-12 shopping-cart-aside">
 		{if !empty($HOOK_SHOPPING_CART)}
 		<div id="HOOK_SHOPPING_CART" class="container-widget">{$HOOK_SHOPPING_CART}</div>
 		{/if}
@@ -512,7 +512,7 @@
 			{/if}
 		</div>
 	{/if}
-	
+
 	<p class="cart_navigation clearfix">
 		<a
 			href="{if (isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, 'order.php')) || isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, 'order-opc') || !isset($smarty.server.HTTP_REFERER)}{$link->getPageLink('index')}{else}{$smarty.server.HTTP_REFERER|escape:'html':'UTF-8'|secureReferrer}{/if}"
@@ -528,7 +528,7 @@
 				<span>{l s='Next'}</span>
 			</a>
 		{/if}
-		
+
 	</p>
 	{if !empty($HOOK_SHOPPING_CART_EXTRA)}
 		<div class="clear"></div>
