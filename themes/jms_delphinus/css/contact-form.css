@@ -46,7 +46,8 @@
 	width: -webkit-calc(100% + 20px);
 	width: -o-calc(100% + 20px);
 }
-#uniform-id_contact.selector {
+#uniform-id_contact.selector,
+#uniform-id_order.selector {
     border: 1px solid #f0f0f0;
     height: 39px;
     line-height: 39px;
@@ -56,7 +57,8 @@
   @media (min-width: 992px) and (max-width: 1199px) {
     .contact-form-box div.uploader span.filename {
       width: 114px; } }
-div.selector1 > div#uniform-id_contact span {
+div.selector1 > div#uniform-id_contact span,
+div.selector1 > div.selector > span {
     display: none;
 }
 #uniform-id_contact.selector {

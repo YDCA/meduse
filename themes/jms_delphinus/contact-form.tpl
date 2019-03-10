@@ -23,9 +23,9 @@
 *  International Registered Trademark & Property of PrestaShop SA
 *}
 {capture name=path}{l s='Contact'}{/capture}
-<div class="google_map">
+<!-- <div class="google_map">
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2650.3507862626852!2d144.9551689341772!3d-37.81777832804675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4cedf3f8f7%3A0xfa96fd631be5d789!2sCollins+St%2C+Melbourne+VIC+3000%2C+Australia!5e0!3m2!1sen!2s!4v1461211120164" width="1170" height="570" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+</div> -->
 <div class="row">
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 		<div class="address-contact-form">
@@ -34,10 +34,10 @@
 				<li>{l s='121 King Street, Melbourne Victoria 3000 Australia'}</li>
 			</ul>
 			<ul class="social-block">
-				<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-				<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-				<li><a href="#"><span class="fa fa-instagram"></span></a></li>
-				<li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+				<li><a href="https://www.facebook.com/meduse.original" target="_blank"><span class="fa fa-facebook"></span></a></li>
+				<!-- <li><a href="#"><span class="fa fa-twitter"></span></a></li> -->
+				<li><a href="https://www.instagram.com/meduseoriginal/" target="_blank"><span class="fa fa-instagram"></span></a></li>
+				<!-- <li><a href="#"><span class="fa fa-linkedin"></span></a></li> -->
 			</ul>
 		</div>
 	</div>
@@ -115,9 +115,9 @@
 							{if !$PS_CATALOG_MODE}
 								{if (!isset($customerThread.id_order) || $customerThread.id_order > 0)}
 									<div class="form-group selector1">
-										<label>{l s='Order reference'}</label>
+										<label for="id_order">{l s='Order reference'}</label>
 										{if !isset($customerThread.id_order) && isset($is_logged) && $is_logged}
-											<select name="id_order" class="form-control">
+											<select id="id_order" name="id_order" class="form-control">
 												<option value="0">{l s='-- Choose --'}</option>
 												{foreach from=$orderList item=order}
 													<option value="{$order.value|intval}"{if $order.selected|intval} selected="selected"{/if}>{$order.label|escape:'html':'UTF-8'}</option>
