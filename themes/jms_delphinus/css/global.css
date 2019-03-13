@@ -1665,7 +1665,7 @@ header .addon-box {
     width: 100%;
 }
 .jms-banner a {
-	color: #fff;
+	color: #5cbdc3;
 }
 .jms-banner a img {
     max-width: 100%;
@@ -1728,7 +1728,8 @@ header .addon-box {
 }
 .list-categories a:hover{color: #fff;}
 .jms-banner a.shopnow-button {
-    border: 2px solid #fff;
+    border: 2px solid #5cbdc3;
+		background: #fff;
     font-family: 'Univers LT Std';
     font-size: 14px;
     letter-spacing: 0.2em;
@@ -1736,8 +1737,8 @@ header .addon-box {
     text-transform: uppercase;
 }
 .jms-banner a.shopnow-button:hover{
-	color: #000;
-	background: #fff;
+	color: #fff;
+	background: #5cbdc3;
 }
 .banner-box:hover .list-categories {
     height: auto;
