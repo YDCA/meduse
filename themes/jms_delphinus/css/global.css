@@ -2440,13 +2440,16 @@ footer .footer-2 .addon-title {
     margin-top: 25px;
 }
 .about-right #newsletter_block_left.block {
-    border: 2px solid #dddddd;
+    border: 2px solid #e78ba9;
+		background: #e78ba9;
+		color: #fff;
     padding: 57px 30px;
     text-align: center;
 	min-height: 360px;
 }
 .about-right .form-control.newsletter-input {
-    border: 2px solid #ddd;
+    border: 2px solid #fff;
+		color: #fff;
     height: 48px;
     width: 100%;
 }
@@ -2465,7 +2468,7 @@ footer .footer-2 .addon-title {
     position: relative;
 }
 #newsletter_block_left > h4 {
-    color: #000;
+    color: #fff;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.2em;
