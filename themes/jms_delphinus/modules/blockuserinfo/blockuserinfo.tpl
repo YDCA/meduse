@@ -27,11 +27,13 @@
 <div class="btn-group compact-hidden user-info">
 	{if $is_logged}
 		<a class="btn-xs dropdown-toggle" class="login account" href="{$link->getPageLink('my-account', true)}" title="{l s='View my customer account' mod='blockuserinfo'}" rel="nofollow">
-			<span class="text-box">{$cookie->customer_firstname}</span>{if $homepage !=1 || $homepage!=5}<span class="lnr lnr-chevron-down"></span>{/if}
+			<span class="text-box">{$cookie->customer_firstname}</span> ({l s='Account' mod='blockuserinfo'}){if $homepage !=1 || $homepage!=5}<span class="lnr lnr-chevron-down"></span>{/if}
 		</a>
+		<a class="btn-xs" href="{$link->getPageLink('index', true, NULL, "mylogout")}" title="{l s='Log me out' mod='blockuserinfo'}" class="logout" rel="nofollow">{l s='Log out' mod='blockuserinfo'}</a>
+
 	{else}
 		<a class="btn-xs dropdown-toggle" class="login" href="{$link->getPageLink('my-account', true)}" title="{l s='Login to your customer account' mod='blockuserinfo'}" rel="nofollow">
-			<span class="fa fa-user"></span>
+			<span class="fa fa-smile-o"></span>
 			<!-- <span class="text-box">{l s='Login' mod='blockuserinfo'}</span> -->
 			<span class="lnr lnr-chevron-down"></span>
 		</a>
