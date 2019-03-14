@@ -1568,6 +1568,11 @@ header .addon-box {
 	display: inline-block;
 	letter-spacing: 0.075em;
 }
+
+.header-bar-7 .btn-xs fa-smile-o {
+	color: #e78ba9;
+}
+
 .header-bar-7 .open-button {
 	line-height: 57px;
 }
@@ -1665,7 +1670,7 @@ header .addon-box {
     width: 100%;
 }
 .jms-banner a {
-	color: #fff;
+	color: #5cbdc3;
 }
 .jms-banner a img {
     max-width: 100%;
@@ -1728,7 +1733,8 @@ header .addon-box {
 }
 .list-categories a:hover{color: #fff;}
 .jms-banner a.shopnow-button {
-    border: 2px solid #fff;
+    border: 2px solid #5cbdc3;
+		background: #fff;
     font-family: 'Univers LT Std';
     font-size: 14px;
     letter-spacing: 0.2em;
@@ -1736,8 +1742,8 @@ header .addon-box {
     text-transform: uppercase;
 }
 .jms-banner a.shopnow-button:hover{
-	color: #000;
-	background: #fff;
+	color: #fff;
+	background: #5cbdc3;
 }
 .banner-box:hover .list-categories {
     height: auto;
@@ -2439,13 +2445,16 @@ footer .footer-2 .addon-title {
     margin-top: 25px;
 }
 .about-right #newsletter_block_left.block {
-    border: 2px solid #dddddd;
+    border: 2px solid #e78ba9;
+		background: #e78ba9;
+		color: #fff;
     padding: 57px 30px;
     text-align: center;
 	min-height: 360px;
 }
 .about-right .form-control.newsletter-input {
-    border: 2px solid #ddd;
+    border: 2px solid #fff;
+		color: #fff;
     height: 48px;
     width: 100%;
 }
@@ -2464,7 +2473,7 @@ footer .footer-2 .addon-title {
     position: relative;
 }
 #newsletter_block_left > h4 {
-    color: #000;
+    color: #fff;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.2em;
