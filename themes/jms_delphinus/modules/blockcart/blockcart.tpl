@@ -25,7 +25,8 @@
 <!-- MODULE Block cart -->
 <div class="btn-group compact-hidden" id="cart_block">
 	<a href="#"  class="btn-xs dropdown-toggle" data-toggle="dropdown">
-		<span class="fas fa-shopping-bag"></span>
+		<span class="fa fa-shopping-bag"></span>
+
 		<!-- <span class="text-box">{l s='My Cart' mod='blockcart'}</span> -->
 		<span class="box ajax_cart_quantity">{$cart_qties}</span>
 	</a>
