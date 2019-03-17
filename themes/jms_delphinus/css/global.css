@@ -127,7 +127,8 @@ hr {
 .error ol {
     margin-left: 20px;
 }
-ol, ul {
+/* ol,  */
+ul {
     list-style: none outside none;
 }
 p {

@@ -332,3 +332,8 @@ fieldset.attribute_fieldset {
 	font-size: .8em;
 	text-decoration: underline;
 }
+
+.pull-right {
+    float: none !important;
+    margin-bottom: 15px;
+}
