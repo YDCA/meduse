@@ -341,6 +341,9 @@
 									</div>
 									<div class="product-info">
 										<a href="{$accessoryLink|escape:'html':'UTF-8'}" itemprop="url">
+											{if isset($accessoryProduct.id_category_default)}
+					              {assign var='catname' value=Category::getCategoryInformations(array($accessoryProduct.id_category_default))}{$catname[$accessoryProduct.id_category_default].name}
+					            {/if}
 											{$accessory.name|truncate:25:'...':true|escape:'html':'UTF-8'}
 										</a>
 										{if !$PS_CATALOG_MODE && ($accessory.allow_oosp || $accessory.quantity > 0)}
