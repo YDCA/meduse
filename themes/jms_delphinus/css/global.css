@@ -1710,6 +1710,7 @@ header .addon-box {
 
 .box-content h2.title a {
     background: #fff;
+		color: #5cbdc3;
     padding: 10px 16px 0;
     text-align: center;
     letter-spacing: initial;
@@ -1745,6 +1746,7 @@ header .addon-box {
 .jms-banner a.shopnow-button {
     border: 2px solid #5cbdc3;
 		background: #fff;
+		color: #5cbdc3;
     font-family: 'Univers LT Std';
     font-size: 14px;
     letter-spacing: 0.2em;
@@ -4690,6 +4692,10 @@ a.price_discount_delete:hover{
 }
 .fancybox-error {
     font-size: 15px !important;
+}
+
+.btn.btn-default.col-sm-4 {
+    padding: 8px;
 }
 
 /********** FONT FACE ********/

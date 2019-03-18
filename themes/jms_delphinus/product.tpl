@@ -341,11 +341,8 @@
 									</div>
 									<div class="product-info">
 										<a href="{$accessoryLink|escape:'html':'UTF-8'}" itemprop="url">
-                                            {if isset($product.id_category_default)}
-            									{assign var='catname' value=Category::getCategoryInformations(array($product.id_category_default))}{$catname[$product.id_category_default].name}
-            								{/if}
-
-                                            {$accessory.name|truncate:25:'...':true|escape:'html':'UTF-8'}</a>
+											{$accessory.name|truncate:25:'...':true|escape:'html':'UTF-8'}
+										</a>
 										{if !$PS_CATALOG_MODE && ($accessory.allow_oosp || $accessory.quantity > 0)}
 										<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 											{if isset($accessory.specific_prices) && $accessory.specific_prices && isset($accessory.specific_prices.reduction) && $accessory.specific_prices.reduction > 0}
