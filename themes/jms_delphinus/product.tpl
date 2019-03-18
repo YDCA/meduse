@@ -341,8 +341,8 @@
 									</div>
 									<div class="product-info">
 										<a href="{$accessoryLink|escape:'html':'UTF-8'}" itemprop="url">
-											{if isset($accessoryProduct.id_category_default)}
-					              {assign var='catname' value=Category::getCategoryInformations(array($accessoryProduct.id_category_default))}{$catname[$accessoryProduct.id_category_default].name}
+											{if isset($accessory.id_category_default)}
+					              {assign var='catname' value=Category::getCategoryInformations(array($accessory.id_category_default))}{$catname[$accessory.id_category_default].name}
 					            {/if}
 											{$accessory.name|truncate:25:'...':true|escape:'html':'UTF-8'}
 										</a>
