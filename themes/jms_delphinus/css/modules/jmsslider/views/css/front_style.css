@@ -1,0 +1,125 @@
+
+.jms-slider-wrapper {
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	margin:30px auto;
+}
+
+.jms-slider-wrapper .slider{
+	position:relative;
+	width:100%;
+/*	height:400px; when responsive, comment this out */
+	margin:0 auto;
+	background:#1b1b1b;
+}
+.jms-slider-wrapper .slide {
+	overflow: hidden;
+	position: absolute;
+}
+.robotoslab span {
+    border-bottom: 2px solid #000;
+    display: inline-block !important;
+    font-family: "Roboto Slab",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    padding: 20px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.robotoslab{
+    border: 2px solid #000;
+    display: inline-block !important;
+    line-height: normal;
+    text-align: center;
+	font-size: 0 !important;
+}
+.robotoslab p{
+	display: inline-block !important;
+    font-family: "Roboto Slab",sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 0.4em;
+    line-height: normal;
+    margin-bottom: 0;
+    width: 100%;
+	padding: 15px 0;
+}
+.robotoslab1{
+	font-family: "Roboto Slab",sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+}
+.robotoslab2{
+	font-family: "Roboto Slab",sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+.robotoslab4{
+	font-family: "Roboto Slab",sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+}
+.karla{
+	font-family: "Karla",sans-serif;
+	text-align: center;
+}
+.karla-bold{
+	font-family: "Karla",sans-serif;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.sale-up a {
+    background: #fff none repeat scroll 0 0;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    line-height: 50px;
+    min-width: 754px;
+    text-transform: uppercase;
+}
+
+.shopnow{
+	font-family: 'Univers LT Std';
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+    color: #e78ba9;
+    background: #fff;
+	padding: 7px 40px;
+}
+.shopnow2{
+	font-family: 'Univers LT Std';
+	font-weight: 700;
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
+	border: 2px solid #c7db9c;
+	padding: 7px 40px;
+}
+.shopnow2:hover{
+	background: #c7db9c;
+}
+.shopnow2 a{
+	color: #c7db9c;
+}
+.shopnow2:hover a{
+	color: #fff;
+}
+.shopnow-white{
+	border-color: #fff;
+	color: #fff;
+}
+.shopnow-white a{
+	color: #fff;
+}
+.shopnow:hover {
+    background: #e78ba9 none repeat scroll 0 0;
+}
+.shopnow:hover a{
+    color: #fff;
+}

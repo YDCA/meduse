@@ -127,7 +127,8 @@ hr {
 .error ol {
     margin-left: 20px;
 }
-ol, ul {
+/* ol,  */
+ul {
     list-style: none outside none;
 }
 p {
@@ -1569,7 +1570,8 @@ header .addon-box {
 	letter-spacing: 0.075em;
 }
 
-.header-bar-7 .btn-xs .fa-smile-o {
+.header-bar-7 .btn-xs .fa-smile-o,
+.header-bar-7 .fa-shopping-bag {
 	color: #e78ba9;
 }
 
@@ -1670,7 +1672,7 @@ header .addon-box {
     width: 100%;
 }
 .jms-banner a {
-	color: #5cbdc3;
+	color: #fff;
 }
 .jms-banner a img {
     max-width: 100%;
@@ -1705,6 +1707,14 @@ header .addon-box {
     text-transform: uppercase;
 	margin-bottom: 25px;
 }
+
+.box-content h2.title a {
+    background: #fff;
+    padding: 10px 16px 0;
+    text-align: center;
+    letter-spacing: initial;
+}
+
 .section-categorylist .layout-column {
     padding: 0;
 }
@@ -1968,13 +1978,18 @@ footer .addon-title h3 {
 	padding-bottom: 35px;
 }
 footer #newsletter_block_left > h4 {
-    color: #000;
-    font-size: 18px;
+    color: #5cbdc3;
+    /* font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.2em;
 	padding-top: 70px;
     text-transform: uppercase;
-	padding-bottom: 35px;
+	padding-bottom: 35px; */
+    margin: 0 0 10px;
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 0;
+
 }
 .footer-navbar {
     padding-left: 95px;
@@ -2104,7 +2119,7 @@ footer .jms-banner > a::before {
 }
 .fraction-slider .prev:hover,
 .fraction-slider .next:hover{
-	background: #000 !important;
+	background: #5cbdc3 !important;
 	color: #fff;
 }
 .fraction-slider .prev::after {

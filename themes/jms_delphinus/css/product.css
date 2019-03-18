@@ -215,6 +215,17 @@ fieldset.attribute_fieldset {
     font-weight: 400;
     margin-bottom: 0;
 }
+
+.other-info > p#product_reference {
+    display: none;
+}
+
+.warning_inline {
+    background-color: rgba(#dc3545,.2);
+    border-color: #dce2ed;
+    color: #dc3545;
+}
+
 .extra-comment #new_comment_tab_btn.open-comment-form {
     display: none;
 }
@@ -331,4 +342,9 @@ fieldset.attribute_fieldset {
 	font-style: italic;
 	font-size: .8em;
 	text-decoration: underline;
+}
+
+.pull-right {
+    float: none !important;
+    margin-bottom: 15px;
 }

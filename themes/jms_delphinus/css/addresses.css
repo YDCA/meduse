@@ -30,14 +30,14 @@
     text-align: center;
 }
 .address_update {
-	border-top: 1px solid #f0f0f0; 
+	border-top: 1px solid #f0f0f0;
 	padding: 10px 0;
 }
 .address .box{
-    border:1px solid #f0f0f0;    
+    border:1px solid #f0f0f0;
     padding: 0px 20px 15px;
     transition: all 0.2s ease-in 0s;
-} 
+}
 .address li {
 	line-height:30px;
 }
@@ -54,8 +54,8 @@
 }
 .checkbox #uniform-addressesAreEquals input[type="checkbox"]{
 	margin-left: 0;
-} 
-.delivery_option_radio .radio input[type="radio"], 
+}
+.delivery_option_radio .radio input[type="radio"],
 .delivery_option_radio .radio-inline input[type="radio"]{
 }
 p.submit {
@@ -64,4 +64,8 @@ p.submit {
 .payment_module {
     border: 1px solid #f0f0f0;
     padding: 30px;
+}
+
+.payment_module:hover {
+    border-color: #5cbdc3;
 }
