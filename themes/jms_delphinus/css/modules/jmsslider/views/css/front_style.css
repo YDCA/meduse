@@ -118,7 +118,9 @@
 	color: #fff;
 }
 .shopnow:hover {
-    background: #e78ba9 none repeat scroll 0 0;
+    background: #e78ba9;
+		border-color: #e78ba9;
+
 }
 .shopnow:hover a{
     color: #fff;
