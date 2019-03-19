@@ -1175,7 +1175,8 @@ table.std td, table.table_block td {
     text-transform: uppercase;
 }
 .table tbody + tbody {
-    border-top: 2px solid #fff;
+    /* border-top: 2px solid #fff; */
+		border-top: 1px solid #f0f0f0;
 }
 .table .table {
     background-color: white;
