@@ -34,13 +34,13 @@
 			{assign var='nbItemsPerLine' value=4}
 			{assign var='nbLi' value=$products|@count}
 			{math equation="nbLi/nbItemsPerLine" nbLi=$nbLi nbItemsPerLine=$nbItemsPerLine assign=nbLines}
-			{math equation="nbLines*liHeight" nbLines=$nbLines|ceil liHeight=$liHeight assign=ulHeight}	
+			{math equation="nbLines*liHeight" nbLines=$nbLines|ceil liHeight=$liHeight assign=ulHeight}
 			{foreach from=$products item=product name=homeFeaturedProducts}
 				{math equation="(total%perLine)" total=$smarty.foreach.homeFeaturedProducts.total perLine=$nbItemsPerLine assign=totModulo}
 				{if $totModulo == 0}{assign var='totModulo' value=$nbItemsPerLine}{/if}
 				<div class="item ajax_block_product" itemscope itemtype="http://schema.org/Product">
 					<div class="product-preview {if $phover == 'image_swap'}image_swap{/if}">
-						<div class="preview"> 
+						<div class="preview">
 							<a href="{$product.link|escape:'html'}" class="preview-image product_img_link image-rollover" data-id-product="{$product.id_product}" itemprop="url">
 								<img class="img-responsive product-img1" src="{$link->getImageLink($product.link_rewrite, $product.id_image, 'home_default')|escape:'html'}" alt="" itemprop="image" />
 							</a>
@@ -59,7 +59,7 @@
 							{/if}
 							<div class="products-box">
 								{if isset($product.is_virtual) && !$product.is_virtual}{hook h="displayProductDeliveryTime" product=$product}{/if}
-								{hook h="displayProductPriceBlock" product=$product type="weight"}									
+								{hook h="displayProductPriceBlock" product=$product type="weight"}
 								<a data-link="{$product.link|escape:'html':'UTF-8'}" class="quick-view product-btn hidden-xs" title="{l s='Quick View' mod='homefeatured'}">
 									<span class="icon icon-basic-link"></span>
 								</a>
@@ -79,40 +79,45 @@
 										<span class="icon icon-ecommerce-bag"></span>
 										<span class="icon icon-ecommerce-bag-refresh"></span>
 										<span class="icon icon-ecommerce-bag-check"></span>
-									</a>							
+									</a>
 									{else}
 										<a href="#" class="disable cart-button product-btn" title="{l s='Out of Stock'}">
 											<span class="icon icon-ecommerce-bag icon-disable"></span>
 										</a>
-									{/if}										
-								{/if}	
-							</div>	
+									{/if}
+								{/if}
+							</div>
 						</div>
 						<div class="product-info clearfix">
 							<h3 class="title" itemprop="name">
-								<a href="{$product.link|escape:'html'}" itemprop="url">{$product.name|escape:'html':'UTF-8'}</a>
+								<a href="{$product.link|escape:'html'}" itemprop="url">
+                                    {if isset($product.id_category_default)}
+                                      {assign var='catname' value=Category::getCategoryInformations(array($product.id_category_default))}{$catname[$product.id_category_default].name}
+                                    {/if}
+                                    {$product.name|escape:'html':'UTF-8'}
+                                </a>
 							</h3>
 							<div class="rate_box pull-left">
 								{hook h='displayProductListReviews' product=$product}
-							</div>												
-							<div class="content_price pull-right" itemprop="offers" itemscope itemtype="http://schema.org/Offer">			
-								{if $product.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}					
+							</div>
+							<div class="content_price pull-right" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+								{if $product.show_price AND !isset($restricted_country_mode) AND !$PS_CATALOG_MODE}
 									{if isset($product.specific_prices) && $product.specific_prices && isset($product.specific_prices.reduction) && $product.specific_prices.reduction > 0}
 										{hook h="displayProductPriceBlock" product=$product type="old_price"}
 										<span class="old price">
 											{displayWtPrice p=$product.price_without_reduction}
-										</span>								
+										</span>
 									{/if}
 									<span class="price new" itemprop="price">
 										{hook h="displayProductPriceBlock" product=$product type="before_price"}
 										{if !$priceDisplay}{convertPrice price=$product.price}{else}{convertPrice price=$product.price_tax_exc}{/if}
-									</span>	
+									</span>
 									{hook h="displayProductPriceBlock" product=$product type="price"}
 									{hook h="displayProductPriceBlock" product=$product type="unit_price"}
 								{/if}
 								<meta itemprop="priceCurrency" content="{$currency->iso_code}" />
 							</div>
-						</div>											 
+						</div>
 					</div>
 				</div>
 			{/foreach}
