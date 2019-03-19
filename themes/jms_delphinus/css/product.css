@@ -217,11 +217,11 @@ fieldset.attribute_fieldset {
 }
 
 .other-info > p#product_reference {
-    display: none;
+    display: none !important;
 }
 
 .warning_inline {
-    background-color: rgba(#dc3545,.2);
+    background-color: transparent;
     border-color: #dce2ed;
     color: #dc3545;
 }

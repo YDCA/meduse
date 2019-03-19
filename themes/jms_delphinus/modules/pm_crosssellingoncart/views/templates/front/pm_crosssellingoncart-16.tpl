@@ -15,7 +15,12 @@
 {if count($csoc_product_selection) > 0}
 
 <div id="csoc-container" class="{if isset($on_product_page) && $on_product_page}page-product-box{/if} {$csoc_prefix|strtolower|escape:'html':'UTF-8'}">
-	{if $csoc_bloc_title}
+
+  <div class="addon-title">
+    <h3>{l s='You could also like' mod='pm_crosssellingoncart'}</h3>
+  </div>
+
+    {if $csoc_bloc_title}
 		{if isset($on_product_page) && $on_product_page}
 			<h3 class="page-product-heading">{$csoc_bloc_title|escape:'html':'UTF-8'}</h3>
 		{else}
