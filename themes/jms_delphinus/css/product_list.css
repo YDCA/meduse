@@ -29,6 +29,7 @@ Product list Styles
 .content_scene_cat p {
   font-size: 18px;
   margin-bottom: 0;
+  line-height: 22px;
   /* text-transform: capitalize; */
 }
 ul.product_list .product-name {
