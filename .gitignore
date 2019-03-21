@@ -38,3 +38,10 @@ download/
 upload/
 
 /blog/*
+
+*.zip
+preprod.zip
+
+# Translations files.
+modules/*/translations/*
+themes/*/modules/*/translations/*
