@@ -416,6 +416,25 @@
 			</div>
 		</section>
 	</section>
+
+	<p class="cart_navigation clearfix">
+		<a
+			href="{if (isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, 'order.php')) || isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, 'order-opc') || !isset($smarty.server.HTTP_REFERER)}{$link->getPageLink('index')}{else}{$smarty.server.HTTP_REFERER|escape:'html':'UTF-8'|secureReferrer}{/if}"
+			class="btn btn-default"
+			title="{l s='Previous'}">
+			{l s='Previous'}
+		</a>
+		{if !$opc}
+			<a
+				href="{if $back}{$link->getPageLink('order', true, NULL, 'step=1&amp;back={$back}')|escape:'html':'UTF-8'}{else}{$link->getPageLink('order', true, NULL, 'step=1')|escape:'html':'UTF-8'}{/if}"
+				class="btn btn-default standard-checkout"
+				title="{l s='Next'}">
+				<span>{l s='Next'}</span>
+			</a>
+		{/if}
+
+	</p>
+	
 	<section class="col-md-12 col-lg-12 shopping-cart-aside">
 		{if !empty($HOOK_SHOPPING_CART)}
 		<div id="HOOK_SHOPPING_CART" class="container-widget">{$HOOK_SHOPPING_CART}</div>
@@ -513,23 +532,6 @@
 		</div>
 	{/if}
 
-	<p class="cart_navigation clearfix">
-		<a
-			href="{if (isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, 'order.php')) || isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, 'order-opc') || !isset($smarty.server.HTTP_REFERER)}{$link->getPageLink('index')}{else}{$smarty.server.HTTP_REFERER|escape:'html':'UTF-8'|secureReferrer}{/if}"
-			class="btn btn-default"
-			title="{l s='Previous'}">
-			{l s='Previous'}
-		</a>
-		{if !$opc}
-			<a
-				href="{if $back}{$link->getPageLink('order', true, NULL, 'step=1&amp;back={$back}')|escape:'html':'UTF-8'}{else}{$link->getPageLink('order', true, NULL, 'step=1')|escape:'html':'UTF-8'}{/if}"
-				class="btn btn-default standard-checkout"
-				title="{l s='Next'}">
-				<span>{l s='Next'}</span>
-			</a>
-		{/if}
-
-	</p>
 	{if !empty($HOOK_SHOPPING_CART_EXTRA)}
 		<div class="clear"></div>
 		<div class="cart_navigation_extra">
