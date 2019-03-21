@@ -1565,7 +1565,7 @@ header .addon-box {
 .topbar .btn-xs,
 .header-bar-7 .btn-xs {
 	line-height: 57px;
-	padding: 0 15px;
+	padding: 0 10px;
 	border-right: 1px solid #f6f6f6;
 	display: inline-block;
 	letter-spacing: 0.075em;
@@ -4310,6 +4310,9 @@ h1.category-name {
     font-weight: 700;
     letter-spacing: 0.075em;
 }
+
+.cart_description .cart_ref { display: none; }
+
 .cart_description small, .cart_description small a {
     color: #999;
     display: block;
