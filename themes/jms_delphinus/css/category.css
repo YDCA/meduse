@@ -41,12 +41,24 @@
   /* .content_scene_cat .cat_desc {
     top: 50px;
   } */
+
+  .cat_desc {
+    background: #fff;
+    padding: 15px;
+  }
+
+  .cat_desc h1 {
+    color: #5cbdc3;
+
+}
+
   .content_scene_cat p {
     margin-bottom: 0;
-    color: #fff;
+    /* color: #fff; */
+    color: #999
   }
   .content_scene_cat a {
-    color: #fff; }
+    color: #999; }
     .content_scene_cat a:hover {
       text-decoration: underline; }
   .content_scene_cat .content_scene {
