@@ -30,8 +30,8 @@
 	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 		<div class="address-contact-form">
 			<ul>
-				<li>{l s='61 3 8376 6284'}</li>
-				<li>{l s='121 King Street, Melbourne Victoria 3000 Australia'}</li>
+				<li>{l s='80 rue des Forges, Beaupréau'}</li>
+				<li>{l s='49600 Beaupréau-En-Mauges - France'}</li>
 			</ul>
 			<ul class="social-block">
 				<li><a href="https://www.facebook.com/meduse.original" target="_blank"><span class="fa fa-facebook"></span></a></li>
