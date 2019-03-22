@@ -30,7 +30,6 @@ namespace PrestaShop\Module\AutoUpgrade\TaskRunner\Upgrade;
 use PrestaShop\Module\AutoUpgrade\TaskRunner\AbstractTask;
 use PrestaShop\Module\AutoUpgrade\UpgradeTools\FilesystemAdapter;
 use PrestaShop\Module\AutoUpgrade\UpgradeContainer;
-
 use Configuration;
 
 /**
@@ -58,8 +57,6 @@ class UpgradeComplete extends AbstractTask
         } elseif (is_dir($this->container->getProperty(UpgradeContainer::LATEST_PATH))) {
             $this->logger->debug('<strong>' . $this->translator->trans('Please remove %s by FTP', array($this->container->getProperty(UpgradeContainer::LATEST_PATH)), 'Modules.Autoupgrade.Admin') . '</strong>');
         }
-
-        $this->container->getSymfonyAdapter()->clearMigrationCache();
 
         // Reinit config
         Configuration::deleteByName('PS_AUTOUP_IGNORE_REQS');
