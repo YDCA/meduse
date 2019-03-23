@@ -3,15 +3,15 @@
     <div class="row">
       <div class="layout-column col-lg-12">
         <div class="addon-box">
-          <div class="addon-title">
             <!-- BEGIN Wordpress Integration -->
             {if !empty($blog_title)}
+            <div class="addon-title">
             <!-- <h3 class="h1 text-uppercase page-heading text-center text-sm-center wordpressintegration-blog-title"> -->
               <h3>
             		{$blog_title|escape:'htmlall':'UTF-8'}
             	</h3>
+            </div>
             {/if}
-          </div>
           <div class="wordpressintegration-posts">
           {foreach from=$blog_posts item=blog_post}
           	<div class="wordpressintegration-post-container">
