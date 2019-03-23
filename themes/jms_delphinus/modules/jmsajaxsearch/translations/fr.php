@@ -2,6 +2,8 @@
 
 global $_MODULE;
 $_MODULE = array();
+$_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch_473e1b8e3d2c54d2b831bb559877588e'] = 'Merci de renseigner 3 caractères minimum';
+$_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch_763dab47c9a9febb38cd90224d9f138a'] = 'Il n\'y a aucun produit';
 $_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch_2110f74617fdabfa778c48806fdcc9a8'] = 'JMS AJAX Search';
 $_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch_d8ddceb83a1e4a10d11d2c0dbfd2aaaf'] = 'JMS AJAX Search';
 $_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch_8f31eb2413dea86c661532d4cf973d2f'] = 'An invalid number of products has been specified.';
@@ -14,3 +16,8 @@ $_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch_31dcfe3fddb9b5ba296be87d87
 $_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch_3b916fc8872fea5743ec9d4b4fee2de3'] = 'Show Price';
 $_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch_67d32efccb13e15ce36e763c7ae970f5'] = 'Show Image';
 $_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch_c9cc8cce247e49bae79f15173ce97354'] = 'Save';
+$_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch-nav_13348442cc6a27032d2b4aa28b75a5d3'] = 'Recherche';
+$_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch-nav_763dab47c9a9febb38cd90224d9f138a'] = 'Il n\'y a aucun produit';
+$_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch-right_13348442cc6a27032d2b4aa28b75a5d3'] = 'Recherche';
+$_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch_13348442cc6a27032d2b4aa28b75a5d3'] = 'Rechercher';
+$_MODULE['<{jmsajaxsearch}jms_delphinus>jmsajaxsearch_4d8b71a936efdd7d1e332416b246eb6a'] = 'Taper votre recherche ici et appuyer sur entrer...';
