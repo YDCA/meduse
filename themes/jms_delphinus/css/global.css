@@ -4702,6 +4702,26 @@ a.price_discount_delete:hover{
     padding: 8px;
 }
 
+/* Jms Builder */
+.about-us-meduse {
+	background: #fff;
+	padding: 15px;
+	margin: 15px;
+	color: #999;
+}
+
+.about-us-meduse h4 {
+	color: #5cbdc3;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.about-us-meduse p {
+	color: #999;
+	line-height: 22px;
+}
+
+
 /********** FONT FACE ********/
 @import url('meduse-font.css');
 
