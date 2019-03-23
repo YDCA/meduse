@@ -77,3 +77,5 @@ $_MODULE['<{pm_crosssellingoncart}jms_delphinus>pm_crosssellingoncart_d0fcb89c94
 $_MODULE['<{pm_crosssellingoncart}jms_delphinus>pm_crosssellingoncart_cb3c718c905f00adbb6735f55bfb38ef'] = 'Produit disponible avec d\'autres options';
 $_MODULE['<{pm_crosssellingoncart}jms_delphinus>pm_crosssellingoncart_b55197a49e8c4cd8c314bc2aa39d6feb'] = 'Rupture de stock';
 $_MODULE['<{pm_crosssellingoncart}jms_delphinus>pm_crosssellingoncart_2d0f6b8300be19cf35e89e66f0677f95'] = 'Ajouter au panier';
+$_MODULE['<{pm_crosssellingoncart}jms_delphinus>pm_crosssellingoncart-16_a2c6a1d5bf3a493c6d247fb32a54c900'] = 'Nous vous proposons également';
+$_MODULE['<{pm_crosssellingoncart}jms_delphinus>pm_crosssellingoncart-16_8e83c7d8ce3012529cc3cffb28d49ef3'] = 'Voir le produit';

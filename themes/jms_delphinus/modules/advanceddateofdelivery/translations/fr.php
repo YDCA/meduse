@@ -213,6 +213,7 @@ $_MODULE['<{advanceddateofdelivery}jms_delphinus>order_detail_asap_c9ed8c0b07828
 $_MODULE['<{advanceddateofdelivery}jms_delphinus>product_actions_0c4f82ac8c388cb72b1ba684f10fa098'] = 'Délais de livraison';
 $_MODULE['<{advanceddateofdelivery}jms_delphinus>product_actions_17_0c4f82ac8c388cb72b1ba684f10fa098'] = 'Délais de livraison';
 $_MODULE['<{advanceddateofdelivery}jms_delphinus>product_right_column_0c4f82ac8c388cb72b1ba684f10fa098'] = 'Délais de livraison';
+$_MODULE['<{advanceddateofdelivery}jms_delphinus>product_right_column_17_0c4f82ac8c388cb72b1ba684f10fa098'] = 'Date de livraison';
 $_MODULE['<{advanceddateofdelivery}jms_delphinus>tab_0c4f82ac8c388cb72b1ba684f10fa098'] = 'Délais de livraison';
 $_MODULE['<{advanceddateofdelivery}jms_delphinus>tab_content_b8c8bbda02fae41ba594918fa7014523'] = 'Livraison estimée le';
 $_MODULE['<{advanceddateofdelivery}jms_delphinus>tab_content_8e8fe67c419e34287373a91cc6cab1de'] = 'Livraison estimée entre le';

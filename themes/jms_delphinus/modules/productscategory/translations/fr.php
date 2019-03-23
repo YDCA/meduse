@@ -15,4 +15,5 @@ $_MODULE['<{productscategory}jms_delphinus>productscategory_f55e0a28b86c2ab66ac6
 $_MODULE['<{productscategory}jms_delphinus>productscategory_bebb44f38b03407098d48198c1d0aaa5'] = '%s autres produits dans la même catégorie :';
 $_MODULE['<{productscategory}jms_delphinus>productscategory_dd1f775e443ff3b9a89270713580a51b'] = 'Précédent';
 $_MODULE['<{productscategory}jms_delphinus>productscategory_10ac3d04253ef7e1ddc73e6091c0cd55'] = 'Suivant';
+$_MODULE['<{productscategory}jms_delphinus>productscategory_70f23ff594252e51839210b6cc9641fc'] = 'Aperçu';
 $_MODULE['<{productscategory}jms_delphinus>productscategory_2d0f6b8300be19cf35e89e66f0677f95'] = 'Ajouter au panier';
