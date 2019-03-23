@@ -4721,6 +4721,38 @@ a.price_discount_delete:hover{
 	line-height: 22px;
 }
 
+.wordpressintegration-post {
+	padding-bottom: 0;
+}
+
+.wordpressintegration-post .wordpressintegration-post-image {
+	height: 250px;
+}
+
+.blog_desc {
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	margin: 15px;
+}
+
+.blog_desc h6 a {
+	color: #5cbdc3;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.blog_desc .wordpressintegration-post-description {
+	line-height: 1.3em;
+	font-size: .9em;
+	margin: 10px 0;
+}
+
+.blog_desc .wordpressintegration-post-description a,
+.wordpressintegration-link-blog {
+	display: none;
+}
+
 
 /********** FONT FACE ********/
 @import url('meduse-font.css');
