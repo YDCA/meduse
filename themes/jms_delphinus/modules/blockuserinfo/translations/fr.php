@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_a2e9cd952cda8ba167e62b25a496c6c1'] = 'Bloc informations clients';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_970a31aa19d205f92ccfd1913ca04dc0'] = 'Ajoute un bloc avec des liens utiles pour le client (login, déconnexion...)';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_0c3bf3014aafb90201805e45b5e62881'] = 'Voir mon panier';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_a85eba4c6c699122b2bb1387ea4813ad'] = 'Panier';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_deb10517653c255364175796ace3553f'] = 'Produit';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_068f80c7519d0528fb08e82137a72131'] = 'Produits';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_9e65b51e82f2a9b9f72ebe3e083582bb'] = '(vide)';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_2cbfb6731610056e1d0aaacde07096c1'] = 'Voir mon compte client';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_a0623b78a5f2cfe415d9dbbd4428ea40'] = 'Votre compte';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_83218ac34c1834c26781fe4bde918ee4'] = 'Bienvenue';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_4b877ba8588b19f1b278510bf2b57ebb'] = 'Me déconnecter';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_c87aacf5673fada1108c9f809d354311'] = 'Déconnexion';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_d4151a9a3959bdd43690735737034f27'] = 'Identifiez-vous';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_b6d4223e60986fa4c9af77ee5f7149c5'] = 'Connexion';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_2cbfb6731610056e1d0aaacde07096c1'] = 'Voir mon compte client';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_4b877ba8588b19f1b278510bf2b57ebb'] = 'Me déconnecter';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_c87aacf5673fada1108c9f809d354311'] = 'Déconnexion';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_d4151a9a3959bdd43690735737034f27'] = 'Identifiez-vous';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_b6d4223e60986fa4c9af77ee5f7149c5'] = 'Connexion';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_08bd40c7543007ad06e4fce31618f6ec'] = 'Compte';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_4394c8d8e63c470de62ced3ae85de5ae'] = 'Déconnexion';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_b145abfd6b2f88971d725cbd94a5879f'] = 'Se connecter à votre compte';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_99dea78007133396a7b8ed70578ac6ae'] = 'Connexion';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_4656814d604eeebfd8ba4e61b14b3c78'] = 'Voir ma liste de souhaits';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_641254d77e7a473aa5910574f3f9453c'] = 'Liste de souhaits';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_7eece51cf3938103677db7a5051ef8f5'] = 'Comparer';
+$_MODULE['<{blockuserinfo}jms_delphinus>blockuserinfo_6ff063fbc860a79759a7369ac32cee22'] = 'Commander';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_b145abfd6b2f88971d725cbd94a5879f'] = 'Se connecter à votre compte';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_08bd40c7543007ad06e4fce31618f6ec'] = 'Compte';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_4656814d604eeebfd8ba4e61b14b3c78'] = 'Voir ma liste de souhaits';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_641254d77e7a473aa5910574f3f9453c'] = 'Liste de souhaits';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_7eece51cf3938103677db7a5051ef8f5'] = 'Comparer';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_6ff063fbc860a79759a7369ac32cee22'] = 'Commander';
+$_MODULE['<{blockuserinfo}jms_delphinus>nav_4394c8d8e63c470de62ced3ae85de5ae'] = 'Déconnexion';
