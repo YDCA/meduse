@@ -1776,7 +1776,7 @@ header .addon-box {
     width: 100%;
 }
 .jms-row.section-reassurance {
-    margin: 20px 0 0;
+    margin: 20px 0 30px 0;
 }
 .jms-row.section-reassurance .fa {
 	font-size: 5rem;
@@ -2417,7 +2417,8 @@ footer .footer-2 .addon-title {
     padding: 90px 0;
 }
 .jms-row.section-aboutus {
-    margin-top: 90px;
+    /* margin-top: 90px; */
+		margin-top: 5px;
 }
 .about-us-content {
     color: #fff;
