@@ -9,12 +9,13 @@ $_MODULE['<{socialsharing}jms_delphinus>socialsharing_00d23a76e43b46dae9ec7aa9dc
 $_MODULE['<{socialsharing}jms_delphinus>socialsharing_b9f5c797ebbf55adccdd8539a65a0241'] = 'Désactivé';
 $_MODULE['<{socialsharing}jms_delphinus>socialsharing_c9cc8cce247e49bae79f15173ce97354'] = 'Enregistrer';
 $_MODULE['<{socialsharing}jms_delphinus>socialsharing_368140d2caf6b43106964fd615756d1b'] = 'Comparaison de produits';
+$_MODULE['<{socialsharing}jms_delphinus>socialsharing_3746d4aa96f19672260a424d76729dd1'] = 'Tweet';
+$_MODULE['<{socialsharing}jms_delphinus>socialsharing_5a95a425f74314a96f13a2f136992178'] = 'Partager';
+$_MODULE['<{socialsharing}jms_delphinus>socialsharing_5b2c8bfd1bc974966209b7be1cb51a72'] = 'Google+';
+$_MODULE['<{socialsharing}jms_delphinus>socialsharing_86709a608bd914b28221164e6680ebf7'] = 'Pinterest';
 $_MODULE['<{socialsharing}jms_delphinus>socialsharing_compare_6e55f5917f1f34501fc37388eb4b780d'] = 'Partager cette comparaison avec vos amis :';
 $_MODULE['<{socialsharing}jms_delphinus>socialsharing_compare_3746d4aa96f19672260a424d76729dd1'] = 'Tweet';
 $_MODULE['<{socialsharing}jms_delphinus>socialsharing_compare_5a95a425f74314a96f13a2f136992178'] = 'Partager';
 $_MODULE['<{socialsharing}jms_delphinus>socialsharing_compare_5b2c8bfd1bc974966209b7be1cb51a72'] = 'Google+';
 $_MODULE['<{socialsharing}jms_delphinus>socialsharing_compare_86709a608bd914b28221164e6680ebf7'] = 'Pinterest';
-$_MODULE['<{socialsharing}jms_delphinus>socialsharing_3746d4aa96f19672260a424d76729dd1'] = 'Tweet';
-$_MODULE['<{socialsharing}jms_delphinus>socialsharing_5a95a425f74314a96f13a2f136992178'] = 'Partager';
-$_MODULE['<{socialsharing}jms_delphinus>socialsharing_5b2c8bfd1bc974966209b7be1cb51a72'] = 'Google+';
-$_MODULE['<{socialsharing}jms_delphinus>socialsharing_86709a608bd914b28221164e6680ebf7'] = 'Pinterest';
+$_MODULE['<{socialsharing}jms_delphinus>socialsharing_d85544fce402c7a2a96a48078edaf203'] = 'Facebook';

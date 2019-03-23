@@ -37,6 +37,8 @@ $_MODULE['<{cheque}jms_delphinus>payment_execution_569fd05bdafa1712c4f6be5b153b8
 $_MODULE['<{cheque}jms_delphinus>infos_14e41f4cfd99b10766cc15676d8cda66'] = 'Ce module vous permet d\'accepter des paiements par chèque.';
 $_MODULE['<{cheque}jms_delphinus>infos_e444fe40d43bccfad255cf62ddc8d18f'] = 'Si le client choisit ce moyen de paiement, la commande passera à l\'état \"Paiement en attente\".';
 $_MODULE['<{cheque}jms_delphinus>infos_8c88bbf5712292b26e2a6bbeb0a7b5c4'] = 'Par conséquent, vous devez valider manuellement la commande dès réception du chèque.';
+$_MODULE['<{cheque}jms_delphinus>payment_4b80fae2153218ed763bdadc418e8589'] = 'Payer par chèque';
+$_MODULE['<{cheque}jms_delphinus>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(le traitement de la commande sera plus long)';
 $_MODULE['<{cheque}jms_delphinus>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Votre commande sur %s a bien été enregistrée.';
 $_MODULE['<{cheque}jms_delphinus>payment_return_61da27a5dd1f8ced46c77b0feaa9e159'] = 'Veuillez nous envoyer un chèque avec :';
 $_MODULE['<{cheque}jms_delphinus>payment_return_621455d95c5de701e05900a98aaa9c66'] = 'Montant du règlement.';
@@ -49,8 +51,6 @@ $_MODULE['<{cheque}jms_delphinus>payment_return_ffd2478830ca2f519f7fe7ee259d4b96
 $_MODULE['<{cheque}jms_delphinus>payment_return_0db71da7150c27142eef9d22b843b4a9'] = 'Pour toute question ou information complémentaire merci de contacter notre';
 $_MODULE['<{cheque}jms_delphinus>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'support client';
 $_MODULE['<{cheque}jms_delphinus>payment_return_9bdf695c5a30784327137011da6ef568'] = 'Nous avons rencontré un problème avec votre commande, veuillez contacter notre support client';
-$_MODULE['<{cheque}jms_delphinus>payment_4b80fae2153218ed763bdadc418e8589'] = 'Payer par chèque';
-$_MODULE['<{cheque}jms_delphinus>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(le traitement de la commande sera plus long)';
 $_MODULE['<{cheque}jms_delphinus>payment_execution_0881a11f7af33bc1b43e437391129d66'] = 'Merci de confirmer votre commande en cliquant sur \"Je confirme ma commande\"';
-$_MODULE['<{cheque}jms_delphinus>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Nous avons rencontré un problème avec votre commande. Nous vous invitons à prendre contact avec notre';
 $_MODULE['<{cheque}jms_delphinus>payment_f05fd8637f8a6281466a507fcb56baec'] = 'Payer par chèque';
+$_MODULE['<{cheque}jms_delphinus>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'Nous avons rencontré un problème avec votre commande. Nous vous invitons à prendre contact avec notre';

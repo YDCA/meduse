@@ -2422,7 +2422,7 @@ footer .footer-2 .addon-title {
     color: #fff;
     height: 100%;
     left: 0;
-    padding: 55px 40px 0;
+    padding: 135px 5px 0;
     position: absolute;
     top: 0;
     width: 100%;
@@ -4701,6 +4701,58 @@ a.price_discount_delete:hover{
 .btn.btn-default.col-sm-4 {
     padding: 8px;
 }
+
+/* Jms Builder */
+.about-us-meduse {
+	background: #fff;
+	padding: 15px;
+	margin: 15px;
+	color: #999;
+}
+
+.about-us-meduse h4 {
+	color: #5cbdc3;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.about-us-meduse p {
+	color: #999;
+	line-height: 22px;
+}
+
+.wordpressintegration-post {
+	padding-bottom: 0;
+}
+
+.wordpressintegration-post .wordpressintegration-post-image {
+	height: 250px;
+}
+
+.blog_desc {
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	margin: 15px;
+}
+
+.blog_desc h6 a {
+	color: #5cbdc3;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.blog_desc .wordpressintegration-post-description {
+	line-height: 1.3em;
+	font-size: .9em;
+	margin: 10px 0;
+}
+
+.blog_desc .wordpressintegration-post-description a,
+.wordpressintegration-link-blog {
+	display: none;
+}
+
 
 /********** FONT FACE ********/
 @import url('meduse-font.css');

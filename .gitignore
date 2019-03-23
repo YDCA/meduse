@@ -43,5 +43,5 @@ upload/
 preprod.zip
 
 # Translations files.
-modules/*/translations/*
-themes/*/modules/*/translations/*
+# modules/*/translations/*
+# themes/*/modules/*/translations/*

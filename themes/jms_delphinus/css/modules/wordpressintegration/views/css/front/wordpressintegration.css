@@ -1,0 +1,100 @@
+.wordpressintegration-blog-title {
+	margin-bottom: 20px;
+}
+
+.wordpressintegration-link-blog {
+	text-align: right;
+    margin: 0 0 25px 0;
+}
+
+.wordpressintegration-posts {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+	margin-left: -12px;
+    margin-right: -12px;
+}
+
+.wordpressintegration-post-container {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+	width: 100%;
+	padding: 0 12px;
+}
+
+.wordpressintegration-post {
+	padding-bottom: 0;
+    text-align: left;
+    position: relative;
+    margin-bottom: 1.563rem;
+	width: 100%;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    border: 0;
+    height: auto;
+}
+
+.wordpressintegration-post-image {
+	background-color: #FAFAFA;
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	width: 100%;
+	height: 160px;
+}
+
+.wordpressintegration-post-title,
+.wordpressintegration-post-description {
+	display: block;
+	padding: 0 15px;
+}
+
+.wordpressintegration-post-title {
+	margin-top: 15px;
+}
+
+.wordpressintegration-post-readmore {
+	display: block;
+	margin: 10px;
+	text-align: right;
+}
+
+@media (min-width: 576px) {
+	.wordpressintegration-post-container {
+		width: 50%;
+	}
+
+	.wordpressintegration-post-image {
+		height: 210px;
+	}
+}
+
+@media (min-width: 768px) {
+	.wordpressintegration-post-image {
+		height: 210px;
+	}
+}
+
+@media (min-width: 992px) {
+	.wordpressintegration-post-container {
+		width: 33.3%;
+	}
+
+	.wordpressintegration-post-image {
+		height: 230px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.wordpressintegration-post-image {
+		height: 180px;
+	}
+}

@@ -26,3 +26,7 @@ $_MODULE['<{homefeatured}jms_delphinus>homefeatured_4351cfebe4b61d8aa5efa1d02071
 $_MODULE['<{homefeatured}jms_delphinus>homefeatured_2d0f6b8300be19cf35e89e66f0677f95'] = 'Ajouter au panier';
 $_MODULE['<{homefeatured}jms_delphinus>homefeatured_e0e572ae0d8489f8bf969e93d469e89c'] = 'Aucun produit phare';
 $_MODULE['<{homefeatured}jms_delphinus>tab_2cc1943d4c0b46bfcf503a75c44f988b'] = 'Populaire';
+$_MODULE['<{homefeatured}jms_delphinus>homefeatured_f2cd171bd42220283b7a595c3ff2aaaf'] = 'Promotion';
+$_MODULE['<{homefeatured}jms_delphinus>homefeatured_70f23ff594252e51839210b6cc9641fc'] = 'Apercu';
+$_MODULE['<{homefeatured}jms_delphinus>homefeatured_7f5508c884f40e3378895c83d99cbbd3'] = 'Ajouter pour comparer';
+$_MODULE['<{homefeatured}jms_delphinus>homefeatured_6a5373df703ab2827a4ba7facdfcf779'] = 'Ajouter à la liste de souhaits';

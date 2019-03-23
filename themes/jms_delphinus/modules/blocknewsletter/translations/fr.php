@@ -38,6 +38,8 @@ $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_ebc069b1b9a2c48edfa39e
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_77c576a354d5d6f5e2c1ba50167addf8'] = 'Votre inscription a bien été prise en compte';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_99c8b8e5e51bf8f00f1d66820684be9a'] = 'Cette adresse e-mail est déjà utilisée et/ou invalide.';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_4e1c51e233f1ed368c58db9ef09010ba'] = 'Merci de vous être inscrit à notre newsletter.';
+$_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_674cafd1e77028f37c08a661ff23b773'] = 'Bloc Newsletter: Impossible de supprimer le client par courrier électronique.';
+$_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_3a0c11a4716a65627f50989b8c0a2ba8'] = 'Bloc lettre d\'information: impossible d\'exporter un client par courrier électronique.';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_f4f70727dc34561dfde1a3c529b6205c'] = 'Paramètres';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_54d2f1bab16b550e32395a7e6edb8de5'] = 'Envoyer un e-mail de vérification après inscription ?';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_93cba07454f06a4a960172bbd6e2a435'] = 'Oui';
@@ -70,3 +72,6 @@ $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_b40866b115d74009183e06
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_87b0ca57db642f4e7780174a6abdc37d'] = 'Aucun résultat trouvé !';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'Lettre d\'informations';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_416f61a2ce16586f8289d41117a2554e'] = 'votre e-mail';
+$_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_88ad8e39e08fc50b48f66bde5e1bec86'] = 'Inscrivez-vous pour obtenir les dernières nouvelles sur les ventes, les nouvelles versions et plus encore…';
+$_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_54a3aa5d4c5a5dd3bcd09bd5b472f511'] = 'Abonnez-vous pour recevoir nos différentes offres';
+$_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_c0e9620c9a8dcc3156f7c1408a52c603'] = 'Entrer votre adresse e-mail';

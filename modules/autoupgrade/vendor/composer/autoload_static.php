@@ -4,37 +4,37 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1f2d7bcc7f98e14c51e6cff84992cd9d
+class ComposerStaticInitddbc296d1e338ea87a77f8eefa5900ab
 {
     public static $files = array (
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'p' => 
+        'p' =>
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
-        'W' => 
+        'W' =>
         array (
             'Webmozart\\Assert\\' => 17,
         ),
-        'T' => 
+        'T' =>
         array (
             'Twig\\' => 5,
         ),
-        'S' => 
+        'S' =>
         array (
             'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\Filesystem\\' => 29,
         ),
-        'P' => 
+        'P' =>
         array (
             'Psr\\Log\\' => 8,
             'PrestaShop\\Module\\AutoUpgrade\\Temp\\' => 35,
             'PrestaShop\\Module\\AutoUpgrade\\' => 30,
         ),
-        'D' => 
+        'D' =>
         array (
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
@@ -42,68 +42,68 @@ class ComposerStaticInit1f2d7bcc7f98e14c51e6cff84992cd9d
     );
 
     public static $prefixDirsPsr4 = array (
-        'phpDocumentor\\Reflection\\' => 
+        'phpDocumentor\\Reflection\\' =>
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
-        'Webmozart\\Assert\\' => 
+        'Webmozart\\Assert\\' =>
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
-        'Twig\\' => 
+        'Twig\\' =>
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
         ),
-        'Symfony\\Component\\Yaml\\' => 
+        'Symfony\\Component\\Yaml\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
         ),
-        'Symfony\\Component\\Filesystem\\' => 
+        'Symfony\\Component\\Filesystem\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/filesystem',
         ),
-        'Psr\\Log\\' => 
+        'Psr\\Log\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
-        'PrestaShop\\Module\\AutoUpgrade\\Temp\\' => 
+        'PrestaShop\\Module\\AutoUpgrade\\Temp\\' =>
         array (
             0 => __DIR__ . '/../..' . '/templates',
         ),
-        'PrestaShop\\Module\\AutoUpgrade\\' => 
+        'PrestaShop\\Module\\AutoUpgrade\\' =>
         array (
             0 => __DIR__ . '/../..' . '/classes',
         ),
-        'Doctrine\\Instantiator\\' => 
+        'Doctrine\\Instantiator\\' =>
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
-        'DeepCopy\\' => 
+        'DeepCopy\\' =>
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
     );
 
     public static $prefixesPsr0 = array (
-        'T' => 
+        'T' =>
         array (
-            'Twig_' => 
+            'Twig_' =>
             array (
                 0 => __DIR__ . '/..' . '/twig/twig/lib',
             ),
         ),
-        'P' => 
+        'P' =>
         array (
-            'Prophecy\\' => 
+            'Prophecy\\' =>
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
             ),
         ),
-        'D' => 
+        'D' =>
         array (
-            'Doctrine\\Common\\Collections\\' => 
+            'Doctrine\\Common\\Collections\\' =>
             array (
                 0 => __DIR__ . '/..' . '/doctrine/collections/lib',
             ),
@@ -581,10 +581,10 @@ class ComposerStaticInit1f2d7bcc7f98e14c51e6cff84992cd9d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1f2d7bcc7f98e14c51e6cff84992cd9d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1f2d7bcc7f98e14c51e6cff84992cd9d::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit1f2d7bcc7f98e14c51e6cff84992cd9d::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit1f2d7bcc7f98e14c51e6cff84992cd9d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitddbc296d1e338ea87a77f8eefa5900ab::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitddbc296d1e338ea87a77f8eefa5900ab::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitddbc296d1e338ea87a77f8eefa5900ab::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitddbc296d1e338ea87a77f8eefa5900ab::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -3,7 +3,6 @@
 global $_MODULE;
 $_MODULE = array();
 $_MODULE['<{sendtoafriend}jms_delphinus>product_page_2107f6398c37b4b9ee1e1b5afb5d3b2a'] = 'Envoyer à un ami';
-$_MODULE['<{sendtoafriend}jms_delphinus>sendtoafriend_ajax_22c4733a9ceb239bf825a0cecd1cfaec'] = 'Un ami';
 $_MODULE['<{sendtoafriend}jms_delphinus>sendtoafriend-extra_11cbd9ec2e4b628c371094b6361b9c96'] = 'Votre e-mail a bien été envoyé';
 $_MODULE['<{sendtoafriend}jms_delphinus>sendtoafriend-extra_2107f6398c37b4b9ee1e1b5afb5d3b2a'] = 'Envoyer à un ami';
 $_MODULE['<{sendtoafriend}jms_delphinus>sendtoafriend-extra_d1f092e79827eaffce4a33fa011fde24'] = 'Vous n\'avez pas rempli les champs requis';
@@ -23,4 +22,5 @@ $_MODULE['<{sendtoafriend}jms_delphinus>sendtoafriend_e55de03786f359e2b133f2a746
 $_MODULE['<{sendtoafriend}jms_delphinus>sendtoafriend_19f41c3d6db934fb2db1840ddefd2c51'] = 'E-mail de votre ami';
 $_MODULE['<{sendtoafriend}jms_delphinus>sendtoafriend_2541d938b0a58946090d7abdde0d3890'] = 'Envoyer';
 $_MODULE['<{sendtoafriend}jms_delphinus>sendtoafriend_68728c1897e5936032fe21ffb6b10c2e'] = 'Retour à la fiche produit';
+$_MODULE['<{sendtoafriend}jms_delphinus>sendtoafriend_ajax_22c4733a9ceb239bf825a0cecd1cfaec'] = 'Un ami';
 $_MODULE['<{sendtoafriend}jms_delphinus>sendtoafriend-extra_36fb3f59b4a75949a0db90e7011b21f2'] = 'Votre e-mail n\'a pas pu être envoyé. Veuillez vérifier l\'adresse et réessayer.';
