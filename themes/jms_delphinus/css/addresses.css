@@ -47,6 +47,7 @@
 .order_delivery {
 	margin-top:15px;
 	margin-bottom:20px;
+	display: none;
 }
 .address.address-box {
     border: 1px solid #f0f0f0;
