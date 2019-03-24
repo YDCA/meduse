@@ -297,7 +297,9 @@
             <div id="opc_payment_methods-content">
         {/if}
         <div id="HOOK_PAYMENT">
+          <div class="row">
             {$HOOK_PAYMENT}
+          </div>
         </div>
         {if $opc}
             </div> <!-- end opc_payment_methods-content -->
