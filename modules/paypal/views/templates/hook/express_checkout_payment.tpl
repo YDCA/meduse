@@ -25,7 +25,6 @@
 
 {if $smarty.const._PS_VERSION_ >= 1.6}
 
-<div class="row">
 	<div class="col-xs-12 col-md-6">
         <p class="payment_module paypal">
         	{if $use_paypal_in_context}
@@ -51,7 +50,6 @@
 			</a>
 		</p>
     </div>
-</div>
 
 <style>
 	p.payment_module.paypal a

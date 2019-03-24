@@ -13,12 +13,14 @@
 * International Registered Trademark & Property of PrestaShop SA
 *}
 
-<p class="payment_module" xmlns="http://www.w3.org/1999/html">
-	<a class="bankwire" href="javascript:document.{$cmcicpaiement_form|escape:'htmlall':'UTF-8'}.submit();" title="{$cmcic_text|escape:'htmlall':'UTF-8'}">
-		<img src="{$module_dir|escape:'htmlall':'UTF-8'}{$cmcic_picture|escape:'htmlall':'UTF-8'}" alt="{$cmcic_text|escape:'htmlall':'UTF-8'}" class="img-responsive" />
-		{$cmcic_text|escape:'htmlall':'UTF-8'}
-	</a>
-</p>
+<div class="col-xs-12 col-md-6">
+	<p class="payment_module" xmlns="http://www.w3.org/1999/html">
+		<a class="bankwire" href="javascript:document.{$cmcicpaiement_form|escape:'htmlall':'UTF-8'}.submit();" title="{$cmcic_text|escape:'htmlall':'UTF-8'}">
+			<img src="{$module_dir|escape:'htmlall':'UTF-8'}{$cmcic_picture|escape:'htmlall':'UTF-8'}" alt="{$cmcic_text|escape:'htmlall':'UTF-8'}" class="img-responsive" />
+			{$cmcic_text|escape:'htmlall':'UTF-8'}
+		</a>
+	</p>
+</div>
 <form action="{$cmcic->s_url_paiement|escape:'htmlall':'UTF-8'}" method="post" name="{$cmcicpaiement_form|escape:'htmlall':'UTF-8'}">
 	<input type="hidden" name="version" value="{$cmcic->s_version|escape:'htmlall':'UTF-8'}" />
 	<input type="hidden" name="TPE" value="{$cmcic->s_numero|escape:'htmlall':'UTF-8'}" />
