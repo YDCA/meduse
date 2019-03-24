@@ -54,8 +54,8 @@
 						{if !$PS_CATALOG_MODE && ($categoryProduct.allow_oosp || $categoryProduct.quantity > 0)}
 							<div class="action">
 								<!-- <a class="product-btn cart-button btn-default active ajax_add_to_cart_button" href="{$link->getPageLink('cart', true, NULL, 'qty=1&amp;id_product={$categoryProduct.id_product|intval}&amp;token={$static_token}&amp;add')|escape:'html':'UTF-8'}" data-id-product="{$categoryProduct.id_product|intval}" title="{l s='Add to cart' mod='productscategory'}"> -->
-								<a class="product-btn cart-button btn-default active see_button" href="{$product.link|escape:'html'}" data-id-product="{$categoryProduct.id_product|intval}" title="{l s='Add to cart' mod='productscategory'}">
-									{l s="See product" mod="productscategory"}
+								<a class="product-btn cart-button btn-default active see_button" href="{$product.link|escape:'html'}" data-id-product="{$categoryProduct.id_product|intval}" title="{l s='See product' mod='productscategory'}">
+									{l s='See product' mod='productscategory'}
 									<!-- <span class="fa fa-spin fa-spinner"></span>
 									<span class="fa fa-check"></span> -->
 								</a>
