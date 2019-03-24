@@ -1621,6 +1621,7 @@ header .addon-box {
 .jms-row.nav-bar {
 	padding: 0 95px;
 	min-height: inherit;
+	background: #f1f1f1;
 }
 .topbar .dropdown-menu > li > a .image_language img {
     margin-right: 5px;
@@ -1641,7 +1642,9 @@ header .addon-box {
 
 @media (min-width: 992px) {
 	.mega-menu, .search_block {
+		/* margin-bottom: 20px; */
 		margin-bottom: 20px;
+		margin-top: 25px
 	}
 }
 /********* HOME PAGE **********/
