@@ -2468,7 +2468,7 @@ footer .footer-2 .addon-title {
     border: 2px solid #e78ba9;
 		background: #e78ba9;
 		color: #fff;
-    padding: 57px 30px;
+    padding: 47px 30px;
     text-align: center;
 	min-height: 360px;
 }
@@ -4721,6 +4721,10 @@ a.price_discount_delete:hover{
 .about-us-meduse p {
 	color: #999;
 	line-height: 22px;
+}
+
+.about-us-meduse p a {
+	color: #999;
 }
 
 .wordpressintegration-post {

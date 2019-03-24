@@ -24,7 +24,7 @@
 *}
 <div class="result_div">
 {if $products}
-<div class="results">	
+<div class="results">
 	{foreach from=$products item=product name=i}
 		<div class="item">
 			<div class="left-img">
@@ -35,7 +35,7 @@
 				<span class="price">{convertPrice price=$product.price}</span>
 			</div>
 		</div>
-	{/foreach}	
+	{/foreach}
 </div>
 {else}
 {$no_text}
