@@ -327,14 +327,15 @@
 											</a>
 										</div>
 										<div class="action">
-											<a class="product-btn cart-button btn-default active ajax_add_to_cart_button" data-id-product="{$accessory.id_product|intval}" href="{$link->getPageLink('cart', true, NULL, 'qty=1&amp;id_product={$accessory.id_product|intval}&amp;token={$static_token}&amp;add')|escape:'html':'UTF-8'}" title="{l s='Add to cart'}">
-												{l s="Add to cart"}
-												<span class="fa fa-spin fa-spinner"></span>
-												<span class="fa fa-check"></span>
+											<a class="product-btn cart-button btn-default active see_button" data-id-product="{$accessory.id_product|intval}" href="{$accessoryLink|escape:'html':'UTF-8'}" title="{l s='See product'}">
+											<!-- <a class="product-btn cart-button btn-default active see_button" data-id-product="{$accessory.id_product|intval}" href="{$link->getPageLink('cart', true, NULL, 'qty=1&amp;id_product={$accessory.id_product|intval}&amp;token={$static_token}&amp;add')|escape:'html':'UTF-8'}" title="{l s='Add to cart'}"> -->
+												{l s='See product'}
+												<!-- <span class="fa fa-spin fa-spinner"></span>
+												<span class="fa fa-check"></span> -->
 											</a>
 											{else}
-											<a href="#" class="product-btn cart-button btn-default ajax_add_to_cart_button disable" title="{l s='Out of Stock'}">
-												{l s="Add to cart"}
+											<a href="#" class="product-btn cart-button btn-default see_button disable" title="{l s='Out of Stock'}">
+												{l s='Out of Stock'}
 											</a>
 											{/if}
 										</div>

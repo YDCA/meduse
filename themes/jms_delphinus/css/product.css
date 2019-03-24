@@ -337,6 +337,10 @@ fieldset.attribute_fieldset {
     margin-top: 90px;
 }
 
+.slider-products.accessories_block .price {
+    display: none;
+}
+
 .size {
 	float: right;
 	font-style: italic;

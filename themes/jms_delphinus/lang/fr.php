@@ -783,6 +783,7 @@ $_LANG['product_7f5508c884f40e3378895c83d99cbbd3'] = 'Ajouter pour comparer';
 $_LANG['product_7f8c1eb3bfb1d0f94b20515f3cc5a211'] = 'champs requis';
 $_LANG['product_801ab24683a4a8c433c6eb40c48bcd9d'] = 'Téléchargement';
 $_LANG['product_861c0c6ef832cd96c5fe152f9d610973'] = 'Vous économisez';
+$_LANG['product_8e83c7d8ce3012529cc3cffb28d49ef3'] = 'Voir le produit';
 $_LANG['product_917ee4e68262125fe9e0492e1995dd87'] = 'Nombre d\'articles en stock:';
 $_LANG['product_98edb85b00d9527ad5acebe451b3fae6'] = 'Accessoires';
 $_LANG['product_9dea4016dbcc290b773ab2fae678aaa8'] = 'Produits';
