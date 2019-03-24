@@ -34,9 +34,6 @@
 			</div>
 			<div class="right-info">
 				<a href="{$product.link|escape:'html':'UTF-8'}" title="{$product.name|truncate:50:'...'|escape:'html':'UTF-8'}">
-					{if isset($product.id_category_default)}
-						{assign var='catname' value=Category::getCategoryInformations(array($product.id_category_default))}{$catname[$product.id_category_default].name}
-					{/if}
 					{$product.name|truncate:35:'...'|escape:'html':'UTF-8'}
 				</a>
 				<span class="price">{convertPrice price=$product.price}</span>
