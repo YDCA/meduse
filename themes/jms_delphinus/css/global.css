@@ -4765,6 +4765,15 @@ a.price_discount_delete:hover{
 	display: none;
 }
 
+.feature-box p {
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.feature-box p a {
+    display: block;
+}
+
 
 /********** FONT FACE ********/
 @import url('meduse-font.css');
