@@ -7,7 +7,7 @@
     z-index: 1000;
 }
 #jms_ajax_search .btn-xs.search-icon {
-    color: #000000;
+    /* color: #000000; */
     display: inline-block;
     line-height: 15px;
     vertical-align: middle;
