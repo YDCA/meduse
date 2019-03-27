@@ -1571,7 +1571,7 @@ header .addon-box {
 	letter-spacing: 0.075em;
 }
 
-.header-bar-7 .btn-xs .fa-smile-o,
+/* .header-bar-7 .btn-xs .fa-smile-o, */
 .header-bar-7 .fa-shopping-bag {
 	color: #e78ba9;
 }
@@ -4281,7 +4281,7 @@ h1.category-name {
     float: left;
     font-family: 'Univers LT Std';
     font-weight: 700;
-    height: 43px;
+    height: 48px;
     text-align: center;
     width: 60px;
 }
@@ -4306,8 +4306,8 @@ h1.category-name {
     border-width: 2px;
     float: left;
     font-size: 26px;
-    height: 43px;
-    line-height: 44px;
+    height: 48px;
+    line-height: 48px;
     padding: 0;
     text-align: center;
     width: 30px;
