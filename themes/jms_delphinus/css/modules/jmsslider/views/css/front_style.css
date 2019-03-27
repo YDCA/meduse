@@ -73,6 +73,17 @@
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
+.meduse-bold {
+    font-family: 'Univers LT Std';
+    letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-weight: 600;
+    line-height: 1em;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(59,59,59,.4),.5px .5px 0 rgba(59,59,59,.6);
+}
+
 .sale-up a {
     background: #fff none repeat scroll 0 0;
     color: #000;
