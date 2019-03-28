@@ -55,7 +55,7 @@
 	<td class="cart_unit" data-title="{l s='Unit price'}">
 		<span id="product_price_{$product.id_product}_{$product.id_product_attribute}{if $quantityDisplayed > 0}_nocustom{/if}_{$product.id_address_delivery|intval}{if !empty($product.gift)}_gift{/if}">
 			{if !empty($product.gift)}
-				<span class="gift-icon">< i class="fa fa-gift">{l s='Gift!'}</span>
+				<span class="gift-icon">{l s='Gift!'}</span>
 			{else}
 				{if isset($product.is_discounted) && $product.is_discounted}
 					<span class="old-price">{convertPrice price=$product.price_without_specific_price}</span>
