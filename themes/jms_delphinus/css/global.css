@@ -4774,6 +4774,88 @@ a.price_discount_delete:hover{
     display: block;
 }
 
+/* Cart mobile view */
+@media (max-width: 768px){
+	#order-detail-content table#cart_summary,
+	#order-detail-content table#cart_summary thead,
+	#order-detail-content table#cart_summary th
+	#order-detail-content table#cart_summary tbody,
+	#order-detail-content table#cart_summary tfoot,
+	#order-detail-content table#cart_summary tr,
+	#order-detail-content table#cart_summary td{
+		display: block;
+		width: 100%;
+	}
+	#order-detail-content table#cart_summary thead{
+		display: none;
+	}
+	#order-detail-content table#cart_summary{
+		display: flex;
+		flex-direction: column;
+	}
+	#order-detail-content table#cart_summary tfoot{
+		order: 1;
+	}
+	#order-detail-content table#cart_summary tbody{
+		order: 0;
+	}
+	#order-detail-content table#cart_summary tbody tr.cart_item{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#order-detail-content table#cart_summary tbody tr.cart_item td{
+		padding: 5px;
+	}
+	#order-detail-content table#cart_summary tbody tr.cart_item td.cart_product{
+		flex-shrink: 0;
+		width: 33.33%;
+	}
+	#order-detail-content table#cart_summary tbody tr.cart_item td.cart_description{
+		width: 66.66%;
+	}
+	#order-detail-content table#cart_summary tbody tr.cart_item td.cart_unit{
+		display: none;
+	}
+	#order-detail-content table#cart_summary tbody tr.cart_item td.cart_quantity,
+	#order-detail-content table#cart_summary tbody tr.cart_item td.cart_total,
+	#order-detail-content table#cart_summary tbody tr.cart_item td.cart_delete{
+		width: 33.33%;
+	}
+	table.o_table.table-bordered tbody tr td.cart_description p{
+		font-size: 16px;
+	}
+	table.o_table.table-bordered tbody tr td.cart_description small{
+		font-size: 11px;
+		font-weight: normal;
+	}
+	table.table-bordered tfoot tr.cart_total_price.first-one td{
+		padding: 8px;
+	}
+}
+@media (max-width: 480px){
+	#carrier_area table,
+	#carrier_area table tr,
+	#carrier_area table td,
+	#carrier_area table tbody{
+		display: block;
+		width: 100%;
+	}
+	#carrier_area table{
+		border: none;
+		min-width: 100%;
+	}
+	#carrier_area table td{
+		padding: 5px;
+		/* border-color: #000; */
+	}
+	#carrier_area table td + td{
+		border-top: none;
+	}
+	#carrier_area table td.delivery_option_logo{
+		display: none;
+	}
+}
+
 
 /********** FONT FACE ********/
 @import url('meduse-font.css');
