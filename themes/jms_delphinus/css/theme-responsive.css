@@ -564,6 +564,7 @@
 		left: 0;
 		right: auto;
 		min-width: 300px;
+		right: 0 !important;
 	}
 	.addon-title h3{
 		font-size: 1.21em;
