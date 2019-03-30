@@ -417,7 +417,7 @@
 		</section>
 	</section>
 
-	<p class="cart_navigation clearfix">
+	<p class="col-md-12 cart_navigation clearfix">
 		<a
 			href="{if (isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, 'order.php')) || isset($smarty.server.HTTP_REFERER) && strstr($smarty.server.HTTP_REFERER, 'order-opc') || !isset($smarty.server.HTTP_REFERER)}{$link->getPageLink('index')}{else}{$smarty.server.HTTP_REFERER|escape:'html':'UTF-8'|secureReferrer}{/if}"
 			class="btn btn-default"
@@ -434,7 +434,7 @@
 		{/if}
 
 	</p>
-	
+
 	<section class="col-md-12 col-lg-12 shopping-cart-aside">
 		{if !empty($HOOK_SHOPPING_CART)}
 		<div id="HOOK_SHOPPING_CART" class="container-widget">{$HOOK_SHOPPING_CART}</div>

@@ -358,7 +358,7 @@
 
 
 
-<p class="cart_navigation clearfix">
+<p class="col-md-12 cart_navigation clearfix">
 
     {if $opc}
         {assign var='back_link' value=$link->getPageLink('index')}

@@ -5707,6 +5707,10 @@ a.price_discount_delete:hover {
 }
 
 @media (max-width: 480px) {
+	.user-info .textbox {
+		display: none;
+	}
+
   .page-heading span.heading-counter {
     float: none;
     display: block;

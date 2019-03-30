@@ -98,10 +98,10 @@
 	{/if}
 </div> <!-- end addresses -->
 {if !$opc}
-			<p class="cart_navigation clearfix">
+			<p class="col-md-12 cart_navigation clearfix">
 				<input type="hidden" class="hidden" name="step" value="2" />
 				<input type="hidden" name="back" value="{$back}" />
-				<a href="{$link->getPageLink($back_order_page, true, NULL, "step=0{if $back}&back={$back}{/if}")|escape:'html':'UTF-8'}" title="{l s='Previous'}" class="btn btn-default">					
+				<a href="{$link->getPageLink($back_order_page, true, NULL, "step=0{if $back}&back={$back}{/if}")|escape:'html':'UTF-8'}" title="{l s='Previous'}" class="btn btn-default">
 					{l s='Previous'}
 				</a>
 				<button type="submit" name="processAddress" class="btn btn-default">

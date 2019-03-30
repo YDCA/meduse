@@ -368,7 +368,7 @@
 			{/if}
 		</div> <!-- end delivery_options_address -->
 		{if !$opc}
-				<p class="cart_navigation clearfix">
+				<p class="col-md-12 cart_navigation clearfix">
 					<input type="hidden" name="step" value="3" />
 					<input type="hidden" name="back" value="{$back}" />
 					{if !$is_guest}

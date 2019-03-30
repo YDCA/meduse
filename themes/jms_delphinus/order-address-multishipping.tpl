@@ -41,7 +41,7 @@
 <div class="addresses clearfix">
 	<input type="hidden" name="id_address_delivery" id="id_address_delivery" value="{$cart->id_address_delivery}"/>
 	<p id="address_invoice_form" class="select" {if $cart->id_address_invoice == $cart->id_address_delivery}style="display: none;"{/if}>
-	
+
 	{if $addresses|@count >= 1}
     <div class="form-group selector1">
 		<label for="id_address_invoice" class="strong">{l s='Choose a billing address:'}</label>
@@ -72,7 +72,7 @@
 	{/if}
 </div>
 {if !$opc}
-			<p class="cart_navigation clearfix">
+			<p class="col-md-12 cart_navigation clearfix">
 				<input type="hidden" class="hidden" name="step" value="2" />
 				<input type="hidden" name="back" value="{$back}" />
 				{if $back}
