@@ -398,7 +398,7 @@
 				</div>
 				{$HOOK_CREATE_ACCOUNT_FORM}
 			</div>
-			<p class="cart_navigation required submit clearfix">
+			<p class="col-md-12 col-lg-12 cart_navigation required submit clearfix">
 				<span><sup>*</sup>{l s='Required field'}</span>
 				<input type="hidden" name="display_guest_checkout" value="1" />
 				<button type="submit" class="button btn btn-default button-medium" name="submitGuestAccount" id="submitGuestAccount">
