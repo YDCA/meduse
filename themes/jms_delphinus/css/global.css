@@ -5633,14 +5633,14 @@ a.price_discount_delete:hover {
     display: block;
   }
 
-	#order-detail-content #cart_summary td.cart_quantity div .cart_quantity .input-group-addon {
+	#order-detail-content #cart_summary td.cart_quantity div .input-group-addon {
 		float: left;
 		width: 30px;
 		height: 35px;
 		line-height: 30px;
 	}
 
-	#order-detail-content #cart_summary td.cart_quantity div .cart_quantity .cart_quantity_input {
+	#order-detail-content #cart_summary td.cart_quantity div .cart_quantity_input {
 		width: 42px;
 		height: 35px;
 	}
