@@ -5600,7 +5600,7 @@ a.price_discount_delete:hover {
     position: relative;
     float: left;
     white-space: normal;
-    padding: 7px 20px 7px 20px;
+    padding: 7px;
   }
 
   #order-detail-content #cart_summary td.cart_product {
@@ -5633,6 +5633,13 @@ a.price_discount_delete:hover {
     display: block;
   }
 
+	#order-detail-content #cart_summary td.cart_quantity div .cart_quantity .cart_quantity_input {
+		float: left;
+		width: 30px;
+		height: 35px;
+	}
+
+
   #order-detail-content #cart_summary td.cart_quantity>.form-control {
     display: inline;
   }
@@ -5650,7 +5657,7 @@ a.price_discount_delete:hover {
 
   #order-detail-content #cart_summary td.cart_delete {
     position: absolute;
-    right: 20px;
+    right: 7px;
     top: 7px;
   }
 
@@ -5690,7 +5697,7 @@ a.price_discount_delete:hover {
   }
 
   #order-detail-content #cart_summary tbody td.cart_description {
-    width: 300px;
+    width: 190px;
   }
 }
 
