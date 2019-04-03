@@ -3615,7 +3615,7 @@ footer .footer-2 .addon-title {
 }
 
 .label-box {
-  background: #8ec78e none repeat scroll 0 0;
+  background: #e78ba9 none repeat scroll 0 0;
   border-radius: 3px;
   color: #fff;
   font-family: 'Univers LT Std';
@@ -3637,7 +3637,7 @@ footer .footer-2 .addon-title {
 .label-box::after {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-top: 4px solid #8ec78e;
+  border-top: 4px solid #e78ba9;
   bottom: -4px;
   content: "";
   left: 50%;
