@@ -25,8 +25,8 @@
 <!-- Block Newsletter module-->
 <div id="newsletter_block_left" class="block">
 	<h4>{l s='Newsletter' mod='blocknewsletter'}</h4>
-	<p>{l s='Sign up to get the latest on sales, new releases and more …' mod='blocknewsletter'}</p>
-	<span class="text_newsletter">{l s='Subscribe and Get $50 Instantly!' mod='blocknewsletter'}</span>
+	<p>{l s='If you would like to receive our love messages, information about our new collections or special offers' mod='blocknewsletter'}</p>
+	<span class="text_newsletter">{l s='(for our fabulous "chéries"), register here' mod='blocknewsletter'}</span>
 	<div class="block_content">
 		<form action="{$link->getPageLink('index', null, null, null, false, null, true)|escape:'html':'UTF-8'}" method="post">
 			<div class="form-group{if isset($msg) && $msg } {if $nw_error}form-error{else}form-ok{/if}{/if}" >
