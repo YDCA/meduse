@@ -45,10 +45,10 @@
 				<div class="logo"><img src="{$logo_url}" {if $logo_image_width}width="{$logo_image_width}"{/if} {if $logo_image_height}height="{$logo_image_height}"{/if} alt="logo" /></div>
 	        		{$HOOK_MAINTENANCE}
 	        		<div id="message">
-	             			<h1 class="maintenance-heading">{l s='We\'ll be back soon.'}</h1>
-							{l s='We are currently updating our shop and will be back really soon.'}
+	             			<h1 class="maintenance-heading">{l s='We are not lazing in the sunshine.'}</h1>
+							{l s='We are working hard on the launch of our new online boutique.'}
 							<br />
-							{l s='Thanks for your patience.'}
+							{l s='Thanks for your patience. If you want to be kept informed when the boutique is live, or if you are too impatient, send us a message at:'} <a href="mailto:contact@meduse.co">contact@meduse.co</a>
 					</div>
 				</div>
 	        </div>
