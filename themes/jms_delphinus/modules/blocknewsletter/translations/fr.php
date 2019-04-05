@@ -70,7 +70,6 @@ $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_48e3d5f66961b621c78f70
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_dca37b874cf34bd5ebcf1c2fdc59a8b4'] = 'ATTENTION : Lorsque vous ouvrez ce fichier .csv avec Excel, choisissez bien l\'encodage UTF-8 pour éviter les caractères anormaux.';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_b40866b115d74009183e06fc86b5c014'] = 'Erreur : droits d\'écriture limités';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_87b0ca57db642f4e7780174a6abdc37d'] = 'Aucun résultat trouvé !';
-$_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_ffb7e666a70151215b4c55c6268d7d72'] = 'Lettre d\'informations';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_416f61a2ce16586f8289d41117a2554e'] = 'votre e-mail';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_fba8e45be78cd9604b911a859fbac1fd'] = 'Si vous voulez recevoir nos petits messages d\'amour, des infos sur nos nouvelles collections ou des offres spéciales';
 $_MODULE['<{blocknewsletter}jms_delphinus>blocknewsletter_48e699627817fe54247a2ddcb2c46284'] = '(pour nos fans chéris), inscrivez-vous ici.';
